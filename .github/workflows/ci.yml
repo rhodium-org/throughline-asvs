@@ -2,7 +2,8 @@ name: ci
 
 on:
   push:
-    branches: [main]
+    branches: [main, "release/**"]
+    tags: ["v*"]
   pull_request:
   # The tool moves under this graph, not with it. Nothing here installs a
   # pinned throughline on purpose — consumers compose this at whatever version
