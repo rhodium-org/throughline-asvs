@@ -1,6 +1,6 @@
 [project]
 name = "OWASP ASVS (throughline source)"
-format_version = 2
+format_version = 3
 
 # A throughline *source*: a standalone graph a consuming project composes via
 # throughline-compose, importing it under a namespace (e.g. `asvs`) and referencing
@@ -41,9 +41,9 @@ values = ["proposed", "draft", "deferred", "approved", "ratified", "implemented"
           "verified", "suspect", "rejected", "deleted"]
 
 [transitions]
-proposed    = ["draft", "approved", "ratified", "deferred", "rejected", "deleted"]
-draft       = ["approved", "deferred", "rejected", "deleted"]
-deferred    = ["draft", "approved", "rejected", "deleted"]
+proposed    = ["draft", "approved", "ratified", "deferred", "suspect", "rejected", "deleted"]
+draft       = ["approved", "deferred", "suspect", "rejected", "deleted"]
+deferred    = ["draft", "approved", "suspect", "rejected", "deleted"]
 approved    = ["ratified", "implemented", "deferred", "suspect", "rejected", "deleted"]
 ratified    = ["implemented", "suspect", "rejected", "deleted"]
 implemented = ["verified", "suspect", "rejected", "deleted"]
@@ -56,3 +56,14 @@ rejected    = ["draft", "deleted"]
 # referenced by a published document or `tl check --strict` fails.
 [docs]
 paths = ["docs/*.md", "README.md"]
+
+# Semantic status roles (SR-0131): which declared status
+# plays each role the tool's operations act on. Backfilled by
+# `tl migrate`; edit to match your own status vocabulary.
+[status.roles]
+initial = "draft"
+proposed = "proposed"
+ratified = "ratified"
+invalidated = "rejected"
+suspect = "suspect"
+tombstone = "deleted"

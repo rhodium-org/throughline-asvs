@@ -37,6 +37,8 @@ It carries
 
 > Security controls are designed in, not bolted on — the application has a secure development lifecycle, threat modeling, and a documented, verifiable security architecture.
 
+*Derives from:* INT-0001
+
 **source_ref**: V1
 <!-- tl:end -->
 
@@ -90,6 +92,8 @@ It carries
 **UR-0002 — V2 Authentication** — `user_requirement`, status `approved`
 
 > The application verifies the identity of users securely — password strength, storage, recovery and general authenticator controls are all held to a graded baseline.
+
+*Derives from:* INT-0001
 
 **source_ref**: V2
 <!-- tl:end -->
@@ -163,6 +167,8 @@ It carries
 
 > Verification requirements for Session Management (V3).
 
+*Derives from:* INT-0001
+
 **source_ref**: V3
 <!-- tl:end -->
 
@@ -198,6 +204,8 @@ It carries
 
 > Verification requirements for Access Control (V4).
 
+*Derives from:* INT-0001
+
 **source_ref**: V4
 <!-- tl:end -->
 
@@ -221,6 +229,8 @@ It carries
 **UR-0005 — V5 Validation, Sanitization and Encoding** — `user_requirement`, status `approved`
 
 > Verification requirements for Validation, Sanitization and Encoding (V5).
+
+*Derives from:* INT-0001
 
 **source_ref**: V5
 <!-- tl:end -->
@@ -267,6 +277,8 @@ It carries
 
 > Verification requirements for Stored Cryptography (V6).
 
+*Derives from:* INT-0001
+
 **source_ref**: V6
 <!-- tl:end -->
 
@@ -298,6 +310,8 @@ It carries
 
 > Verification requirements for Error Handling and Logging (V7).
 
+*Derives from:* INT-0001
+
 **source_ref**: V7
 <!-- tl:end -->
 
@@ -324,6 +338,8 @@ It carries
 **UR-0008 — V8 Data Protection** — `user_requirement`, status `approved`
 
 > Verification requirements for Data Protection (V8).
+
+*Derives from:* INT-0001
 
 **source_ref**: V8
 <!-- tl:end -->
@@ -357,6 +373,8 @@ It carries
 
 > Verification requirements for Communication (V9).
 
+*Derives from:* INT-0001
+
 **source_ref**: V9
 <!-- tl:end -->
 
@@ -379,6 +397,8 @@ It carries
 **UR-0010 — V10 Malicious Code** — `user_requirement`, status `approved`
 
 > Verification requirements for Malicious Code (V10).
+
+*Derives from:* INT-0001
 
 **source_ref**: V10
 <!-- tl:end -->
@@ -405,6 +425,8 @@ It carries
 
 > Verification requirements for Business Logic (V11).
 
+*Derives from:* INT-0001
+
 **source_ref**: V11
 <!-- tl:end -->
 
@@ -427,6 +449,8 @@ It carries
 **UR-0012 — V12 Files and Resources** — `user_requirement`, status `approved`
 
 > Verification requirements for Files and Resources (V12).
+
+*Derives from:* INT-0001
 
 **source_ref**: V12
 <!-- tl:end -->
@@ -458,6 +482,8 @@ It carries
 
 > Verification requirements for API and Web Service (V13).
 
+*Derives from:* INT-0001
+
 **source_ref**: V13
 <!-- tl:end -->
 
@@ -485,6 +511,8 @@ It carries
 **UR-0014 — V14 Configuration** — `user_requirement`, status `approved`
 
 > Verification requirements for Configuration (V14).
+
+*Derives from:* INT-0001
 
 **source_ref**: V14
 <!-- tl:end -->
