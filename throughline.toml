@@ -10,7 +10,7 @@ format_version = 3
 # Edition handling: each ASVS edition is its own release branch of this one repo,
 # tagged for point releases. This branch (`release/v4`) is the v4.0.3 maintenance line;
 # the newest edition, v5.0.0, lives on `main`. A consumer pins the ref it wants, e.g.
-#   url = "https://github.com/timebacksolutions/throughline-asvs", ref = "v4.0.3"  (or "v5.0.0").
+#   url = "https://github.com/rhodium-org/throughline-asvs", ref = "v4.0.3"  (or "v5.0.0").
 # Each edition has its own UID space starting at UR-0001/SR-0001; because a consumer
 # resolves one ref, the two never collide.
 
