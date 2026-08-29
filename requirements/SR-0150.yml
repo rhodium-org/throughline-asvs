@@ -1,7 +1,7 @@
 uid: SR-0150
 type: system_requirement
 status: approved
-title: Format strings do not take potentially hostile input
+title: Format strings do not take potentially hostile input, and are constant
 text: Verify that format strings do not take potentially hostile input, and are constant.
 links:
 - target: UR-0005

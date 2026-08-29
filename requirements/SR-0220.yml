@@ -2,7 +2,7 @@ uid: SR-0220
 type: system_requirement
 status: approved
 title: The application will only process business logic flows with all steps being
-  processed in realistic
+  processed in realistic human time, i.e. transactions are not submitted too quickly
 text: Verify that the application will only process business logic flows with all
   steps being processed in realistic human time, i.e. transactions are not submitted
   too quickly.

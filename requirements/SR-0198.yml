@@ -2,7 +2,7 @@ uid: SR-0198
 type: system_requirement
 status: approved
 title: Sensitive information contained in memory is overwritten as soon as it is no
-  longer required to
+  longer required to mitigate memory dumping attacks, using zeroes or random data
 text: Verify that sensitive information contained in memory is overwritten as soon
   as it is no longer required to mitigate memory dumping attacks, using zeroes or
   random data.

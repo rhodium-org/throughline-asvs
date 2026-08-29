@@ -2,7 +2,7 @@ uid: SR-0018
 type: system_requirement
 status: approved
 title: Attribute or feature-based access control is used whereby the code checks the
-  user's authorization
+  user's authorization for a feature/data item rather than just their role
 text: Verify that attribute or feature-based access control is used whereby the code
   checks the user's authorization for a feature/data item rather than just their role.
   Permissions should still be allocated using roles.

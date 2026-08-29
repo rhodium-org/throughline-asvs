@@ -1,7 +1,9 @@
 uid: SR-0236
 type: system_requirement
 status: approved
-title: The application does not include and execute functionality from untrusted sources
+title: The application does not include and execute functionality from untrusted sources,
+  such as unverified content distribution networks, JavaScript libraries, node npm
+  libraries, or server-side DLLs
 text: Verify that the application does not include and execute functionality from
   untrusted sources, such as unverified content distribution networks, JavaScript
   libraries, node npm libraries, or server-side DLLs.

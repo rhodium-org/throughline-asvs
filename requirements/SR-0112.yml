@@ -1,7 +1,8 @@
 uid: SR-0112
 type: system_requirement
 status: approved
-title: The application uses session tokens rather than static API secrets and keys
+title: The application uses session tokens rather than static API secrets and keys,
+  except with legacy implementations
 text: Verify the application uses session tokens rather than static API secrets and
   keys, except with legacy implementations.
 links:

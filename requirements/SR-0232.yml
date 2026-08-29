@@ -1,7 +1,8 @@
 uid: SR-0232
 type: system_requirement
 status: approved
-title: User-submitted filename metadata is validated or ignored to prevent the disclosure
+title: User-submitted filename metadata is validated or ignored to prevent the disclosure,
+  creation, updating or removal of local files (LFI)
 text: Verify that user-submitted filename metadata is validated or ignored to prevent
   the disclosure, creation, updating or removal of local files (LFI).
 links:

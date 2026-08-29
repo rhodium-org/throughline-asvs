@@ -2,7 +2,7 @@ uid: SR-0239
 type: system_requirement
 status: approved
 title: The web tier is configured to serve only files with specific file extensions
-  to prevent
+  to prevent unintentional information and source code leakage
 text: Verify that the web tier is configured to serve only files with specific file
   extensions to prevent unintentional information and source code leakage. For example,
   backup files (e.g. .bak), temporary working files (e.g. .swp), compressed files

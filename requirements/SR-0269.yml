@@ -1,7 +1,8 @@
 uid: SR-0269
 type: system_requirement
 status: approved
-title: 'All API responses contain a Content-Disposition: attachment'
+title: 'All API responses contain a Content-Disposition: attachment; filename="api.json"
+  header (or other appropriate filename for the content type)'
 text: 'Verify that all API responses contain a Content-Disposition: attachment; filename="api.json"
   header (or other appropriate filename for the content type).'
 links:

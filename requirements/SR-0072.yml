@@ -1,7 +1,9 @@
 uid: SR-0072
 type: system_requirement
 status: approved
-title: Forgotten password
+title: Forgotten password, and other recovery paths use a secure recovery mechanism,
+  such as time-based OTP (TOTP) or other soft token, mobile push, or another offline
+  recovery mechanism
 text: Verify forgotten password, and other recovery paths use a secure recovery mechanism,
   such as time-based OTP (TOTP) or other soft token, mobile push, or another offline
   recovery mechanism.

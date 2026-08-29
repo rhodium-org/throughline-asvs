@@ -2,7 +2,7 @@ uid: SR-0215
 type: system_requirement
 status: approved
 title: The application source code and third party libraries do not contain Easter
-  eggs or any other
+  eggs or any other potentially unwanted functionality
 text: Verify that the application source code and third party libraries do not contain
   Easter eggs or any other potentially unwanted functionality.
 links:

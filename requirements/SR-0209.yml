@@ -1,7 +1,8 @@
 uid: SR-0209
 type: system_requirement
 status: approved
-title: A code analysis tool is in use that can detect potentially malicious code
+title: A code analysis tool is in use that can detect potentially malicious code,
+  such as time functions, unsafe file operations and network connections
 text: Verify that a code analysis tool is in use that can detect potentially malicious
   code, such as time functions, unsafe file operations and network connections.
 links:

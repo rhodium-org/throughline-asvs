@@ -1,7 +1,8 @@
 uid: SR-0057
 type: system_requirement
 status: approved
-title: Replay resistance through the mandated use of One-time Passwords (OTP) devices
+title: Replay resistance through the mandated use of One-time Passwords (OTP) devices,
+  cryptographic authenticators, or lookup codes
 text: Verify replay resistance through the mandated use of One-time Passwords (OTP)
   devices, cryptographic authenticators, or lookup codes.
 links:

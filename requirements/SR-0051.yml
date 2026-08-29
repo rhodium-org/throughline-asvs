@@ -1,7 +1,9 @@
 uid: SR-0051
 type: system_requirement
 status: approved
-title: The user can choose to either temporarily view the entire masked password
+title: The user can choose to either temporarily view the entire masked password,
+  or temporarily view the last typed character of the password on platforms that do
+  not have this as built-in functionality
 text: Verify that the user can choose to either temporarily view the entire masked
   password, or temporarily view the last typed character of the password on platforms
   that do not have this as built-in functionality.

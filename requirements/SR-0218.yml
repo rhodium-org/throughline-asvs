@@ -2,7 +2,10 @@ uid: SR-0218
 type: system_requirement
 status: approved
 title: The application has protection from subdomain takeovers if the application
-  relies upon DNS entries
+  relies upon DNS entries or DNS subdomains, such as expired domain names, out of
+  date DNS pointers or CNAMEs, expired projects at public source code repos, or transient
+  cloud APIs, serverless functions, or storage buckets (*autogen-bucket-id*.cloud.example.com)
+  or similar
 text: Verify that the application has protection from subdomain takeovers if the application
   relies upon DNS entries or DNS subdomains, such as expired domain names, out of
   date DNS pointers or CNAMEs, expired projects at public source code repos, or transient

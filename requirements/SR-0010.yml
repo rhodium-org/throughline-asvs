@@ -1,7 +1,9 @@
 uid: SR-0010
 type: system_requirement
 status: approved
-title: Implementation of centralized
+title: Implementation of centralized, simple (economy of design), vetted, secure,
+  and reusable security controls to avoid duplicate, missing, ineffective, or insecure
+  controls
 text: Verify implementation of centralized, simple (economy of design), vetted, secure,
   and reusable security controls to avoid duplicate, missing, ineffective, or insecure
   controls.

@@ -2,7 +2,8 @@ uid: SR-0038
 type: system_requirement
 status: approved
 title: The segregation of components of differing trust levels through well-defined
-  security controls
+  security controls, firewall rules, API gateways, reverse proxies, cloud-based security
+  groups, or similar mechanisms
 text: Verify the segregation of components of differing trust levels through well-defined
   security controls, firewall rules, API gateways, reverse proxies, cloud-based security
   groups, or similar mechanisms.

@@ -1,7 +1,8 @@
 uid: SR-0237
 type: system_requirement
 status: approved
-title: Files obtained from untrusted sources are stored outside the web root
+title: Files obtained from untrusted sources are stored outside the web root, with
+  limited permissions
 text: Verify that files obtained from untrusted sources are stored outside the web
   root, with limited permissions.
 links:

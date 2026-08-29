@@ -2,7 +2,7 @@ uid: SR-0105
 type: system_requirement
 status: approved
 title: Users are able to view and (having re-entered login credentials) log out of
-  any or all currently
+  any or all currently active sessions and devices
 text: Verify that users are able to view and (having re-entered login credentials)
   log out of any or all currently active sessions and devices.
 links:

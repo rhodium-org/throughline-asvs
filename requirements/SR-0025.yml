@@ -2,7 +2,7 @@ uid: SR-0025
 type: system_requirement
 status: approved
 title: All keys and passwords are replaceable and are part of a well-defined process
-  to re-encrypt
+  to re-encrypt sensitive data
 text: Verify that all keys and passwords are replaceable and are part of a well-defined
   process to re-encrypt sensitive data.
 links:

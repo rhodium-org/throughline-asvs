@@ -1,7 +1,8 @@
 uid: SR-0060
 type: system_requirement
 status: approved
-title: Enrollment and use of user-provided authentication devices are supported
+title: Enrollment and use of user-provided authentication devices are supported, such
+  as a U2F or FIDO tokens
 text: Verify that enrollment and use of user-provided authentication devices are supported,
   such as a U2F or FIDO tokens.
 links:

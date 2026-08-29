@@ -1,7 +1,8 @@
 uid: SR-0144
 type: system_requirement
 status: approved
-title: The application protects against JSON injection attacks
+title: The application protects against JSON injection attacks, JSON eval attacks,
+  and JavaScript expression evaluation
 text: Verify that the application protects against JSON injection attacks, JSON eval
   attacks, and JavaScript expression evaluation.
 links:

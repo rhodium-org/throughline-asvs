@@ -2,7 +2,7 @@ uid: SR-0254
 type: system_requirement
 status: approved
 title: GraphQL or other data layer authorization logic should be implemented at the
-  business logic layer
+  business logic layer instead of the GraphQL layer
 text: Verify that GraphQL or other data layer authorization logic should be implemented
   at the business logic layer instead of the GraphQL layer.
 links:

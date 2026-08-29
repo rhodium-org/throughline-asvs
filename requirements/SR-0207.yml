@@ -1,7 +1,8 @@
 uid: SR-0207
 type: system_requirement
 status: approved
-title: Proper certification revocation
+title: Proper certification revocation, such as Online Certificate Status Protocol
+  (OCSP) Stapling, is enabled and configured
 text: Verify that proper certification revocation, such as Online Certificate Status
   Protocol (OCSP) Stapling, is enabled and configured.
 links:

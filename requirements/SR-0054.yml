@@ -1,7 +1,9 @@
 uid: SR-0054
 type: system_requirement
 status: approved
-title: Secure notifications are sent to users after updates to authentication details
+title: Secure notifications are sent to users after updates to authentication details,
+  such as credential resets, email or address changes, logging in from unknown or
+  risky locations
 text: Verify that secure notifications are sent to users after updates to authentication
   details, such as credential resets, email or address changes, logging in from unknown
   or risky locations. The use of push notifications - rather than SMS or email - is

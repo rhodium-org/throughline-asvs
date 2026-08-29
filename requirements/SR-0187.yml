@@ -1,7 +1,8 @@
 uid: SR-0187
 type: system_requirement
 status: approved
-title: The application can detect and alert on abnormal numbers of requests
+title: The application can detect and alert on abnormal numbers of requests, such
+  as by IP, user, total per hour or day, or whatever makes sense for the application
 text: Verify the application can detect and alert on abnormal numbers of requests,
   such as by IP, user, total per hour or day, or whatever makes sense for the application.
 links:

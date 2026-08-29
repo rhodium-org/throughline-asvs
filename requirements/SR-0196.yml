@@ -1,7 +1,8 @@
 uid: SR-0196
 type: system_requirement
 status: approved
-title: All sensitive data created and processed by the application has been identified
+title: All sensitive data created and processed by the application has been identified,
+  and ensure that a policy is in place on how to deal with sensitive data
 text: Verify that all sensitive data created and processed by the application has
   been identified, and ensure that a policy is in place on how to deal with sensitive
   data.

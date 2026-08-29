@@ -2,7 +2,7 @@ uid: SR-0213
 type: system_requirement
 status: approved
 title: The application source code and third party libraries do not contain time bombs
-  by searching for
+  by searching for date and time related functions
 text: Verify that the application source code and third party libraries do not contain
   time bombs by searching for date and time related functions.
 links:

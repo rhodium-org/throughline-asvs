@@ -2,7 +2,7 @@ uid: SR-0089
 type: system_requirement
 status: approved
 title: Biometric authenticators are limited to use only as secondary factors in conjunction
-  with either
+  with either something you have and something you know
 text: Verify that biometric authenticators are limited to use only as secondary factors
   in conjunction with either something you have and something you know.
 links:

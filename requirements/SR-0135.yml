@@ -2,7 +2,7 @@ uid: SR-0135
 type: system_requirement
 status: approved
 title: The application protects against template injection attacks by ensuring that
-  any user input being
+  any user input being included is sanitized or sandboxed
 text: Verify that the application protects against template injection attacks by ensuring
   that any user input being included is sanitized or sandboxed.
 links:

@@ -2,7 +2,7 @@ uid: SR-0019
 type: system_requirement
 status: approved
 title: Input and output requirements clearly define how to handle and process data
-  based on type
+  based on type, content, and applicable laws, regulations, and other policy compliance
 text: Verify that input and output requirements clearly define how to handle and process
   data based on type, content, and applicable laws, regulations, and other policy
   compliance.

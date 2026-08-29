@@ -1,7 +1,8 @@
 uid: SR-0031
 type: system_requirement
 status: approved
-title: The application encrypts communications between components
+title: The application encrypts communications between components, particularly when
+  these components are in different containers, systems, sites, or cloud providers
 text: Verify the application encrypts communications between components, particularly
   when these components are in different containers, systems, sites, or cloud providers.
 links:

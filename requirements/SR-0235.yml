@@ -1,7 +1,8 @@
 uid: SR-0235
 type: system_requirement
 status: approved
-title: Untrusted file metadata is not used directly with system API or libraries
+title: Untrusted file metadata is not used directly with system API or libraries,
+  to protect against OS command injection
 text: Verify that untrusted file metadata is not used directly with system API or
   libraries, to protect against OS command injection.
 links:

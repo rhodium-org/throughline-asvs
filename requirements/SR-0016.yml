@@ -1,7 +1,8 @@
 uid: SR-0016
 type: system_requirement
 status: approved
-title: Trusted enforcement points
+title: Trusted enforcement points, such as access control gateways, servers, and serverless
+  functions, enforce access controls
 text: Verify that trusted enforcement points, such as access control gateways, servers,
   and serverless functions, enforce access controls. Never enforce access controls
   on the client.

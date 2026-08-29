@@ -2,7 +2,7 @@ uid: SR-0095
 type: system_requirement
 status: approved
 title: Passwords are stored with sufficient protection to prevent offline recovery
-  attacks
+  attacks, including local system access
 text: Verify that passwords are stored with sufficient protection to prevent offline
   recovery attacks, including local system access.
 links:

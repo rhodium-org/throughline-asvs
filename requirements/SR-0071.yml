@@ -1,7 +1,8 @@
 uid: SR-0071
 type: system_requirement
 status: approved
-title: If an authentication factor is changed or replaced
+title: If an authentication factor is changed or replaced, that the user is notified
+  of this event
 text: Verify that if an authentication factor is changed or replaced, that the user
   is notified of this event.
 links:

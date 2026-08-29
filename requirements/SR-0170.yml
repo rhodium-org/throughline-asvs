@@ -1,7 +1,8 @@
 uid: SR-0170
 type: system_requirement
 status: approved
-title: A secrets management solution such as a key vault is used to securely create
+title: A secrets management solution such as a key vault is used to securely create,
+  store, control access to and destroy secrets
 text: Verify that a secrets management solution such as a key vault is used to securely
   create, store, control access to and destroy secrets.
 links:

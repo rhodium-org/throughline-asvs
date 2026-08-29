@@ -2,7 +2,7 @@ uid: SR-0024
 type: system_requirement
 status: approved
 title: Consumers of cryptographic services protect key material and other secrets
-  by using key vaults or
+  by using key vaults or API based alternatives
 text: Verify that consumers of cryptographic services protect key material and other
   secrets by using key vaults or API based alternatives.
 links:

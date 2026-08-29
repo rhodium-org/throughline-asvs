@@ -2,7 +2,7 @@ uid: SR-0100
 type: system_requirement
 status: approved
 title: The application only stores session tokens in the browser using secure methods
-  such as
+  such as appropriately secured cookies (see section 3.4) or HTML 5 session storage
 text: Verify the application only stores session tokens in the browser using secure
   methods such as appropriately secured cookies (see section 3.4) or HTML 5 session
   storage.

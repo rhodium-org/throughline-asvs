@@ -1,7 +1,9 @@
 uid: SR-0138
 type: system_requirement
 status: approved
-title: The application sanitizes
+title: The application sanitizes, disables, or sandboxes user-supplied scriptable
+  or expression template language content, such as Markdown, CSS or XSL stylesheets,
+  BBCode, or similar
 text: Verify that the application sanitizes, disables, or sandboxes user-supplied
   scriptable or expression template language content, such as Markdown, CSS or XSL
   stylesheets, BBCode, or similar.

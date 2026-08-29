@@ -1,7 +1,8 @@
 uid: SR-0278
 type: system_requirement
 status: approved
-title: HTTP headers added by a trusted proxy or SSO devices
+title: HTTP headers added by a trusted proxy or SSO devices, such as a bearer token,
+  are authenticated by the application
 text: Verify that HTTP headers added by a trusted proxy or SSO devices, such as a
   bearer token, are authenticated by the application.
 links:

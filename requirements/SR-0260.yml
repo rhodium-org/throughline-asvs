@@ -1,7 +1,8 @@
 uid: SR-0260
 type: system_requirement
 status: approved
-title: All components are up to date
+title: All components are up to date, preferably using a dependency checker during
+  build or compile time
 text: Verify that all components are up to date, preferably using a dependency checker
   during build or compile time.
 links:

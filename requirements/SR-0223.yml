@@ -2,7 +2,7 @@ uid: SR-0223
 type: system_requirement
 status: approved
 title: The application has business logic limits or validation to protect against
-  likely business risks or
+  likely business risks or threats, identified using threat modeling or similar methodologies
 text: Verify the application has business logic limits or validation to protect against
   likely business risks or threats, identified using threat modeling or similar methodologies.
 links:

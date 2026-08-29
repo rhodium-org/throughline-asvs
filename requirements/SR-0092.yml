@@ -1,7 +1,8 @@
 uid: SR-0092
 type: system_requirement
 status: approved
-title: Approved cryptographic algorithms are used in the generation
+title: Approved cryptographic algorithms are used in the generation, seeding, and
+  verification
 text: Verify that approved cryptographic algorithms are used in the generation, seeding,
   and verification.
 links:

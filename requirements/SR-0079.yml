@@ -1,7 +1,8 @@
 uid: SR-0079
 type: system_requirement
 status: approved
-title: The out of band verifier authentication requests
+title: The out of band verifier authentication requests, codes, or tokens are only
+  usable once, and only for the original authentication request
 text: Verify that the out of band verifier authentication requests, codes, or tokens
   are only usable once, and only for the original authentication request.
 links:

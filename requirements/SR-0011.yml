@@ -1,7 +1,8 @@
 uid: SR-0011
 type: system_requirement
 status: approved
-title: Availability of a secure coding checklist
+title: Availability of a secure coding checklist, security requirements, guideline,
+  or policy to all developers and testers
 text: Verify availability of a secure coding checklist, security requirements, guideline,
   or policy to all developers and testers.
 links:

@@ -2,7 +2,7 @@ uid: SR-0017
 type: system_requirement
 status: approved
 title: The application uses a single and well-vetted access control mechanism for
-  accessing protected data
+  accessing protected data and resources
 text: Verify the application uses a single and well-vetted access control mechanism
   for accessing protected data and resources. All requests must pass through this
   single mechanism to avoid copy and paste or insecure alternative paths.

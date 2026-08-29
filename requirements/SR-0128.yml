@@ -1,7 +1,8 @@
 uid: SR-0128
 type: system_requirement
 status: approved
-title: All input (HTML form fields
+title: All input (HTML form fields, REST requests, URL parameters, HTTP headers, cookies,
+  batch files, RSS feeds, etc) is validated using positive validation (allow lists)
 text: Verify that all input (HTML form fields, REST requests, URL parameters, HTTP
   headers, cookies, batch files, RSS feeds, etc) is validated using positive validation
   (allow lists).

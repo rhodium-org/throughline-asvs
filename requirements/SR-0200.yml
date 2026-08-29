@@ -1,7 +1,9 @@
 uid: SR-0200
 type: system_requirement
 status: approved
-title: Sensitive personal information is subject to data retention classification
+title: Sensitive personal information is subject to data retention classification,
+  such that old or out of date data is deleted automatically, on a schedule, or as
+  the situation requires
 text: Verify that sensitive personal information is subject to data retention classification,
   such that old or out of date data is deleted automatically, on a schedule, or as
   the situation requires.

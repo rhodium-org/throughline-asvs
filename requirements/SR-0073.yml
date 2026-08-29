@@ -1,7 +1,8 @@
 uid: SR-0073
 type: system_requirement
 status: approved
-title: If OTP or multi-factor authentication factors are lost
+title: If OTP or multi-factor authentication factors are lost, that evidence of identity
+  proofing is performed at the same level as during enrollment
 text: Verify that if OTP or multi-factor authentication factors are lost, that evidence
   of identity proofing is performed at the same level as during enrollment.
 links:

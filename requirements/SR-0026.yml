@@ -1,7 +1,8 @@
 uid: SR-0026
 type: system_requirement
 status: approved
-title: The architecture treats client-side secrets--such as symmetric keys
+title: The architecture treats client-side secrets--such as symmetric keys, passwords,
+  or API tokens--as insecure and never uses them to protect or access sensitive data
 text: Verify that the architecture treats client-side secrets--such as symmetric keys,
   passwords, or API tokens--as insecure and never uses them to protect or access sensitive
   data.

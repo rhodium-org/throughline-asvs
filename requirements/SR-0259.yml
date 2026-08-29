@@ -2,7 +2,7 @@ uid: SR-0259
 type: system_requirement
 status: approved
 title: Authorized administrators can verify the integrity of all security-relevant
-  configurations to
+  configurations to detect tampering
 text: Verify that authorized administrators can verify the integrity of all security-relevant
   configurations to detect tampering.
 links:

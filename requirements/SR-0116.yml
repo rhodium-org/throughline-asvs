@@ -1,7 +1,9 @@
 uid: SR-0116
 type: system_requirement
 status: approved
-title: The application ensures a full
+title: The application ensures a full, valid login session or requires re-authentication
+  or secondary verification before allowing any sensitive transactions or account
+  modifications
 text: Verify the application ensures a full, valid login session or requires re-authentication
   or secondary verification before allowing any sensitive transactions or account
   modifications.

@@ -2,7 +2,7 @@ uid: SR-0034
 type: system_requirement
 status: approved
 title: The definition and documentation of all application components in terms of
-  the business or security
+  the business or security functions they provide
 text: Verify the definition and documentation of all application components in terms
   of the business or security functions they provide.
 links:

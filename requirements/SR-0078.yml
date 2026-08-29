@@ -1,7 +1,8 @@
 uid: SR-0078
 type: system_requirement
 status: approved
-title: The out of band verifier expires out of band authentication requests
+title: The out of band verifier expires out of band authentication requests, codes,
+  or tokens after 10 minutes
 text: Verify that the out of band verifier expires out of band authentication requests,
   codes, or tokens after 10 minutes.
 links:

@@ -1,7 +1,9 @@
 uid: SR-0113
 type: system_requirement
 status: approved
-title: Stateless session tokens use digital signatures
+title: Stateless session tokens use digital signatures, encryption, and other countermeasures
+  to protect against tampering, enveloping, replay, null cipher, and key substitution
+  attacks
 text: Verify that stateless session tokens use digital signatures, encryption, and
   other countermeasures to protect against tampering, enveloping, replay, null cipher,
   and key substitution attacks.

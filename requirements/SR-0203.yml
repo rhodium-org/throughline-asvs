@@ -1,7 +1,8 @@
 uid: SR-0203
 type: system_requirement
 status: approved
-title: Only the latest recommended versions of the TLS protocol are enabled
+title: Only the latest recommended versions of the TLS protocol are enabled, such
+  as TLS 1.2 and TLS 1.3
 text: Verify that only the latest recommended versions of the TLS protocol are enabled,
   such as TLS 1.2 and TLS 1.3. The latest version of the TLS protocol should be the
   preferred option.

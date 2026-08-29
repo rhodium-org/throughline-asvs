@@ -2,7 +2,9 @@ uid: SR-0104
 type: system_requirement
 status: approved
 title: The application gives the option to terminate all other active sessions after
-  a successful password
+  a successful password change (including change via password reset/recovery), and
+  that this is effective across the application, federated login (if present), and
+  any relying parties
 text: Verify that the application gives the option to terminate all other active sessions
   after a successful password change (including change via password reset/recovery),
   and that this is effective across the application, federated login (if present),

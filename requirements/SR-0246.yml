@@ -1,7 +1,8 @@
 uid: SR-0246
 type: system_requirement
 status: approved
-title: Enabled RESTful HTTP methods are a valid choice for the user or action
+title: Enabled RESTful HTTP methods are a valid choice for the user or action, such
+  as preventing normal users using DELETE or PUT on protected API or resources
 text: Verify that enabled RESTful HTTP methods are a valid choice for the user or
   action, such as preventing normal users using DELETE or PUT on protected API or
   resources.

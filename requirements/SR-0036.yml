@@ -1,7 +1,9 @@
 uid: SR-0036
 type: system_requirement
 status: approved
-title: All high-value business logic flows
+title: All high-value business logic flows, including authentication, session management
+  and access control are thread safe and resistant to time-of-check and time-of-use
+  race conditions
 text: Verify that all high-value business logic flows, including authentication, session
   management and access control are thread safe and resistant to time-of-check and
   time-of-use race conditions.

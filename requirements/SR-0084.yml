@@ -1,7 +1,8 @@
 uid: SR-0084
 type: system_requirement
 status: approved
-title: Symmetric keys used to verify submitted OTPs are highly protected
+title: Symmetric keys used to verify submitted OTPs are highly protected, such as
+  by using a hardware security module or secure operating system based key storage
 text: Verify that symmetric keys used to verify submitted OTPs are highly protected,
   such as by using a hardware security module or secure operating system based key
   storage.

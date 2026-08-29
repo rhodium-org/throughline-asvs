@@ -2,7 +2,8 @@ uid: SR-0053
 type: system_requirement
 status: approved
 title: The use of weak authenticators (such as SMS and email) is limited to secondary
-  verification and
+  verification and transaction approval and not as a replacement for more secure authentication
+  methods
 text: Verify that the use of weak authenticators (such as SMS and email) is limited
   to secondary verification and transaction approval and not as a replacement for
   more secure authentication methods. Verify that stronger methods are offered before

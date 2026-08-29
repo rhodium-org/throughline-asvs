@@ -2,7 +2,7 @@ uid: SR-0230
 type: system_requirement
 status: approved
 title: Files obtained from untrusted sources are validated to be of expected type
-  based on the file's
+  based on the file's content
 text: Verify that files obtained from untrusted sources are validated to be of expected
   type based on the file's content.
 links:

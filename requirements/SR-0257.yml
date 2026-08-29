@@ -2,7 +2,7 @@ uid: SR-0257
 type: system_requirement
 status: approved
 title: Server configuration is hardened as per the recommendations of the application
-  server and
+  server and frameworks in use
 text: Verify that server configuration is hardened as per the recommendations of the
   application server and frameworks in use.
 links:

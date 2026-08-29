@@ -1,7 +1,9 @@
 uid: SR-0136
 type: system_requirement
 status: approved
-title: The application protects against SSRF attacks
+title: The application protects against SSRF attacks, by validating or sanitizing
+  untrusted data or HTTP file metadata, such as filenames and URL input fields, and
+  uses allow lists of protocols, domains, paths and ports
 text: Verify that the application protects against SSRF attacks, by validating or
   sanitizing untrusted data or HTTP file metadata, such as filenames and URL input
   fields, and uses allow lists of protocols, domains, paths and ports.

@@ -2,7 +2,7 @@ uid: SR-0190
 type: system_requirement
 status: approved
 title: The application sets sufficient anti-caching headers so that sensitive data
-  is not cached in modern
+  is not cached in modern browsers
 text: Verify the application sets sufficient anti-caching headers so that sensitive
   data is not cached in modern browsers.
 links:

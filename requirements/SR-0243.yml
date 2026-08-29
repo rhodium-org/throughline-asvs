@@ -1,7 +1,8 @@
 uid: SR-0243
 type: system_requirement
 status: approved
-title: API URLs do not expose sensitive information
+title: API URLs do not expose sensitive information, such as the API key, session
+  tokens etc.
 text: Verify API URLs do not expose sensitive information, such as the API key, session
   tokens etc.
 links:

@@ -1,7 +1,8 @@
 uid: SR-0261
 type: system_requirement
 status: approved
-title: All unneeded features
+title: All unneeded features, documentation, sample applications and configurations
+  are removed
 text: Verify that all unneeded features, documentation, sample applications and configurations
   are removed.
 links:

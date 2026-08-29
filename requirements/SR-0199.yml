@@ -1,7 +1,8 @@
 uid: SR-0199
 type: system_requirement
 status: approved
-title: Sensitive or private information that is required to be encrypted
+title: Sensitive or private information that is required to be encrypted, is encrypted
+  using approved algorithms that provide both confidentiality and integrity
 text: Verify that sensitive or private information that is required to be encrypted,
   is encrypted using approved algorithms that provide both confidentiality and integrity.
 links:

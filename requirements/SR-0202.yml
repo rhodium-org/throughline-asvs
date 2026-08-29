@@ -1,7 +1,8 @@
 uid: SR-0202
 type: system_requirement
 status: approved
-title: Using up to date TLS testing tools that only strong cipher suites are enabled
+title: Using up to date TLS testing tools that only strong cipher suites are enabled,
+  with the strongest cipher suites set as preferred
 text: Verify using up to date TLS testing tools that only strong cipher suites are
   enabled, with the strongest cipher suites set as preferred.
 links:

@@ -1,7 +1,7 @@
 uid: SR-0151
 type: system_requirement
 status: approved
-title: Sign
+title: Sign, range, and input validation techniques are used to prevent integer overflows
 text: Verify that sign, range, and input validation techniques are used to prevent
   integer overflows.
 links:

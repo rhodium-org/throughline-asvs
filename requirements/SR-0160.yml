@@ -1,7 +1,8 @@
 uid: SR-0160
 type: system_requirement
 status: approved
-title: Industry proven or government approved cryptographic algorithms
+title: Industry proven or government approved cryptographic algorithms, modes, and
+  libraries are used, instead of custom coded cryptography
 text: Verify that industry proven or government approved cryptographic algorithms,
   modes, and libraries are used, instead of custom coded cryptography.
 links:

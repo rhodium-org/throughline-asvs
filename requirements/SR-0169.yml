@@ -2,7 +2,7 @@ uid: SR-0169
 type: system_requirement
 status: approved
 title: Random numbers are created with proper entropy even when the application is
-  under heavy load
+  under heavy load, or that the application degrades gracefully in such circumstances
 text: Verify that random numbers are created with proper entropy even when the application
   is under heavy load, or that the application degrades gracefully in such circumstances.
 links:

@@ -1,7 +1,9 @@
 uid: SR-0162
 type: system_requirement
 status: approved
-title: Random number
+title: Random number, encryption or hashing algorithms, key lengths, rounds, ciphers
+  or modes, can be reconfigured, upgraded, or swapped at any time, to protect against
+  cryptographic breaks
 text: Verify that random number, encryption or hashing algorithms, key lengths, rounds,
   ciphers or modes, can be reconfigured, upgraded, or swapped at any time, to protect
   against cryptographic breaks.

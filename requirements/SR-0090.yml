@@ -2,7 +2,8 @@ uid: SR-0090
 type: system_requirement
 status: approved
 title: Cryptographic keys used in verification are stored securely and protected against
-  disclosure
+  disclosure, such as using a Trusted Platform Module (TPM) or Hardware Security Module
+  (HSM), or an OS service that can use this secure storage
 text: Verify that cryptographic keys used in verification are stored securely and
   protected against disclosure, such as using a Trusted Platform Module (TPM) or Hardware
   Security Module (HSM), or an OS service that can use this secure storage.

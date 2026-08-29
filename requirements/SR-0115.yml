@@ -2,7 +2,8 @@ uid: SR-0115
 type: system_requirement
 status: approved
 title: Credential Service Providers (CSPs) inform Relying Parties (RPs) of the last
-  authentication event
+  authentication event, to allow RPs to determine if they need to re-authenticate
+  the user
 text: Verify that Credential Service Providers (CSPs) inform Relying Parties (RPs)
   of the last authentication event, to allow RPs to determine if they need to re-authenticate
   the user.

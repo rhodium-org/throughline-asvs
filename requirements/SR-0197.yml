@@ -1,7 +1,9 @@
 uid: SR-0197
 type: system_requirement
 status: approved
-title: Accessing sensitive data is audited (without logging the sensitive data itself)
+title: Accessing sensitive data is audited (without logging the sensitive data itself),
+  if the data is collected under relevant data protection directives or where logging
+  of access is required
 text: Verify accessing sensitive data is audited (without logging the sensitive data
   itself), if the data is collected under relevant data protection directives or where
   logging of access is required.

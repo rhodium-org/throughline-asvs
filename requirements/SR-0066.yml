@@ -1,7 +1,8 @@
 uid: SR-0066
 type: system_requirement
 status: approved
-title: An additional iteration of a key derivation function is performed
+title: An additional iteration of a key derivation function is performed, using a
+  salt value that is secret and known only to the verifier
 text: Verify that an additional iteration of a key derivation function is performed,
   using a salt value that is secret and known only to the verifier. Generate the salt
   value using an approved random bit generator [SP 800-90Ar1] and provide at least

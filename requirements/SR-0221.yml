@@ -2,7 +2,7 @@ uid: SR-0221
 type: system_requirement
 status: approved
 title: The application has appropriate limits for specific business actions or transactions
-  which are
+  which are correctly enforced on a per user basis
 text: Verify the application has appropriate limits for specific business actions
   or transactions which are correctly enforced on a per user basis.
 links:

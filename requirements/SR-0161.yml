@@ -1,7 +1,8 @@
 uid: SR-0161
 type: system_requirement
 status: approved
-title: Encryption initialization vector
+title: Encryption initialization vector, cipher configuration, and block modes are
+  configured securely using the latest advice
 text: Verify that encryption initialization vector, cipher configuration, and block
   modes are configured securely using the latest advice.
 links:

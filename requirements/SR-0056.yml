@@ -2,7 +2,7 @@ uid: SR-0056
 type: system_requirement
 status: approved
 title: Where a Credential Service Provider (CSP) and the application verifying authentication
-  are separated
+  are separated, mutually authenticated TLS is in place between the two endpoints
 text: Verify that where a Credential Service Provider (CSP) and the application verifying
   authentication are separated, mutually authenticated TLS is in place between the
   two endpoints.

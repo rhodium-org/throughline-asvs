@@ -2,7 +2,7 @@ uid: SR-0152
 type: system_requirement
 status: approved
 title: Serialized objects use integrity checks or are encrypted to prevent hostile
-  object creation or data
+  object creation or data tampering
 text: Verify that serialized objects use integrity checks or are encrypted to prevent
   hostile object creation or data tampering.
 links:

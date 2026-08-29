@@ -2,7 +2,7 @@ uid: SR-0130
 type: system_requirement
 status: approved
 title: URL redirects and forwards only allow destinations which appear on an allow
-  list
+  list, or show a warning when redirecting to potentially untrusted content
 text: Verify that URL redirects and forwards only allow destinations which appear
   on an allow list, or show a warning when redirecting to potentially untrusted content.
 links:

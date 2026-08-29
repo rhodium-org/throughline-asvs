@@ -2,7 +2,7 @@ uid: SR-0206
 type: system_requirement
 status: approved
 title: All encrypted connections to external systems that involve sensitive information
-  or functions are
+  or functions are authenticated
 text: Verify that all encrypted connections to external systems that involve sensitive
   information or functions are authenticated.
 links:

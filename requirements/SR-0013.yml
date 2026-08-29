@@ -1,7 +1,8 @@
 uid: SR-0013
 type: system_requirement
 status: approved
-title: Communications between application components
+title: Communications between application components, including APIs, middleware and
+  data layers, are authenticated
 text: Verify that communications between application components, including APIs, middleware
   and data layers, are authenticated. Components should have the least necessary privileges
   needed.

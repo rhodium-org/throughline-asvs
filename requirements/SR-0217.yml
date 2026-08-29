@@ -1,7 +1,8 @@
 uid: SR-0217
 type: system_requirement
 status: approved
-title: The application employs integrity protections
+title: The application employs integrity protections, such as code signing or subresource
+  integrity
 text: Verify that the application employs integrity protections, such as code signing
   or subresource integrity. The application must not load or execute code from untrusted
   sources, such as loading includes, modules, plugins, code, or libraries from untrusted

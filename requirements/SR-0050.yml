@@ -1,7 +1,8 @@
 uid: SR-0050
 type: system_requirement
 status: approved
-title: '"paste" functionality'
+title: '"paste" functionality, browser password helpers, and external password managers
+  are permitted'
 text: Verify that "paste" functionality, browser password helpers, and external password
   managers are permitted.
 links:

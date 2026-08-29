@@ -2,7 +2,7 @@ uid: SR-0108
 type: system_requirement
 status: approved
 title: Cookie-based session tokens utilize the 'SameSite' attribute to limit exposure
-  to cross-site
+  to cross-site request forgery attacks
 text: Verify that cookie-based session tokens utilize the 'SameSite' attribute to
   limit exposure to cross-site request forgery attacks.
 links:

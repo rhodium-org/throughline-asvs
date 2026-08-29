@@ -2,7 +2,7 @@ uid: SR-0252
 type: system_requirement
 status: approved
 title: The message payload is signed using WS-Security to ensure reliable transport
-  between client and
+  between client and service
 text: Verify that the message payload is signed using WS-Security to ensure reliable
   transport between client and service.
 links:

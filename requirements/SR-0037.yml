@@ -2,7 +2,8 @@ uid: SR-0037
 type: system_requirement
 status: approved
 title: User-uploaded files - if required to be displayed or downloaded from the application
-  - are served
+  - are served by either octet stream downloads, or from an unrelated domain, such
+  as a cloud file storage bucket
 text: Verify that user-uploaded files - if required to be displayed or downloaded
   from the application - are served by either octet stream downloads, or from an unrelated
   domain, such as a cloud file storage bucket. Implement a suitable Content Security

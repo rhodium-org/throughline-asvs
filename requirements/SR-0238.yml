@@ -2,7 +2,7 @@ uid: SR-0238
 type: system_requirement
 status: approved
 title: Files obtained from untrusted sources are scanned by antivirus scanners to
-  prevent upload and
+  prevent upload and serving of known malicious content
 text: Verify that files obtained from untrusted sources are scanned by antivirus scanners
   to prevent upload and serving of known malicious content.
 links:

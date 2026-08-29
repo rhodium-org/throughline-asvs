@@ -2,7 +2,7 @@ uid: SR-0273
 type: system_requirement
 status: approved
 title: A suitable Referrer-Policy header is included to avoid exposing sensitive information
-  in the URL
+  in the URL through the Referer header to untrusted parties
 text: Verify that a suitable Referrer-Policy header is included to avoid exposing
   sensitive information in the URL through the Referer header to untrusted parties.
 links:

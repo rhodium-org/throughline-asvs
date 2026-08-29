@@ -1,7 +1,9 @@
 uid: SR-0137
 type: system_requirement
 status: approved
-title: The application sanitizes
+title: The application sanitizes, disables, or sandboxes user-supplied Scalable Vector
+  Graphics (SVG) scriptable content, especially as they relate to XSS resulting from
+  inline scripts, and foreignObject
 text: Verify that the application sanitizes, disables, or sandboxes user-supplied
   Scalable Vector Graphics (SVG) scriptable content, especially as they relate to
   XSS resulting from inline scripts, and foreignObject.

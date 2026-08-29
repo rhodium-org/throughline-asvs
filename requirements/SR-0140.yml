@@ -1,7 +1,8 @@
 uid: SR-0140
 type: system_requirement
 status: approved
-title: Output encoding preserves the user's chosen character set and locale
+title: Output encoding preserves the user's chosen character set and locale, such
+  that any Unicode character point is valid and safely handled
 text: Verify that output encoding preserves the user's chosen character set and locale,
   such that any Unicode character point is valid and safely handled.
 links:

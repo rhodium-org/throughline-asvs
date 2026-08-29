@@ -1,7 +1,8 @@
 uid: SR-0044
 type: system_requirement
 status: approved
-title: Any printable Unicode character
+title: Any printable Unicode character, including language neutral characters such
+  as spaces and Emojis are permitted in passwords
 text: Verify that any printable Unicode character, including language neutral characters
   such as spaces and Emojis are permitted in passwords.
 links:

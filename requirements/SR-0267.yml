@@ -2,7 +2,7 @@ uid: SR-0267
 type: system_requirement
 status: approved
 title: The HTTP headers or any part of the HTTP response do not expose detailed version
-  information of
+  information of system components
 text: Verify that the HTTP headers or any part of the HTTP response do not expose
   detailed version information of system components.
 links:
