@@ -1,7 +1,9 @@
 uid: SR-0099
 type: system_requirement
 status: approved
-title: When the application creates file paths for file operations
+title: When the application creates file paths for file operations, instead of user-submitted
+  filenames, it uses internally generated or trusted data, or if user-submitted filenames
+  or file metadata must be used, strict validation and sanitization must be applied
 text: Verify that when the application creates file paths for file operations, instead
   of user-submitted filenames, it uses internally generated or trusted data, or if
   user-submitted filenames or file metadata must be used, strict validation and sanitization

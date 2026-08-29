@@ -2,7 +2,7 @@ uid: SR-0019
 type: system_requirement
 status: approved
 title: The application protects against template injection attacks by not allowing
-  templates to be built
+  templates to be built based on untrusted input
 text: Verify that the application protects against template injection attacks by not
   allowing templates to be built based on untrusted input. Where there is no alternative,
   any untrusted input being included dynamically during template creation must be

@@ -1,7 +1,9 @@
 uid: SR-0001
 type: system_requirement
 status: approved
-title: Input is decoded or unescaped into a canonical form only once
+title: Input is decoded or unescaped into a canonical form only once, it is only decoded
+  when encoded data in that form is expected, and that this is done before processing
+  the input further, for example it is not performed after input validation or sanitization
 text: Verify that input is decoded or unescaped into a canonical form only once, it
   is only decoded when encoded data in that form is expected, and that this is done
   before processing the input further, for example it is not performed after input

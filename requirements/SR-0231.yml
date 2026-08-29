@@ -1,7 +1,10 @@
 uid: SR-0231
 type: system_requirement
 status: approved
-title: The application is designed with crypto agility such that random number
+title: The application is designed with crypto agility such that random number, authenticated
+  encryption, MAC, or hashing algorithms, key lengths, rounds, ciphers and modes can
+  be reconfigured, upgraded, or swapped at any time, to protect against cryptographic
+  breaks
 text: Verify that the application is designed with crypto agility such that random
   number, authenticated encryption, MAC, or hashing algorithms, key lengths, rounds,
   ciphers and modes can be reconfigured, upgraded, or swapped at any time, to protect

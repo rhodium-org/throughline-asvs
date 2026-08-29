@@ -2,7 +2,8 @@ uid: SR-0078
 type: system_requirement
 status: approved
 title: Only HTTP methods that are explicitly supported by the application or its API
-  (including OPTIONS
+  (including OPTIONS during preflight requests) can be used and that unused methods
+  are blocked
 text: Verify that only HTTP methods that are explicitly supported by the application
   or its API (including OPTIONS during preflight requests) can be used and that unused
   methods are blocked.

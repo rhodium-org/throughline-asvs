@@ -2,7 +2,9 @@ uid: SR-0317
 type: system_requirement
 status: approved
 title: An inventory exists documenting the logging performed at each layer of the
-  application's technology
+  application's technology stack, what events are being logged, log formats, where
+  that logging is stored, how it is used, how access to it is controlled, and for
+  how long logs are kept
 text: Verify that an inventory exists documenting the logging performed at each layer
   of the application's technology stack, what events are being logged, log formats,
   where that logging is stored, how it is used, how access to it is controlled, and

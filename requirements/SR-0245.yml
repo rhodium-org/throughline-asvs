@@ -1,7 +1,8 @@
 uid: SR-0245
 type: system_requirement
 status: approved
-title: The random number generation mechanism in use is designed to work securely
+title: The random number generation mechanism in use is designed to work securely,
+  even under heavy demand
 text: Verify that the random number generation mechanism in use is designed to work
   securely, even under heavy demand.
 links:

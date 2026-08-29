@@ -2,7 +2,8 @@ uid: SR-0176
 type: system_requirement
 status: approved
 title: The application ensures that field-level access is restricted to consumers
-  with explicit
+  with explicit permissions to specific fields to mitigate broken object property
+  level authorization (BOPLA)
 text: Verify that the application ensures that field-level access is restricted to
   consumers with explicit permissions to specific fields to mitigate broken object
   property level authorization (BOPLA).

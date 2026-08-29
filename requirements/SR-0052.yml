@@ -1,7 +1,8 @@
 uid: SR-0052
 type: system_requirement
 status: approved
-title: When the application writes a cookie
+title: When the application writes a cookie, the cookie name and value length combined
+  are not over 4096 bytes
 text: Verify that when the application writes a cookie, the cookie name and value
   length combined are not over 4096 bytes. Overly large cookies will not be stored
   by the browser and therefore not sent with requests, preventing the user from using

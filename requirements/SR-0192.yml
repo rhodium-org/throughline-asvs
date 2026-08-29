@@ -1,7 +1,10 @@
 uid: SR-0192
 type: system_requirement
 status: approved
-title: That
+title: If the code flow is used, the OAuth client has protection against browser-based
+  request forgery attacks, commonly known as cross-site request forgery (CSRF), which
+  trigger token requests, either by using proof key for code exchange (PKCE) functionality
+  or checking the 'state' parameter that was sent in the authorization request
 text: Verify that, if the code flow is used, the OAuth client has protection against
   browser-based request forgery attacks, commonly known as cross-site request forgery
   (CSRF), which trigger token requests, either by using proof key for code exchange

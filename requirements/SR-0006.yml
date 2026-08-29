@@ -1,7 +1,9 @@
 uid: SR-0006
 type: system_requirement
 status: approved
-title: Data selection or database queries (e
+title: Data selection or database queries (e.g., SQL, HQL, NoSQL, Cypher) use parameterized
+  queries, ORMs, entity frameworks, or are otherwise protected from SQL Injection
+  and other database injection attacks
 text: Verify that data selection or database queries (e.g., SQL, HQL, NoSQL, Cypher)
   use parameterized queries, ORMs, entity frameworks, or are otherwise protected from
   SQL Injection and other database injection attacks. This is also relevant when writing

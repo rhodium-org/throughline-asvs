@@ -1,7 +1,9 @@
 uid: SR-0094
 type: system_requirement
 status: approved
-title: The application checks compressed files (e
+title: The application checks compressed files (e.g., zip, gz, docx, odt) against
+  maximum allowed uncompressed size and against maximum number of files before uncompressing
+  the file
 text: Verify that the application checks compressed files (e.g., zip, gz, docx, odt)
   against maximum allowed uncompressed size and against maximum number of files before
   uncompressing the file.

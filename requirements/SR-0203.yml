@@ -1,7 +1,8 @@
 uid: SR-0203
 type: system_requirement
 status: approved
-title: For a given client
+title: For a given client, the authorization server only allows the usage of grants
+  that this client needs to use
 text: Verify that for a given client, the authorization server only allows the usage
   of grants that this client needs to use. Note that the grants 'token' (Implicit
   flow) and 'password' (Resource Owner Password Credentials flow) must no longer be

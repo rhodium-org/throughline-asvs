@@ -1,7 +1,9 @@
 uid: SR-0297
 type: system_requirement
 status: approved
-title: An inventory catalog
+title: An inventory catalog, such as software bill of materials (SBOM), is maintained
+  of all third-party libraries in use, including verifying that components come from
+  pre-defined, trusted, and continually maintained repositories
 text: Verify that an inventory catalog, such as software bill of materials (SBOM),
   is maintained of all third-party libraries in use, including verifying that components
   come from pre-defined, trusted, and continually maintained repositories.

@@ -2,7 +2,7 @@ uid: SR-0121
 type: system_requirement
 status: approved
 title: Either a multi-factor authentication mechanism or a combination of single-factor
-  authentication
+  authentication mechanisms, must be used in order to access the application
 text: Verify that either a multi-factor authentication mechanism or a combination
   of single-factor authentication mechanisms, must be used in order to access the
   application. For L3, one of the factors must be a hardware-based authentication

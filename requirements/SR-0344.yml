@@ -2,7 +2,7 @@ uid: SR-0344
 type: system_requirement
 status: approved
 title: The signaling server is able to continue processing legitimate incoming signaling
-  messages during a
+  messages during a flood attack
 text: Verify that the signaling server is able to continue processing legitimate incoming
   signaling messages during a flood attack. This should be achieved by implementing
   rate limiting at the signaling level.

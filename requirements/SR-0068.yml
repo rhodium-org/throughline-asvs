@@ -1,7 +1,8 @@
 uid: SR-0068
 type: system_requirement
 status: approved
-title: Authenticated resources (such as images
+title: Authenticated resources (such as images, videos, scripts, and other documents)
+  can be loaded or embedded on behalf of the user only when intended
 text: Verify that authenticated resources (such as images, videos, scripts, and other
   documents) can be loaded or embedded on behalf of the user only when intended. This
   can be accomplished by strict validation of the Sec-Fetch-* HTTP request header

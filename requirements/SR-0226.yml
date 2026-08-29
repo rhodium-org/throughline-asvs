@@ -2,7 +2,7 @@ uid: SR-0226
 type: system_requirement
 status: approved
 title: There is a documented policy for management of cryptographic keys and a cryptographic
-  key lifecycle
+  key lifecycle that follows a key management standard such as NIST SP 800-57
 text: Verify that there is a documented policy for management of cryptographic keys
   and a cryptographic key lifecycle that follows a key management standard such as
   NIST SP 800-57. This should include ensuring that keys are not overshared (for example,

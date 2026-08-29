@@ -1,7 +1,9 @@
 uid: SR-0291
 type: system_requirement
 status: approved
-title: Sensitive information is subject to data retention classification
+title: Sensitive information is subject to data retention classification, ensuring
+  that outdated or unnecessary data is deleted automatically, on a defined schedule,
+  or as the situation requires
 text: Verify that sensitive information is subject to data retention classification,
   ensuring that outdated or unnecessary data is deleted automatically, on a defined
   schedule, or as the situation requires.

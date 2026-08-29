@@ -1,7 +1,8 @@
 uid: SR-0311
 type: system_requirement
 status: approved
-title: JavaScript code is written in a way that prevents prototype pollution
+title: JavaScript code is written in a way that prevents prototype pollution, for
+  example, by using Set() or Map() instead of object literals
 text: Verify that JavaScript code is written in a way that prevents prototype pollution,
   for example, by using Set() or Map() instead of object literals.
 links:

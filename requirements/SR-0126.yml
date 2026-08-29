@@ -1,7 +1,8 @@
 uid: SR-0126
 type: system_requirement
 status: approved
-title: Valid users cannot be deduced from failed authentication challenges
+title: Valid users cannot be deduced from failed authentication challenges, such as
+  by basing on error messages, HTTP response codes, or different response times
 text: Verify that valid users cannot be deduced from failed authentication challenges,
   such as by basing on error messages, HTTP response codes, or different response
   times. Registration and forgot password functionality must also have this protection.

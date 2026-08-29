@@ -1,7 +1,8 @@
 uid: SR-0004
 type: system_requirement
 status: approved
-title: When dynamically building URLs
+title: When dynamically building URLs, untrusted data is encoded according to its
+  context (e.g., URL encoding or base64url encoding for query or path parameters)
 text: 'Verify that when dynamically building URLs, untrusted data is encoded according
   to its context (e.g., URL encoding or base64url encoding for query or path parameters).
   Ensure that only safe URL protocols are permitted (e.g., disallow javascript: or

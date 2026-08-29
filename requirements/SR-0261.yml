@@ -2,7 +2,7 @@ uid: SR-0261
 type: system_requirement
 status: approved
 title: Services communicating internally within a system (intra-service communications)
-  use strong
+  use strong authentication to ensure that each endpoint is verified
 text: Verify that services communicating internally within a system (intra-service
   communications) use strong authentication to ensure that each endpoint is verified.
   Strong authentication methods, such as TLS client authentication, must be employed

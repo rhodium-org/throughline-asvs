@@ -2,7 +2,10 @@ uid: SR-0309
 type: system_requirement
 status: approved
 title: All proxying and middleware components transfer the user's original IP address
-  correctly using
+  correctly using trusted data fields that cannot be manipulated by the end user,
+  and the application and web server use this correct value for logging and security
+  decisions such as rate limiting, taking into account that even the original IP address
+  may not be reliable due to dynamic IPs, VPNs, or corporate firewalls
 text: Verify that all proxying and middleware components transfer the user's original
   IP address correctly using trusted data fields that cannot be manipulated by the
   end user, and the application and web server use this correct value for logging

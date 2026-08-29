@@ -2,7 +2,8 @@ uid: SR-0265
 type: system_requirement
 status: approved
 title: The application's documentation defines the secrets that are critical for the
-  security of the
+  security of the application and a schedule for rotating them, based on the organization's
+  threat model and business requirements
 text: Verify that the application's documentation defines the secrets that are critical
   for the security of the application and a schedule for rotating them, based on the
   organization's threat model and business requirements.

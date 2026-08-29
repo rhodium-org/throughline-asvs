@@ -1,7 +1,9 @@
 uid: SR-0093
 type: system_requirement
 status: approved
-title: When the application accepts a file
+title: When the application accepts a file, either on its own or within an archive
+  such as a zip file, it checks if the file extension matches an expected file extension
+  and validates that the contents correspond to the type represented by the extension
 text: Verify that when the application accepts a file, either on its own or within
   an archive such as a zip file, it checks if the file extension matches an expected
   file extension and validates that the contents correspond to the type represented

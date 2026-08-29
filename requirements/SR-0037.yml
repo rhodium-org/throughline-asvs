@@ -2,7 +2,7 @@ uid: SR-0037
 type: system_requirement
 status: approved
 title: The application will only process business logic flows for the same user in
-  the expected sequential
+  the expected sequential step order and without skipping steps
 text: Verify that the application will only process business logic flows for the same
   user in the expected sequential step order and without skipping steps.
 links:

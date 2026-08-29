@@ -1,7 +1,8 @@
 uid: SR-0100
 type: system_requirement
 status: approved
-title: Server-side file processing
+title: Server-side file processing, such as file decompression, ignores user-provided
+  path information to prevent vulnerabilities such as zip slip
 text: Verify that server-side file processing, such as file decompression, ignores
   user-provided path information to prevent vulnerabilities such as zip slip.
 links:

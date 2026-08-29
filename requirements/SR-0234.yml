@@ -1,7 +1,8 @@
 uid: SR-0234
 type: system_requirement
 status: approved
-title: All cryptographic modules fail securely
+title: All cryptographic modules fail securely, and errors are handled in a way that
+  does not enable vulnerabilities, such as Padding Oracle attacks
 text: Verify that all cryptographic modules fail securely, and errors are handled
   in a way that does not enable vulnerabilities, such as Padding Oracle attacks.
 links:

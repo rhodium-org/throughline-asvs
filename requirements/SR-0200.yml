@@ -2,7 +2,7 @@ uid: SR-0200
 type: system_requirement
 status: approved
 title: The authorization server validates redirect URIs based on a client-specific
-  allowlist of
+  allowlist of pre-registered URIs using exact string comparison
 text: Verify that the authorization server validates redirect URIs based on a client-specific
   allowlist of pre-registered URIs using exact string comparison.
 links:

@@ -2,7 +2,7 @@ uid: SR-0140
 type: system_requirement
 status: approved
 title: Time-based one-time passwords (TOTPs) are checked based on a time source from
-  a trusted service and
+  a trusted service and not from an untrusted or client provided time
 text: Verify that time-based one-time passwords (TOTPs) are checked based on a time
   source from a trusted service and not from an untrusted or client provided time.
 links:

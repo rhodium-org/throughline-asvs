@@ -2,7 +2,8 @@ uid: SR-0269
 type: system_requirement
 status: approved
 title: An allowlist is used to define the external resources or systems with which
-  the application is
+  the application is permitted to communicate (e.g., for outbound requests, data loads,
+  or file access)
 text: Verify that an allowlist is used to define the external resources or systems
   with which the application is permitted to communicate (e.g., for outbound requests,
   data loads, or file access). This allowlist can be implemented at the application

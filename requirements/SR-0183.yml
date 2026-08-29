@@ -2,7 +2,7 @@ uid: SR-0183
 type: system_requirement
 status: approved
 title: Self-contained tokens are validated using their digital signature or MAC to
-  protect against
+  protect against tampering before accepting the token's contents
 text: Verify that self-contained tokens are validated using their digital signature
   or MAC to protect against tampering before accepting the token's contents.
 links:

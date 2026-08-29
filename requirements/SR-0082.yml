@@ -2,7 +2,8 @@ uid: SR-0082
 type: system_requirement
 status: approved
 title: The application does not send nor accept HTTP/2 or HTTP/3 messages with connection-specific
-  header
+  header fields such as Transfer-Encoding to prevent response splitting and header
+  injection attacks
 text: Verify that the application does not send nor accept HTTP/2 or HTTP/3 messages
   with connection-specific header fields such as Transfer-Encoding to prevent response
   splitting and header injection attacks.

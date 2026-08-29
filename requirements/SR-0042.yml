@@ -2,7 +2,8 @@ uid: SR-0042
 type: system_requirement
 status: approved
 title: Anti-automation controls are in place to protect against excessive calls to
-  application functions
+  application functions that could lead to data exfiltration, garbage-data creation,
+  quota exhaustion, rate-limit breaches, denial-of-service, or overuse of costly resources
 text: Verify that anti-automation controls are in place to protect against excessive
   calls to application functions that could lead to data exfiltration, garbage-data
   creation, quota exhaustion, rate-limit breaches, denial-of-service, or overuse of

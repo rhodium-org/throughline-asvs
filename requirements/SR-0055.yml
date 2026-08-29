@@ -2,7 +2,8 @@ uid: SR-0055
 type: system_requirement
 status: approved
 title: HTTP responses include a Content-Security-Policy response header field which
-  defines directives to
+  defines directives to ensure the browser only loads and executes trusted content
+  or resources, in order to limit execution of malicious JavaScript
 text: Verify that HTTP responses include a Content-Security-Policy response header
   field which defines directives to ensure the browser only loads and executes trusted
   content or resources, in order to limit execution of malicious JavaScript. As a

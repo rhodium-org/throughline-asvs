@@ -2,7 +2,9 @@ uid: SR-0172
 type: system_requirement
 status: approved
 title: The application's documentation defines the environmental and contextual attributes
-  (including but
+  (including but not limited to, time of day, user location, IP address, or device)
+  that are used in the application to make security decisions, including those pertaining
+  to authentication and authorization
 text: Verify that the application's documentation defines the environmental and contextual
   attributes (including but not limited to, time of day, user location, IP address,
   or device) that are used in the application to make security decisions, including

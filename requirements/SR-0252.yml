@@ -2,7 +2,7 @@ uid: SR-0252
 type: system_requirement
 status: approved
 title: The application validates that mTLS client certificates are trusted before
-  using the certificate
+  using the certificate identity for authentication or authorization
 text: Verify that the application validates that mTLS client certificates are trusted
   before using the certificate identity for authentication or authorization.
 links:

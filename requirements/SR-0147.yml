@@ -1,7 +1,9 @@
 uid: SR-0147
 type: system_requirement
 status: approved
-title: That
+title: If the application supports multiple identity providers (IdPs), the user's
+  identity cannot be spoofed via another supported identity provider (eg. by using
+  the same user identifier)
 text: Verify that, if the application supports multiple identity providers (IdPs),
   the user's identity cannot be spoofed via another supported identity provider (eg.
   by using the same user identifier). The standard mitigation would be for the application

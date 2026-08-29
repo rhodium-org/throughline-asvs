@@ -2,7 +2,7 @@ uid: SR-0065
 type: system_requirement
 status: approved
 title: Messages received by the postMessage interface are discarded if the origin
-  of the message is not
+  of the message is not trusted, or if the syntax of the message is invalid
 text: Verify that messages received by the postMessage interface are discarded if
   the origin of the message is not trusted, or if the syntax of the message is invalid.
 links:

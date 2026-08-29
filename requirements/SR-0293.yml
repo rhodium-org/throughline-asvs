@@ -1,7 +1,8 @@
 uid: SR-0293
 type: system_requirement
 status: approved
-title: Authenticated data is cleared from client storage
+title: Authenticated data is cleared from client storage, such as the browser DOM,
+  after the client or session is terminated
 text: Verify that authenticated data is cleared from client storage, such as the browser
   DOM, after the client or session is terminated. The 'Clear-Site-Data' HTTP response
   header field may be able to help with this but the client-side should also be able

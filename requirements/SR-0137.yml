@@ -1,7 +1,8 @@
 uid: SR-0137
 type: system_requirement
 status: approved
-title: Out-of-band authentication requests
+title: Out-of-band authentication requests, codes, or tokens, as well as time-based
+  one-time passwords (TOTPs) have a defined lifetime
 text: Verify that out-of-band authentication requests, codes, or tokens, as well as
   time-based one-time passwords (TOTPs) have a defined lifetime. Out of band requests
   must have a maximum lifetime of 10 minutes and for TOTP a maximum lifetime of 30

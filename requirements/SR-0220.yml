@@ -1,7 +1,8 @@
 uid: SR-0220
 type: system_requirement
 status: approved
-title: That
+title: When using OIDC back-channel logout, the relying party mitigates denial of
+  service through forced logout and cross-JWT confusion in the logout flow
 text: Verify that, when using OIDC back-channel logout, the relying party mitigates
   denial of service through forced logout and cross-JWT confusion in the logout flow.
   The client must verify that the logout token is correctly typed with a value of

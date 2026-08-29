@@ -1,7 +1,8 @@
 uid: SR-0133
 type: system_requirement
 status: approved
-title: Lookup secrets
+title: Lookup secrets, out-of-band authentication requests or codes, and time-based
+  one-time passwords (TOTPs) are only successfully usable once
 text: Verify that lookup secrets, out-of-band authentication requests or codes, and
   time-based one-time passwords (TOTPs) are only successfully usable once.
 links:

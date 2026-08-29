@@ -2,7 +2,8 @@ uid: SR-0266
 type: system_requirement
 status: approved
 title: Communications between backend application components that don't support the
-  application's standard
+  application's standard user session mechanism, including APIs, middleware, and data
+  layers, are authenticated
 text: Verify that communications between backend application components that don't
   support the application's standard user session mechanism, including APIs, middleware,
   and data layers, are authenticated. Authentication must use individual service accounts,

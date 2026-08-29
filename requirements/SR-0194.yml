@@ -2,7 +2,7 @@ uid: SR-0194
 type: system_requirement
 status: approved
 title: The OAuth client only requests the required scopes (or other authorization
-  parameters) in requests
+  parameters) in requests to the authorization server
 text: Verify that the OAuth client only requests the required scopes (or other authorization
   parameters) in requests to the authorization server.
 links:

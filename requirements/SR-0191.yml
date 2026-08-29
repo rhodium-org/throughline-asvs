@@ -2,7 +2,8 @@ uid: SR-0191
 type: system_requirement
 status: approved
 title: The client only accepts values from the authorization server (such as the authorization
-  code or ID
+  code or ID Token) if these values result from an authorization flow that was initiated
+  by the same user agent session and transaction
 text: Verify that the client only accepts values from the authorization server (such
   as the authorization code or ID Token) if these values result from an authorization
   flow that was initiated by the same user agent session and transaction. This requires

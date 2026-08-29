@@ -1,7 +1,8 @@
 uid: SR-0294
 type: system_requirement
 status: approved
-title: The application sets sufficient anti-caching HTTP response header fields (i
+title: 'The application sets sufficient anti-caching HTTP response header fields (i.e.,
+  Cache-Control: no-store) so that sensitive data is not cached in browsers'
 text: 'Verify that the application sets sufficient anti-caching HTTP response header
   fields (i.e., Cache-Control: no-store) so that sensitive data is not cached in browsers.'
 links:

@@ -2,7 +2,7 @@ uid: SR-0036
 type: system_requirement
 status: approved
 title: The application ensures that combinations of related data items are reasonable
-  according to the
+  according to the pre-defined rules
 text: Verify that the application ensures that combinations of related data items
   are reasonable according to the pre-defined rules.
 links:

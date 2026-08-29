@@ -1,7 +1,9 @@
 uid: SR-0106
 type: system_requirement
 status: approved
-title: That
+title: If the application includes multiple authentication pathways, these are all
+  documented together with the security controls and authentication strength which
+  must be consistently enforced across them
 text: Verify that, if the application includes multiple authentication pathways, these
   are all documented together with the security controls and authentication strength
   which must be consistently enforced across them.

@@ -2,7 +2,8 @@ uid: SR-0330
 type: system_requirement
 status: approved
 title: A generic message is returned to the consumer when an unexpected or security-sensitive
-  error occurs
+  error occurs, ensuring no exposure of sensitive internal system data such as stack
+  traces, queries, secret keys, and tokens
 text: Verify that a generic message is returned to the consumer when an unexpected
   or security-sensitive error occurs, ensuring no exposure of sensitive internal system
   data such as stack traces, queries, secret keys, and tokens.

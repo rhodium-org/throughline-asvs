@@ -1,7 +1,8 @@
 uid: SR-0169
 type: system_requirement
 status: approved
-title: Creation of a session requires either the user's consent or an explicit action
+title: Creation of a session requires either the user's consent or an explicit action,
+  preventing the creation of new application sessions without user interaction
 text: Verify that creation of a session requires either the user's consent or an explicit
   action, preventing the creation of new application sessions without user interaction.
 links:

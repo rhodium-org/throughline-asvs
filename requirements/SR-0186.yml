@@ -1,7 +1,8 @@
 uid: SR-0186
 type: system_requirement
 status: approved
-title: That
+title: If a validity time span is present in the token data, the token and its content
+  are accepted only if the verification time is within this validity time span
 text: Verify that, if a validity time span is present in the token data, the token
   and its content are accepted only if the verification time is within this validity
   time span. For example, for JWTs, the claims 'nbf' and 'exp' must be verified.

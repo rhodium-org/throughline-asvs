@@ -1,7 +1,9 @@
 uid: SR-0061
 type: system_requirement
 status: approved
-title: That
+title: If the application does not rely on the CORS preflight mechanism to prevent
+  disallowed cross-origin requests to use sensitive functionality, these requests
+  are validated to ensure they originate from the application itself
 text: Verify that, if the application does not rely on the CORS preflight mechanism
   to prevent disallowed cross-origin requests to use sensitive functionality, these
   requests are validated to ensure they originate from the application itself. This

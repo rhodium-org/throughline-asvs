@@ -2,7 +2,7 @@ uid: SR-0066
 type: system_requirement
 status: approved
 title: JSONP functionality is not enabled anywhere across the application to avoid
-  Cross-Site Script
+  Cross-Site Script Inclusion (XSSI) attacks
 text: Verify that JSONP functionality is not enabled anywhere across the application
   to avoid Cross-Site Script Inclusion (XSSI) attacks.
 links:

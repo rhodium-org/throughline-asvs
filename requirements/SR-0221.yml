@@ -1,7 +1,8 @@
 uid: SR-0221
 type: system_requirement
 status: approved
-title: The OpenID Provider only allows values 'code'
+title: The OpenID Provider only allows values 'code', 'ciba', 'id_token', or 'id_token
+  code' for response mode
 text: Verify that the OpenID Provider only allows values 'code', 'ciba', 'id_token',
   or 'id_token code' for response mode. Note that 'code' is preferred over 'id_token
   code' (the OIDC Hybrid flow), and 'token' (any Implicit flow) must not be used.

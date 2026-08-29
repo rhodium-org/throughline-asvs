@@ -2,7 +2,7 @@ uid: SR-0007
 type: system_requirement
 status: approved
 title: The application protects against OS command injection and that operating system
-  calls use
+  calls use parameterized OS queries or use contextual command line output encoding
 text: Verify that the application protects against OS command injection and that operating
   system calls use parameterized OS queries or use contextual command line output
   encoding.

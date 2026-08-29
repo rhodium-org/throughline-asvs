@@ -1,7 +1,11 @@
 uid: SR-0030
 type: system_requirement
 status: approved
-title: Different parsers used in the application for the same data type (e
+title: Different parsers used in the application for the same data type (e.g., JSON
+  parsers, XML parsers, URL parsers), perform parsing in a consistent way and use
+  the same character encoding mechanism to avoid issues such as JSON Interoperability
+  vulnerabilities or different URI or file parsing behavior being exploited in Remote
+  File Inclusion (RFI) or Server-side Request Forgery (SSRF) attacks
 text: Verify that different parsers used in the application for the same data type
   (e.g., JSON parsers, XML parsers, URL parsers), perform parsing in a consistent
   way and use the same character encoding mechanism to avoid issues such as JSON Interoperability

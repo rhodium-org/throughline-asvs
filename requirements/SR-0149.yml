@@ -2,7 +2,7 @@ uid: SR-0149
 type: system_requirement
 status: approved
 title: SAML assertions are uniquely processed and used only once within the validity
-  period to prevent
+  period to prevent replay attacks
 text: Verify that SAML assertions are uniquely processed and used only once within
   the validity period to prevent replay attacks.
 links:

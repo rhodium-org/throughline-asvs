@@ -2,7 +2,7 @@ uid: SR-0038
 type: system_requirement
 status: approved
 title: Business logic limits are implemented per the application's documentation to
-  avoid business logic
+  avoid business logic flaws being exploited
 text: Verify that business logic limits are implemented per the application's documentation
   to avoid business logic flaws being exploited.
 links:

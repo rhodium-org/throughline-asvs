@@ -2,7 +2,7 @@ uid: SR-0196
 type: system_requirement
 status: approved
 title: The resource server enforces authorization decisions based on claims from the
-  access token that
+  access token that define delegated authorization
 text: Verify that the resource server enforces authorization decisions based on claims
   from the access token that define delegated authorization. If claims such as 'sub',
   'scope', and 'authorization_details' are present, they must be part of the decision.

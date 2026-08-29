@@ -1,7 +1,8 @@
 uid: SR-0130
 type: system_requirement
 status: approved
-title: If a multi-factor authentication factor is lost
+title: If a multi-factor authentication factor is lost, evidence of identity proofing
+  is performed at the same level as during enrollment
 text: Verify that if a multi-factor authentication factor is lost, evidence of identity
   proofing is performed at the same level as during enrollment.
 links:

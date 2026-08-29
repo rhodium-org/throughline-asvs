@@ -2,7 +2,7 @@ uid: SR-0117
 type: system_requirement
 status: approved
 title: The documented list of context specific words is used to prevent easy to guess
-  passwords being
+  passwords being created
 text: Verify that the documented list of context specific words is used to prevent
   easy to guess passwords being created.
 links:

@@ -2,7 +2,7 @@ uid: SR-0184
 type: system_requirement
 status: approved
 title: Only algorithms on an allowlist can be used to create and verify self-contained
-  tokens
+  tokens, for a given context
 text: Verify that only algorithms on an allowlist can be used to create and verify
   self-contained tokens, for a given context. The allowlist must include the permitted
   algorithms, ideally only either symmetric or asymmetric algorithms, and must not

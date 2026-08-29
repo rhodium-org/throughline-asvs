@@ -1,7 +1,8 @@
 uid: SR-0206
 type: system_requirement
 status: approved
-title: If the authorization server supports unauthenticated dynamic client registration
+title: If the authorization server supports unauthenticated dynamic client registration,
+  it mitigates the risk of malicious client applications
 text: Verify that if the authorization server supports unauthenticated dynamic client
   registration, it mitigates the risk of malicious client applications. It must validate
   client metadata such as any registered URIs, ensure the user's consent, and warn

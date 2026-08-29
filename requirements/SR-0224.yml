@@ -1,7 +1,8 @@
 uid: SR-0224
 type: system_requirement
 status: approved
-title: When the authorization server prompts for user consent
+title: When the authorization server prompts for user consent, it presents sufficient
+  and clear information about what is being consented to
 text: Verify that when the authorization server prompts for user consent, it presents
   sufficient and clear information about what is being consented to. When applicable,
   this should include the nature of the requested authorizations (typically based

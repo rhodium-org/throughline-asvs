@@ -2,7 +2,7 @@ uid: SR-0011
 type: system_requirement
 status: approved
 title: The application escapes special characters in regular expressions (typically
-  using a backslash) to
+  using a backslash) to prevent them from being misinterpreted as metacharacters
 text: Verify that the application escapes special characters in regular expressions
   (typically using a backslash) to prevent them from being misinterpreted as metacharacters.
 links:

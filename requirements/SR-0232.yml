@@ -2,7 +2,7 @@ uid: SR-0232
 type: system_requirement
 status: approved
 title: All cryptographic primitives utilize a minimum of 128-bits of security based
-  on the algorithm
+  on the algorithm, key size, and configuration
 text: Verify that all cryptographic primitives utilize a minimum of 128-bits of security
   based on the algorithm, key size, and configuration. For example, a 256-bit ECC
   key provides roughly 128 bits of security where RSA requires a 3072-bit key to achieve

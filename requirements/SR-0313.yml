@@ -1,7 +1,10 @@
 uid: SR-0313
 type: system_requirement
 status: approved
-title: Shared objects in multi-threaded code (such as caches
+title: Shared objects in multi-threaded code (such as caches, files, or in-memory
+  objects accessed by multiple threads) are accessed safely by using thread-safe types
+  and synchronization mechanisms like locks or semaphores to avoid race conditions
+  and data corruption
 text: Verify that shared objects in multi-threaded code (such as caches, files, or
   in-memory objects accessed by multiple threads) are accessed safely by using thread-safe
   types and synchronization mechanisms like locks or semaphores to avoid race conditions

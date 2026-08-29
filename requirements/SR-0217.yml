@@ -1,7 +1,8 @@
 uid: SR-0217
 type: system_requirement
 status: approved
-title: The client uniquely identifies the user from ID Token claims
+title: The client uniquely identifies the user from ID Token claims, usually the 'sub'
+  claim, which cannot be reassigned to other users (for the scope of an identity provider)
 text: Verify that the client uniquely identifies the user from ID Token claims, usually
   the 'sub' claim, which cannot be reassigned to other users (for the scope of an
   identity provider).

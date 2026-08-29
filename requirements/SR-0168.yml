@@ -2,7 +2,8 @@ uid: SR-0168
 type: system_requirement
 status: approved
 title: Session lifetime and termination between Relying Parties (RPs) and Identity
-  Providers (IdPs) behave
+  Providers (IdPs) behave as documented, requiring re-authentication as necessary
+  such as when the maximum time between IdP authentication events is reached
 text: Verify that session lifetime and termination between Relying Parties (RPs) and
   Identity Providers (IdPs) behave as documented, requiring re-authentication as necessary
   such as when the maximum time between IdP authentication events is reached.

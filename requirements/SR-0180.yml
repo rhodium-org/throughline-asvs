@@ -1,7 +1,9 @@
 uid: SR-0180
 type: system_requirement
 status: approved
-title: Access to an object is based on the originating subject's (e
+title: Access to an object is based on the originating subject's (e.g. consumer's)
+  permissions, not on the permissions of any intermediary or service acting on their
+  behalf
 text: Verify that access to an object is based on the originating subject's (e.g.
   consumer's) permissions, not on the permissions of any intermediary or service acting
   on their behalf. For example, if a consumer calls a web service using a self-contained

@@ -1,7 +1,9 @@
 uid: SR-0080
 type: system_requirement
 status: approved
-title: All application components (including load balancers
+title: All application components (including load balancers, firewalls, and application
+  servers) determine boundaries of incoming HTTP messages using the appropriate mechanism
+  for the HTTP version to prevent HTTP request smuggling
 text: Verify that all application components (including load balancers, firewalls,
   and application servers) determine boundaries of incoming HTTP messages using the
   appropriate mechanism for the HTTP version to prevent HTTP request smuggling. In

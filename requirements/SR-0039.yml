@@ -2,7 +2,8 @@ uid: SR-0039
 type: system_requirement
 status: approved
 title: Transactions are being used at the business logic level such that either a
-  business logic operation
+  business logic operation succeeds in its entirety or it is rolled back to the previous
+  correct state
 text: Verify that transactions are being used at the business logic level such that
   either a business logic operation succeeds in its entirety or it is rolled back
   to the previous correct state.

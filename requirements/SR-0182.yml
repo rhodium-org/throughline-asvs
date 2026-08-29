@@ -1,7 +1,11 @@
 uid: SR-0182
 type: system_requirement
 status: approved
-title: Access to administrative interfaces incorporates multiple layers of security
+title: Access to administrative interfaces incorporates multiple layers of security,
+  including continuous consumer identity verification, device security posture assessment,
+  and contextual risk analysis, ensuring that network location or trusted endpoints
+  are not the sole factors for authorization even though they may reduce the likelihood
+  of unauthorized access
 text: Verify that access to administrative interfaces incorporates multiple layers
   of security, including continuous consumer identity verification, device security
   posture assessment, and contextual risk analysis, ensuring that network location

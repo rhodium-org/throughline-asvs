@@ -2,7 +2,9 @@ uid: SR-0153
 type: system_requirement
 status: approved
 title: All systems that create and manage user sessions as part of a federated identity
-  management
+  management ecosystem (such as SSO systems) are documented along with controls to
+  coordinate session lifetimes, termination, and any other conditions that require
+  re-authentication
 text: Verify that all systems that create and manage user sessions as part of a federated
   identity management ecosystem (such as SSO systems) are documented along with controls
   to coordinate session lifetimes, termination, and any other conditions that require

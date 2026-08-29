@@ -1,7 +1,9 @@
 uid: SR-0271
 type: system_requirement
 status: approved
-title: Where the application connects to separate services
+title: Where the application connects to separate services, it follows the documented
+  configuration for each connection, such as maximum parallel connections, behavior
+  when maximum allowed connections is reached, connection timeouts, and retry strategies
 text: Verify that where the application connects to separate services, it follows
   the documented configuration for each connection, such as maximum parallel connections,
   behavior when maximum allowed connections is reached, connection timeouts, and retry

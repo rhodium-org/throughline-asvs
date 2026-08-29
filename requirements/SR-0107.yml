@@ -2,7 +2,7 @@ uid: SR-0107
 type: system_requirement
 status: approved
 title: User set passwords are at least 8 characters in length although a minimum of
-  15 characters is
+  15 characters is strongly recommended
 text: Verify that user set passwords are at least 8 characters in length although
   a minimum of 15 characters is strongly recommended.
 links:

@@ -2,7 +2,8 @@ uid: SR-0204
 type: system_requirement
 status: approved
 title: The authorization server mitigates refresh token replay attacks for public
-  clients
+  clients, preferably using sender-constrained refresh tokens, i.e., Demonstrating
+  Proof of Possession (DPoP) or Certificate-Bound Access Tokens using mutual TLS (mTLS)
 text: Verify that the authorization server mitigates refresh token replay attacks
   for public clients, preferably using sender-constrained refresh tokens, i.e., Demonstrating
   Proof of Possession (DPoP) or Certificate-Bound Access Tokens using mutual TLS (mTLS).

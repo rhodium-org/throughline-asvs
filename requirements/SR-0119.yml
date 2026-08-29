@@ -2,7 +2,7 @@ uid: SR-0119
 type: system_requirement
 status: approved
 title: Controls to prevent attacks such as credential stuffing and password brute
-  force are implemented
+  force are implemented according to the application's security documentation
 text: Verify that controls to prevent attacks such as credential stuffing and password
   brute force are implemented according to the application's security documentation.
 links:

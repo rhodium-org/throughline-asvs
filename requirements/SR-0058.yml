@@ -2,7 +2,8 @@ uid: SR-0058
 type: system_requirement
 status: approved
 title: The web application uses the frame-ancestors directive of the Content-Security-Policy
-  header field
+  header field for every HTTP response to ensure that it cannot be embedded by default
+  and that embedding of specific resources is allowed only when necessary
 text: Verify that the web application uses the frame-ancestors directive of the Content-Security-Policy
   header field for every HTTP response to ensure that it cannot be embedded by default
   and that embedding of specific resources is allowed only when necessary. Note that

@@ -1,7 +1,9 @@
 uid: SR-0102
 type: system_requirement
 status: approved
-title: File names served (e
+title: File names served (e.g., in HTTP response header fields or email attachments)
+  are encoded or sanitized (e.g., following RFC 6266) to preserve document structure
+  and prevent injection attacks
 text: Verify that file names served (e.g., in HTTP response header fields or email
   attachments) are encoded or sanitized (e.g., following RFC 6266) to preserve document
   structure and prevent injection attacks.

@@ -2,7 +2,8 @@ uid: SR-0002
 type: system_requirement
 status: approved
 title: The application performs output encoding and escaping either as a final step
-  before being used by
+  before being used by the interpreter for which it is intended or by the interpreter
+  itself
 text: Verify that the application performs output encoding and escaping either as
   a final step before being used by the interpreter for which it is intended or by
   the interpreter itself.

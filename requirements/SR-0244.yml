@@ -2,7 +2,8 @@ uid: SR-0244
 type: system_requirement
 status: approved
 title: All random numbers and strings which are intended to be non-guessable must
-  be generated using a
+  be generated using a cryptographically secure pseudo-random number generator (CSPRNG)
+  and have at least 128 bits of entropy
 text: Verify that all random numbers and strings which are intended to be non-guessable
   must be generated using a cryptographically secure pseudo-random number generator
   (CSPRNG) and have at least 128 bits of entropy. Note that UUIDs do not respect this

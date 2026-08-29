@@ -2,7 +2,7 @@ uid: SR-0195
 type: system_requirement
 status: approved
 title: The resource server only accepts access tokens that are intended for use with
-  that service
+  that service (audience)
 text: Verify that the resource server only accepts access tokens that are intended
   for use with that service (audience). The audience may be included in a structured
   access token (such as the 'aud' claim in JWT), or it can be checked using the token

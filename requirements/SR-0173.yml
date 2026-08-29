@@ -2,7 +2,8 @@ uid: SR-0173
 type: system_requirement
 status: approved
 title: Authentication and authorization documentation defines how environmental and
-  contextual factors are
+  contextual factors are used in decision-making, in addition to function-level, data-specific,
+  and field-level authorization
 text: Verify that authentication and authorization documentation defines how environmental
   and contextual factors are used in decision-making, in addition to function-level,
   data-specific, and field-level authorization. This should include the attributes

@@ -1,7 +1,8 @@
 uid: SR-0318
 type: system_requirement
 status: approved
-title: Each log entry includes necessary metadata (such as when
+title: Each log entry includes necessary metadata (such as when, where, who, what)
+  that would allow for a detailed investigation of the timeline when an event happens
 text: Verify that each log entry includes necessary metadata (such as when, where,
   who, what) that would allow for a detailed investigation of the timeline when an
   event happens.

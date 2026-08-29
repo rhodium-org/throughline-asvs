@@ -1,7 +1,8 @@
 uid: SR-0242
 type: system_requirement
 status: approved
-title: Hash functions used in digital signatures
+title: Hash functions used in digital signatures, as part of data authentication or
+  data integrity are collision resistant and have appropriate bit-lengths
 text: Verify that hash functions used in digital signatures, as part of data authentication
   or data integrity are collision resistant and have appropriate bit-lengths. If collision
   resistance is required, the output length must be at least 256 bits. If only resistance

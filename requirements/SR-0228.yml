@@ -2,7 +2,7 @@ uid: SR-0228
 type: system_requirement
 status: approved
 title: Cryptographic discovery mechanisms are employed to identify all instances of
-  cryptography in the
+  cryptography in the system, including encryption, hashing, and signing operations
 text: Verify that cryptographic discovery mechanisms are employed to identify all
   instances of cryptography in the system, including encryption, hashing, and signing
   operations.

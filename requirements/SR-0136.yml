@@ -2,7 +2,7 @@ uid: SR-0136
 type: system_requirement
 status: approved
 title: Lookup secrets and out-of-band authentication codes have a minimum of 20 bits
-  of entropy (typically
+  of entropy (typically 4 random alphanumeric characters or 6 random digits is sufficient)
 text: Verify that lookup secrets and out-of-band authentication codes have a minimum
   of 20 bits of entropy (typically 4 random alphanumeric characters or 6 random digits
   is sufficient).

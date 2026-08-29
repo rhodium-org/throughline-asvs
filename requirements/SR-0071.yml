@@ -2,7 +2,8 @@ uid: SR-0071
 type: system_requirement
 status: approved
 title: The application will only automatically redirect the user to a different hostname
-  or domain (which
+  or domain (which is not controlled by the application) where the destination appears
+  on an allowlist
 text: Verify that the application will only automatically redirect the user to a different
   hostname or domain (which is not controlled by the application) where the destination
   appears on an allowlist.

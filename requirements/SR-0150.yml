@@ -1,7 +1,9 @@
 uid: SR-0150
 type: system_requirement
 status: approved
-title: That
+title: If an application uses a separate Identity Provider (IdP) and expects specific
+  authentication strength, methods, or recentness for specific functions, the application
+  verifies this using the information returned by the IdP
 text: Verify that, if an application uses a separate Identity Provider (IdP) and expects
   specific authentication strength, methods, or recentness for specific functions,
   the application verifies this using the information returned by the IdP. For example,

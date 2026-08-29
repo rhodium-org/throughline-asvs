@@ -1,7 +1,9 @@
 uid: SR-0029
 type: system_requirement
 status: approved
-title: Deserialization of untrusted data enforces safe input handling
+title: Deserialization of untrusted data enforces safe input handling, such as using
+  an allowlist of object types or restricting client-defined object types, to prevent
+  deserialization attacks
 text: Verify that deserialization of untrusted data enforces safe input handling,
   such as using an allowlist of object types or restricting client-defined object
   types, to prevent deserialization attacks. Deserialization mechanisms that are explicitly

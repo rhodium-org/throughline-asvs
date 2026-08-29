@@ -2,7 +2,8 @@ uid: SR-0028
 type: system_requirement
 status: approved
 title: The application configures XML parsers to use a restrictive configuration and
-  that unsafe features
+  that unsafe features such as resolving external entities are disabled to prevent
+  XML eXternal Entity (XXE) attacks
 text: Verify that the application configures XML parsers to use a restrictive configuration
   and that unsafe features such as resolving external entities are disabled to prevent
   XML eXternal Entity (XXE) attacks.

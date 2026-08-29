@@ -1,7 +1,10 @@
 uid: SR-0263
 type: system_requirement
 status: approved
-title: For each service the application uses
+title: For each service the application uses, the documentation defines the maximum
+  number of concurrent connections (e.g., connection pool limits) and how the application
+  behaves when that limit is reached, including any fallback or recovery mechanisms,
+  to prevent denial of service conditions
 text: Verify that for each service the application uses, the documentation defines
   the maximum number of concurrent connections (e.g., connection pool limits) and
   how the application behaves when that limit is reached, including any fallback or

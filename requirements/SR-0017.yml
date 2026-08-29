@@ -2,7 +2,8 @@ uid: SR-0017
 type: system_requirement
 status: approved
 title: The application sanitizes or disables user-supplied scriptable or expression
-  template language
+  template language content, such as Markdown, CSS or XSL stylesheets, BBCode, or
+  similar
 text: Verify that the application sanitizes or disables user-supplied scriptable or
   expression template language content, such as Markdown, CSS or XSL stylesheets,
   BBCode, or similar.

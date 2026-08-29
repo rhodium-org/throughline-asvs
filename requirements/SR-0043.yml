@@ -1,7 +1,8 @@
 uid: SR-0043
 type: system_requirement
 status: approved
-title: Business logic flows require realistic human timing
+title: Business logic flows require realistic human timing, preventing excessively
+  rapid transaction submissions
 text: Verify that business logic flows require realistic human timing, preventing
   excessively rapid transaction submissions.
 links:

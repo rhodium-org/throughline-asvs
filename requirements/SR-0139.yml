@@ -2,7 +2,7 @@ uid: SR-0139
 type: system_requirement
 status: approved
 title: Biometric authentication mechanisms are only used as secondary factors together
-  with either
+  with either something you have or something you know
 text: Verify that biometric authentication mechanisms are only used as secondary factors
   together with either something you have or something you know.
 links:

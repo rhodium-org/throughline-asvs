@@ -2,7 +2,9 @@ uid: SR-0177
 type: system_requirement
 status: approved
 title: Adaptive security controls based on a consumer's environmental and contextual
-  attributes (such as
+  attributes (such as time of day, location, IP address, or device) are implemented
+  for authentication and authorization decisions, as defined in the application's
+  documentation
 text: Verify that adaptive security controls based on a consumer's environmental and
   contextual attributes (such as time of day, location, IP address, or device) are
   implemented for authentication and authorization decisions, as defined in the application's

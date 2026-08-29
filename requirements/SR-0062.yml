@@ -1,7 +1,9 @@
 uid: SR-0062
 type: system_requirement
 status: approved
-title: That
+title: If the application relies on the CORS preflight mechanism to prevent disallowed
+  cross-origin use of sensitive functionality, it is not possible to call the functionality
+  with a request which does not trigger a CORS-preflight request
 text: Verify that, if the application relies on the CORS preflight mechanism to prevent
   disallowed cross-origin use of sensitive functionality, it is not possible to call
   the functionality with a request which does not trigger a CORS-preflight request.

@@ -1,7 +1,8 @@
 uid: SR-0144
 type: system_requirement
 status: approved
-title: That
+title: Where push notifications are used for multi-factor authentication, rate limiting
+  is used to prevent push bombing attacks
 text: Verify that, where push notifications are used for multi-factor authentication,
   rate limiting is used to prevent push bombing attacks. Number matching may also
   mitigate this risk.

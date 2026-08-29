@@ -1,7 +1,8 @@
 uid: SR-0160
 type: system_requirement
 status: approved
-title: When session termination is triggered (such as logout or expiration)
+title: When session termination is triggered (such as logout or expiration), the application
+  disallows any further use of the session
 text: Verify that when session termination is triggered (such as logout or expiration),
   the application disallows any further use of the session. For reference tokens or
   stateful sessions, this means invalidating the session data at the application backend.

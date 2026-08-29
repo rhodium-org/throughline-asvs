@@ -1,7 +1,9 @@
 uid: SR-0077
 type: system_requirement
 status: approved
-title: Any HTTP header field used by the application and set by an intermediary layer
+title: Any HTTP header field used by the application and set by an intermediary layer,
+  such as a load balancer, a web proxy, or a backend-for-frontend service, cannot
+  be overridden by the end-user
 text: Verify that any HTTP header field used by the application and set by an intermediary
   layer, such as a load balancer, a web proxy, or a backend-for-frontend service,
   cannot be overridden by the end-user. Example headers might include X-Real-IP, X-Forwarded-*,

@@ -2,7 +2,8 @@ uid: SR-0305
 type: system_requirement
 status: approved
 title: The application implements additional protections around parts of the application
-  which are
+  which are documented as containing "dangerous functionality" or using third-party
+  libraries considered to be "risky components"
 text: Verify that the application implements additional protections around parts of
   the application which are documented as containing "dangerous functionality" or
   using third-party libraries considered to be "risky components". This could include

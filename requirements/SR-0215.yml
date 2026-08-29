@@ -2,7 +2,9 @@ uid: SR-0215
 type: system_requirement
 status: approved
 title: The client is confidential and the authorization server requires the use of
-  strong client
+  strong client authentication methods (based on public-key cryptography and resistant
+  to replay attacks), such as mutual TLS ('tls_client_auth', 'self_signed_tls_client_auth')
+  or private key JWT ('private_key_jwt')
 text: Verify that the client is confidential and the authorization server requires
   the use of strong client authentication methods (based on public-key cryptography
   and resistant to replay attacks), such as mutual TLS ('tls_client_auth', 'self_signed_tls_client_auth')

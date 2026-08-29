@@ -2,7 +2,7 @@ uid: SR-0248
 type: system_requirement
 status: approved
 title: Full memory encryption is in use that protects sensitive data while it is in
-  use
+  use, preventing access by unauthorized users or processes
 text: Verify that full memory encryption is in use that protects sensitive data while
   it is in use, preventing access by unauthorized users or processes.
 links:

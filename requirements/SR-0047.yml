@@ -2,7 +2,8 @@ uid: SR-0047
 type: system_requirement
 status: approved
 title: The application avoids DOM clobbering when using client-side JavaScript by
-  employing explicit
+  employing explicit variable declarations, performing strict type checking, avoiding
+  storing global variables on the document object, and implementing namespace isolation
 text: Verify that the application avoids DOM clobbering when using client-side JavaScript
   by employing explicit variable declarations, performing strict type checking, avoiding
   storing global variables on the document object, and implementing namespace isolation.

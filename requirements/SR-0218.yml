@@ -2,7 +2,7 @@ uid: SR-0218
 type: system_requirement
 status: approved
 title: The client rejects attempts by a malicious authorization server to impersonate
-  another
+  another authorization server through authorization server metadata
 text: Verify that the client rejects attempts by a malicious authorization server
   to impersonate another authorization server through authorization server metadata.
   The client must reject authorization server metadata if the issuer URL in the authorization

@@ -1,7 +1,10 @@
 uid: SR-0134
 type: system_requirement
 status: approved
-title: That
+title: When being stored in the application's backend, lookup secrets with less than
+  112 bits of entropy (19 random alphanumeric characters or 34 random digits) are
+  hashed with an approved password storage hashing algorithm that incorporates a 32-bit
+  random salt
 text: Verify that, when being stored in the application's backend, lookup secrets
   with less than 112 bits of entropy (19 random alphanumeric characters or 34 random
   digits) are hashed with an approved password storage hashing algorithm that incorporates

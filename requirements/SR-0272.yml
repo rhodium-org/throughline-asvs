@@ -1,7 +1,8 @@
 uid: SR-0272
 type: system_requirement
 status: approved
-title: A secrets management solution
+title: A secrets management solution, such as a key vault, is used to securely create,
+  store, control access to, and destroy backend secrets
 text: Verify that a secrets management solution, such as a key vault, is used to securely
   create, store, control access to, and destroy backend secrets. These could include
   passwords, key material, integrations with databases and third-party systems, keys

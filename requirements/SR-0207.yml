@@ -1,7 +1,8 @@
 uid: SR-0207
 type: system_requirement
 status: approved
-title: Refresh tokens have an absolute expiration
+title: Refresh tokens have an absolute expiration, including if sliding refresh token
+  expiration is applied
 text: Verify that refresh tokens have an absolute expiration, including if sliding
   refresh token expiration is applied.
 links:

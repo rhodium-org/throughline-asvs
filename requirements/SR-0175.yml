@@ -2,7 +2,8 @@ uid: SR-0175
 type: system_requirement
 status: approved
 title: The application ensures that data-specific access is restricted to consumers
-  with explicit
+  with explicit permissions to specific data items to mitigate insecure direct object
+  reference (IDOR) and broken object level authorization (BOLA)
 text: Verify that the application ensures that data-specific access is restricted
   to consumers with explicit permissions to specific data items to mitigate insecure
   direct object reference (IDOR) and broken object level authorization (BOLA).

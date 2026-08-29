@@ -1,7 +1,8 @@
 uid: SR-0251
 type: system_requirement
 status: approved
-title: Only recommended cipher suites are enabled
+title: Only recommended cipher suites are enabled, with the strongest cipher suites
+  set as preferred
 text: Verify that only recommended cipher suites are enabled, with the strongest cipher
   suites set as preferred. L3 applications must only support cipher suites which provide
   forward secrecy.

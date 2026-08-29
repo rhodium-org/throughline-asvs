@@ -2,7 +2,7 @@ uid: SR-0010
 type: system_requirement
 status: approved
 title: LaTeX processors are configured securely (such as not using the "--shell-escape"
-  flag) and an
+  flag) and an allowlist of commands is used to prevent LaTeX injection attacks
 text: Verify that LaTeX processors are configured securely (such as not using the
   "--shell-escape" flag) and an allowlist of commands is used to prevent LaTeX injection
   attacks.

@@ -1,7 +1,8 @@
 uid: SR-0193
 type: system_requirement
 status: approved
-title: That
+title: If the OAuth client can interact with more than one authorization server, it
+  has a defense against mix-up attacks
 text: Verify that, if the OAuth client can interact with more than one authorization
   server, it has a defense against mix-up attacks. For example, it could require that
   the authorization server return the 'iss' parameter value and validate it in the

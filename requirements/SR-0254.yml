@@ -2,7 +2,8 @@ uid: SR-0254
 type: system_requirement
 status: approved
 title: Encrypted Client Hello (ECH) is enabled in the application's TLS settings to
-  prevent exposure of
+  prevent exposure of sensitive metadata, such as the Server Name Indication (SNI),
+  during TLS handshake processes
 text: Verify that Encrypted Client Hello (ECH) is enabled in the application's TLS
   settings to prevent exposure of sensitive metadata, such as the Server Name Indication
   (SNI), during TLS handshake processes.

@@ -2,7 +2,8 @@ uid: SR-0199
 type: system_requirement
 status: approved
 title: The resource server prevents the use of stolen access tokens or replay of access
-  tokens (from
+  tokens (from unauthorized parties) by requiring sender-constrained access tokens,
+  either Mutual TLS for OAuth 2 or OAuth 2 Demonstration of Proof of Possession (DPoP)
 text: Verify that the resource server prevents the use of stolen access tokens or
   replay of access tokens (from unauthorized parties) by requiring sender-constrained
   access tokens, either Mutual TLS for OAuth 2 or OAuth 2 Demonstration of Proof of

@@ -2,7 +2,8 @@ uid: SR-0213
 type: system_requirement
 status: approved
 title: The authorization server issues only sender-constrained (Proof-of-Possession)
-  access tokens
+  access tokens, either with certificate-bound access tokens using mutual TLS (mTLS)
+  or DPoP-bound access tokens (Demonstration of Proof of Possession)
 text: Verify that the authorization server issues only sender-constrained (Proof-of-Possession)
   access tokens, either with certificate-bound access tokens using mutual TLS (mTLS)
   or DPoP-bound access tokens (Demonstration of Proof of Possession).

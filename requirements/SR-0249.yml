@@ -1,7 +1,8 @@
 uid: SR-0249
 type: system_requirement
 status: approved
-title: Data minimization ensures the minimal amount of data is exposed during processing
+title: Data minimization ensures the minimal amount of data is exposed during processing,
+  and ensure that data is encrypted immediately after use or as soon as feasible
 text: Verify that data minimization ensures the minimal amount of data is exposed
   during processing, and ensure that data is encrypted immediately after use or as
   soon as feasible.

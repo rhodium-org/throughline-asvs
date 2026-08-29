@@ -1,7 +1,9 @@
 uid: SR-0122
 type: system_requirement
 status: approved
-title: That
+title: If the application includes multiple authentication pathways, there are no
+  undocumented pathways and that security controls and authentication strength are
+  enforced consistently
 text: Verify that, if the application includes multiple authentication pathways, there
   are no undocumented pathways and that security controls and authentication strength
   are enforced consistently.

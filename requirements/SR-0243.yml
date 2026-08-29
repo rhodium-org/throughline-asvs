@@ -2,7 +2,7 @@ uid: SR-0243
 type: system_requirement
 status: approved
 title: The application uses approved key derivation functions with key stretching
-  parameters when deriving
+  parameters when deriving secret keys from passwords
 text: Verify that the application uses approved key derivation functions with key
   stretching parameters when deriving secret keys from passwords. The parameters in
   use must balance security and performance to prevent brute-force attacks from compromising

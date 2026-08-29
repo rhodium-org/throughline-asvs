@@ -1,7 +1,8 @@
 uid: SR-0240
 type: system_requirement
 status: approved
-title: Only approved hash functions are used for general cryptographic use cases
+title: Only approved hash functions are used for general cryptographic use cases,
+  including digital signatures, HMAC, KDF, and random bit generation
 text: Verify that only approved hash functions are used for general cryptographic
   use cases, including digital signatures, HMAC, KDF, and random bit generation. Disallowed
   hash functions, such as MD5, must not be used for any cryptographic purpose.

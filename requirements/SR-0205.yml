@@ -1,7 +1,8 @@
 uid: SR-0205
 type: system_requirement
 status: approved
-title: That
+title: If the code grant is used, the authorization server mitigates authorization
+  code interception attacks by requiring proof key for code exchange (PKCE)
 text: Verify that, if the code grant is used, the authorization server mitigates authorization
   code interception attacks by requiring proof key for code exchange (PKCE). For authorization
   requests, the authorization server must require a valid 'code_challenge' value and

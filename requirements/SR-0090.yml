@@ -2,7 +2,8 @@ uid: SR-0090
 type: system_requirement
 status: approved
 title: Dedicated WebSocket session management tokens are initially obtained or validated
-  through the
+  through the previously authenticated HTTPS session when transitioning an existing
+  HTTPS session to a WebSocket channel
 text: Verify that dedicated WebSocket session management tokens are initially obtained
   or validated through the previously authenticated HTTPS session when transitioning
   an existing HTTPS session to a WebSocket channel.

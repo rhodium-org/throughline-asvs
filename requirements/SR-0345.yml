@@ -2,7 +2,8 @@ uid: SR-0345
 type: system_requirement
 status: approved
 title: The signaling server is able to continue processing legitimate signaling messages
-  when encountering
+  when encountering malformed signaling message that could cause a denial of service
+  condition
 text: Verify that the signaling server is able to continue processing legitimate signaling
   messages when encountering malformed signaling message that could cause a denial
   of service condition. This could include implementing input validation, safely handling

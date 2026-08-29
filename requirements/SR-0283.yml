@@ -2,7 +2,7 @@ uid: SR-0283
 type: system_requirement
 status: approved
 title: All sensitive data created and processed by the application has been identified
-  and classified into
+  and classified into protection levels
 text: Verify that all sensitive data created and processed by the application has
   been identified and classified into protection levels. This includes data that is
   only encoded and therefore easily decoded, such as Base64 strings or the plaintext

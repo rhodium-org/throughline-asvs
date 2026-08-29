@@ -2,7 +2,7 @@ uid: SR-0022
 type: system_requirement
 status: approved
 title: Format strings which might resolve in an unexpected or malicious way when used
-  are sanitized before
+  are sanitized before being processed
 text: Verify that format strings which might resolve in an unexpected or malicious
   way when used are sanitized before being processed.
 links:

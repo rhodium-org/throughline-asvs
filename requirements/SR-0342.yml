@@ -2,7 +2,8 @@ uid: SR-0342
 type: system_requirement
 status: approved
 title: Any audio or video recording mechanisms associated with the media server are
-  able to continue
+  able to continue processing incoming media traffic during a flood of Secure Real-time
+  Transport Protocol (SRTP) packets from legitimate users
 text: Verify that any audio or video recording mechanisms associated with the media
   server are able to continue processing incoming media traffic during a flood of
   Secure Real-time Transport Protocol (SRTP) packets from legitimate users.

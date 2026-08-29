@@ -2,7 +2,8 @@ uid: SR-0178
 type: system_requirement
 status: approved
 title: The application enforces authorization rules at a trusted service layer and
-  doesn't rely on
+  doesn't rely on controls that an untrusted consumer could manipulate, such as client-side
+  JavaScript
 text: Verify that the application enforces authorization rules at a trusted service
   layer and doesn't rely on controls that an untrusted consumer could manipulate,
   such as client-side JavaScript.

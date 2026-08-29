@@ -1,7 +1,9 @@
 uid: SR-0135
 type: system_requirement
 status: approved
-title: Lookup secrets
+title: Lookup secrets, out-of-band authentication code, and time-based one-time password
+  seeds, are generated using a Cryptographically Secure Pseudorandom Number Generator
+  (CSPRNG) to avoid predictable values
 text: Verify that lookup secrets, out-of-band authentication code, and time-based
   one-time password seeds, are generated using a Cryptographically Secure Pseudorandom
   Number Generator (CSPRNG) to avoid predictable values.

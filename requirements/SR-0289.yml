@@ -2,7 +2,7 @@ uid: SR-0289
 type: system_requirement
 status: approved
 title: Caching mechanisms are configured to only cache responses which have the expected
-  content type for
+  content type for that resource and do not contain sensitive, dynamic content
 text: Verify that caching mechanisms are configured to only cache responses which
   have the expected content type for that resource and do not contain sensitive, dynamic
   content. The web server should return a 404 or 302 response when a non-existent

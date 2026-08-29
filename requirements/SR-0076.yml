@@ -2,7 +2,8 @@ uid: SR-0076
 type: system_requirement
 status: approved
 title: Only user-facing endpoints (intended for manual web-browser access) automatically
-  redirect from
+  redirect from HTTP to HTTPS, while other services or endpoints do not implement
+  transparent redirects
 text: Verify that only user-facing endpoints (intended for manual web-browser access)
   automatically redirect from HTTP to HTTPS, while other services or endpoints do
   not implement transparent redirects. This is to avoid a situation where a client

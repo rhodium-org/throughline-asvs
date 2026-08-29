@@ -1,7 +1,8 @@
 uid: SR-0154
 type: system_requirement
 status: approved
-title: The application performs all session token verification using a trusted
+title: The application performs all session token verification using a trusted, backend
+  service
 text: Verify that the application performs all session token verification using a
   trusted, backend service.
 links:

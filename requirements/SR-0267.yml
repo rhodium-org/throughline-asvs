@@ -1,7 +1,9 @@
 uid: SR-0267
 type: system_requirement
 status: approved
-title: Communications between backend application components
+title: Communications between backend application components, including local or operating
+  system services, APIs, middleware, and data layers, are performed with accounts
+  assigned the least necessary privileges
 text: Verify that communications between backend application components, including
   local or operating system services, APIs, middleware, and data layers, are performed
   with accounts assigned the least necessary privileges.

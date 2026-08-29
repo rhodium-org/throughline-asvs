@@ -2,7 +2,7 @@ uid: SR-0170
 type: system_requirement
 status: approved
 title: Authorization documentation defines rules for restricting function-level and
-  data-specific access
+  data-specific access based on consumer permissions and resource attributes
 text: Verify that authorization documentation defines rules for restricting function-level
   and data-specific access based on consumer permissions and resource attributes.
 links:

@@ -2,7 +2,8 @@ uid: SR-0015
 type: system_requirement
 status: approved
 title: Data being passed to a potentially dangerous context is sanitized beforehand
-  to enforce safety
+  to enforce safety measures, such as only allowing characters which are safe for
+  this context and trimming input which is too long
 text: Verify that data being passed to a potentially dangerous context is sanitized
   beforehand to enforce safety measures, such as only allowing characters which are
   safe for this context and trimming input which is too long.

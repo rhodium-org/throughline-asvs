@@ -2,7 +2,7 @@ uid: SR-0166
 type: system_requirement
 status: approved
 title: Users are able to view and (having authenticated again with at least one factor)
-  terminate any or
+  terminate any or all currently active sessions
 text: Verify that users are able to view and (having authenticated again with at least
   one factor) terminate any or all currently active sessions.
 links:

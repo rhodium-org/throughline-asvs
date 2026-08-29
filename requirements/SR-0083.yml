@@ -2,7 +2,8 @@ uid: SR-0083
 type: system_requirement
 status: approved
 title: The application only accepts HTTP/2 and HTTP/3 requests where the header fields
-  and values do not
+  and values do not contain any CR (\r), LF (\n), or CRLF (\r\n) sequences, to prevent
+  header injection attacks
 text: Verify that the application only accepts HTTP/2 and HTTP/3 requests where the
   header fields and values do not contain any CR (\r), LF (\n), or CRLF (\r\n) sequences,
   to prevent header injection attacks.

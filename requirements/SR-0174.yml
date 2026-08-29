@@ -2,7 +2,7 @@ uid: SR-0174
 type: system_requirement
 status: approved
 title: The application ensures that function-level access is restricted to consumers
-  with explicit
+  with explicit permissions
 text: Verify that the application ensures that function-level access is restricted
   to consumers with explicit permissions.
 links:

@@ -2,7 +2,7 @@ uid: SR-0145
 type: system_requirement
 status: approved
 title: The certificates used to verify cryptographic authentication assertions are
-  stored in a way
+  stored in a way protects them from modification
 text: Verify that the certificates used to verify cryptographic authentication assertions
   are stored in a way protects them from modification.
 links:

@@ -2,7 +2,8 @@ uid: SR-0264
 type: system_requirement
 status: approved
 title: The application documentation defines resource‑management strategies for every
-  external system or
+  external system or service it uses (e.g., databases, file handles, threads, HTTP
+  connections)
 text: Verify that the application documentation defines resource‑management strategies
   for every external system or service it uses (e.g., databases, file handles, threads,
   HTTP connections). This should include resource‑release procedures, timeout settings,

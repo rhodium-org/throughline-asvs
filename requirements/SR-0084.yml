@@ -1,7 +1,10 @@
 uid: SR-0084
 type: system_requirement
 status: approved
-title: That
+title: If the application (backend or frontend) builds and sends requests, it uses
+  validation, sanitization, or other mechanisms to avoid creating URIs (such as for
+  API calls) or HTTP request header fields (such as Authorization or Cookie), which
+  are too long to be accepted by the receiving component
 text: Verify that, if the application (backend or frontend) builds and sends requests,
   it uses validation, sanitization, or other mechanisms to avoid creating URIs (such
   as for API calls) or HTTP request header fields (such as Authorization or Cookie),

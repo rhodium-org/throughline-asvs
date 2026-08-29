@@ -1,7 +1,8 @@
 uid: SR-0238
 type: system_requirement
 status: approved
-title: Nonces
+title: Nonces, initialization vectors, and other single-use numbers are not used for
+  more than one encryption key and data-element pair
 text: Verify that nonces, initialization vectors, and other single-use numbers are
   not used for more than one encryption key and data-element pair. The method of generation
   must be appropriate for the algorithm being used.

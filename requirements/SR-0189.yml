@@ -1,7 +1,9 @@
 uid: SR-0189
 type: system_requirement
 status: approved
-title: That
+title: If a token issuer uses the same private key for issuing tokens to different
+  audiences, the issued tokens contain an audience restriction that uniquely identifies
+  the intended audiences
 text: Verify that, if a token issuer uses the same private key for issuing tokens
   to different audiences, the issued tokens contain an audience restriction that uniquely
   identifies the intended audiences. This will prevent a token from being reused with

@@ -2,7 +2,8 @@ uid: SR-0063
 type: system_requirement
 status: approved
 title: HTTP requests to sensitive functionality use appropriate HTTP methods such
-  as POST
+  as POST, PUT, PATCH, or DELETE, and not methods defined by the HTTP specification
+  as "safe" such as HEAD, OPTIONS, or GET
 text: Verify that HTTP requests to sensitive functionality use appropriate HTTP methods
   such as POST, PUT, PATCH, or DELETE, and not methods defined by the HTTP specification
   as "safe" such as HEAD, OPTIONS, or GET. Alternatively, strict validation of the

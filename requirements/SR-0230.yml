@@ -2,7 +2,7 @@ uid: SR-0230
 type: system_requirement
 status: approved
 title: Industry-validated implementations (including libraries and hardware-accelerated
-  implementations)
+  implementations) are used for cryptographic operations
 text: Verify that industry-validated implementations (including libraries and hardware-accelerated
   implementations) are used for cryptographic operations.
 links:

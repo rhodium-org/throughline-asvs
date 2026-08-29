@@ -2,7 +2,8 @@ uid: SR-0162
 type: system_requirement
 status: approved
 title: The application gives the option to terminate all other active sessions after
-  a successful change
+  a successful change or removal of any authentication factor (including password
+  change via reset or recovery and, if present, an MFA settings update)
 text: Verify that the application gives the option to terminate all other active sessions
   after a successful change or removal of any authentication factor (including password
   change via reset or recovery and, if present, an MFA settings update).

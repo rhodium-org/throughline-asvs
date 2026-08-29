@@ -1,7 +1,9 @@
 uid: SR-0276
 type: system_requirement
 status: approved
-title: The application is deployed either without any source control metadata
+title: The application is deployed either without any source control metadata, including
+  the .git or .svn folders, or in a way that these folders are inaccessible both externally
+  and to the application itself
 text: Verify that the application is deployed either without any source control metadata,
   including the .git or .svn folders, or in a way that these folders are inaccessible
   both externally and to the application itself.

@@ -1,7 +1,9 @@
 uid: SR-0046
 type: system_requirement
 status: approved
-title: Content intended to be displayed as text
+title: Content intended to be displayed as text, rather than rendered as HTML, is
+  handled using safe rendering functions (such as createTextNode or textContent) to
+  prevent unintended execution of content such as HTML or JavaScript
 text: Verify that content intended to be displayed as text, rather than rendered as
   HTML, is handled using safe rendering functions (such as createTextNode or textContent)
   to prevent unintended execution of content such as HTML or JavaScript.

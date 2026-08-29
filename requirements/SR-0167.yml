@@ -2,7 +2,7 @@ uid: SR-0167
 type: system_requirement
 status: approved
 title: The application requires further authentication with at least one factor or
-  secondary verification
+  secondary verification before performing highly sensitive transactions or operations
 text: Verify that the application requires further authentication with at least one
   factor or secondary verification before performing highly sensitive transactions
   or operations.

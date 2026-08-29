@@ -1,7 +1,9 @@
 uid: SR-0081
 type: system_requirement
 status: approved
-title: When generating HTTP messages
+title: When generating HTTP messages, the Content-Length header field does not conflict
+  with the length of the content as determined by the framing of the HTTP protocol,
+  in order to prevent request smuggling attacks
 text: Verify that when generating HTTP messages, the Content-Length header field does
   not conflict with the length of the content as determined by the framing of the
   HTTP protocol, in order to prevent request smuggling attacks.

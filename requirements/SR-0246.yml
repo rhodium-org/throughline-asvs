@@ -2,7 +2,7 @@ uid: SR-0246
 type: system_requirement
 status: approved
 title: Only approved cryptographic algorithms and modes of operation are used for
-  key generation and
+  key generation and seeding, and digital signature generation and verification
 text: Verify that only approved cryptographic algorithms and modes of operation are
   used for key generation and seeding, and digital signature generation and verification.
   Key generation algorithms must not generate insecure keys vulnerable to known attacks,

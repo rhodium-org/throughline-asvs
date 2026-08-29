@@ -2,7 +2,7 @@ uid: SR-0181
 type: system_requirement
 status: approved
 title: Multi-tenant applications use cross-tenant controls to ensure consumer operations
-  will never affect
+  will never affect tenants with which they do not have permissions to interact
 text: Verify that multi-tenant applications use cross-tenant controls to ensure consumer
   operations will never affect tenants with which they do not have permissions to
   interact.

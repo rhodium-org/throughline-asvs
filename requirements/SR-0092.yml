@@ -2,7 +2,7 @@ uid: SR-0092
 type: system_requirement
 status: approved
 title: The application will only accept files of a size which it can process without
-  causing a loss of
+  causing a loss of performance or a denial of service attack
 text: Verify that the application will only accept files of a size which it can process
   without causing a loss of performance or a denial of service attack.
 links:

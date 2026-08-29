@@ -1,7 +1,8 @@
 uid: SR-0129
 type: system_requirement
 status: approved
-title: A secure process for resetting a forgotten password is implemented
+title: A secure process for resetting a forgotten password is implemented, that does
+  not bypass any enabled multi-factor authentication mechanisms
 text: Verify that a secure process for resetting a forgotten password is implemented,
   that does not bypass any enabled multi-factor authentication mechanisms.
 links:

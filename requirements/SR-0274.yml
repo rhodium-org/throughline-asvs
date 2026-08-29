@@ -2,7 +2,8 @@ uid: SR-0274
 type: system_requirement
 status: approved
 title: All cryptographic operations are performed using an isolated security module
-  (such as a vault or
+  (such as a vault or hardware security module) to securely manage and protect key
+  material from exposure outside of the security module
 text: Verify that all cryptographic operations are performed using an isolated security
   module (such as a vault or hardware security module) to securely manage and protect
   key material from exposure outside of the security module.

@@ -2,7 +2,7 @@ uid: SR-0041
 type: system_requirement
 status: approved
 title: High-value business logic flows require multi-user approval to prevent unauthorized
-  or accidental
+  or accidental actions
 text: Verify that high-value business logic flows require multi-user approval to prevent
   unauthorized or accidental actions. This could include but is not limited to large
   monetary transfers, contract approvals, access to classified information, or safety

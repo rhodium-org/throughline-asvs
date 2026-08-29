@@ -2,7 +2,8 @@ uid: SR-0054
 type: system_requirement
 status: approved
 title: The Cross-Origin Resource Sharing (CORS) Access-Control-Allow-Origin header
-  field is a fixed value
+  field is a fixed value by the application, or if the Origin HTTP request header
+  field value is used, it is validated against an allowlist of trusted origins
 text: 'Verify that the Cross-Origin Resource Sharing (CORS) Access-Control-Allow-Origin
   header field is a fixed value by the application, or if the Origin HTTP request
   header field value is used, it is validated against an allowlist of trusted origins.

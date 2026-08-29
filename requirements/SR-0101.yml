@@ -1,7 +1,9 @@
 uid: SR-0101
 type: system_requirement
 status: approved
-title: The application validates or ignores user-submitted filenames
+title: The application validates or ignores user-submitted filenames, including in
+  a JSON, JSONP, or URL parameter and specifies a filename in the Content-Disposition
+  header field in the response
 text: Verify that the application validates or ignores user-submitted filenames, including
   in a JSON, JSONP, or URL parameter and specifies a filename in the Content-Disposition
   header field in the response.

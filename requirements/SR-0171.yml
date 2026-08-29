@@ -2,7 +2,7 @@ uid: SR-0171
 type: system_requirement
 status: approved
 title: Authorization documentation defines rules for field-level access restrictions
-  (both read and write)
+  (both read and write) based on consumer permissions and resource attributes
 text: Verify that authorization documentation defines rules for field-level access
   restrictions (both read and write) based on consumer permissions and resource attributes.
   Note that these rules might depend on other attribute values of the relevant data

@@ -2,7 +2,8 @@ uid: SR-0045
 type: system_requirement
 status: approved
 title: Security controls are in place to prevent browsers from rendering content or
-  functionality in HTTP
+  functionality in HTTP responses in an incorrect context (e.g., when an API, a user-uploaded
+  file or other resource is requested directly)
 text: 'Verify that security controls are in place to prevent browsers from rendering
   content or functionality in HTTP responses in an incorrect context (e.g., when an
   API, a user-uploaded file or other resource is requested directly). Possible controls
