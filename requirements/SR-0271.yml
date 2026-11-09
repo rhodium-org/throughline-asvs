@@ -1,13 +1,14 @@
 uid: SR-0271
 type: system_requirement
-status: approved
+status: proposed
 title: Where the application connects to separate services, it follows the documented
   configuration for each connection, such as maximum parallel connections, behavior
   when maximum allowed connections is reached, connection timeouts, and retry strategies
 text: Verify that where the application connects to separate services, it follows
   the documented configuration for each connection, such as maximum parallel connections,
-  behavior when maximum allowed connections is reached, connection timeouts, and retry
-  strategies.
+  behavior when maximum allowed connections is reached, connection timeouts, and
+  retry strategies.
+normative: true
 links:
 - target: UR-0013
   type: implements

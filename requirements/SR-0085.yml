@@ -1,12 +1,13 @@
 uid: SR-0085
 type: system_requirement
-status: approved
+status: proposed
 title: A query allowlist, depth limiting, amount limiting, or query cost analysis
-  is used to prevent GraphQL or data layer expression Denial of Service (DoS) as a
-  result of expensive, nested queries
+  is used to prevent GraphQL or data layer expression Denial of Service (DoS) as
+  a result of expensive, nested queries
 text: Verify that a query allowlist, depth limiting, amount limiting, or query cost
-  analysis is used to prevent GraphQL or data layer expression Denial of Service (DoS)
-  as a result of expensive, nested queries.
+  analysis is used to prevent GraphQL or data layer expression Denial of Service
+  (DoS) as a result of expensive, nested queries.
+normative: true
 links:
 - target: UR-0004
   type: implements

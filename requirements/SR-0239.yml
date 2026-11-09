@@ -1,10 +1,11 @@
 uid: SR-0239
 type: system_requirement
-status: approved
+status: proposed
 title: Any combination of an encryption algorithm and a MAC algorithm is operating
   in encrypt-then-MAC mode
-text: Verify that any combination of an encryption algorithm and a MAC algorithm is
-  operating in encrypt-then-MAC mode.
+text: Verify that any combination of an encryption algorithm and a MAC algorithm
+  is operating in encrypt-then-MAC mode.
+normative: true
 links:
 - target: UR-0011
   type: implements

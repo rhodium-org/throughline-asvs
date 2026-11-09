@@ -1,9 +1,11 @@
 uid: SR-0278
 type: system_requirement
-status: approved
-title: Web servers do not expose directory listings to clients unless explicitly intended
-text: Verify that web servers do not expose directory listings to clients unless explicitly
-  intended.
+status: proposed
+title: Web servers do not expose directory listings to clients unless explicitly
+  intended
+text: Verify that web servers do not expose directory listings to clients unless
+  explicitly intended.
+normative: true
 links:
 - target: UR-0013
   type: implements

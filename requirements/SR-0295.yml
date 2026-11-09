@@ -1,11 +1,12 @@
 uid: SR-0295
 type: system_requirement
-status: approved
+status: proposed
 title: Data stored in browser storage (such as localStorage, sessionStorage, IndexedDB,
   or cookies) does not contain sensitive data, with the exception of session tokens
 text: Verify that data stored in browser storage (such as localStorage, sessionStorage,
   IndexedDB, or cookies) does not contain sensitive data, with the exception of session
   tokens.
+normative: true
 links:
 - target: UR-0014
   type: implements

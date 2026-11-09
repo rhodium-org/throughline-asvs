@@ -1,12 +1,14 @@
 uid: SR-0049
 type: system_requirement
-status: approved
+status: proposed
 title: Each cookie's 'SameSite' attribute value is set according to the purpose of
   the cookie, to limit exposure to user interface redress attacks and browser-based
   request forgery attacks, commonly known as cross-site request forgery (CSRF)
 text: Verify that each cookie's 'SameSite' attribute value is set according to the
-  purpose of the cookie, to limit exposure to user interface redress attacks and browser-based
-  request forgery attacks, commonly known as cross-site request forgery (CSRF).
+  purpose of the cookie, to limit exposure to user interface redress attacks and
+  browser-based request forgery attacks, commonly known as cross-site request forgery
+  (CSRF).
+normative: true
 links:
 - target: UR-0003
   type: implements

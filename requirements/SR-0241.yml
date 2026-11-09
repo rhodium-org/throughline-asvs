@@ -1,6 +1,6 @@
 uid: SR-0241
 type: system_requirement
-status: approved
+status: proposed
 title: Passwords are stored using an approved, computationally intensive, key derivation
   function (also known as a "password hashing function"), with parameter settings
   configured based on current guidance
@@ -9,6 +9,7 @@ text: Verify that passwords are stored using an approved, computationally intens
   settings configured based on current guidance. The settings should balance security
   and performance to make brute-force attacks sufficiently challenging for the required
   level of security.
+normative: true
 links:
 - target: UR-0011
   type: implements

@@ -1,10 +1,11 @@
 uid: SR-0225
 type: system_requirement
-status: approved
+status: proposed
 title: The user can review, modify, and revoke consents which the user has granted
   through the authorization server
 text: Verify that the user can review, modify, and revoke consents which the user
   has granted through the authorization server.
+normative: true
 links:
 - target: UR-0010
   type: implements

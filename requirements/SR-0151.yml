@@ -1,6 +1,6 @@
 uid: SR-0151
 type: system_requirement
-status: approved
+status: proposed
 title: The user's session inactivity timeout and absolute maximum session lifetime
   are documented, are appropriate in combination with other controls, and that the
   documentation includes justification for any deviations from NIST SP 800-63B re-authentication
@@ -9,6 +9,7 @@ text: Verify that the user's session inactivity timeout and absolute maximum ses
   lifetime are documented, are appropriate in combination with other controls, and
   that the documentation includes justification for any deviations from NIST SP 800-63B
   re-authentication requirements.
+normative: true
 links:
 - target: UR-0007
   type: implements

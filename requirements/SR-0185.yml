@@ -1,13 +1,15 @@
 uid: SR-0185
 type: system_requirement
-status: approved
+status: proposed
 title: Key material that is used to validate self-contained tokens is from trusted
   pre-configured sources for the token issuer, preventing attackers from specifying
   untrusted sources and keys
-text: Verify that key material that is used to validate self-contained tokens is from
-  trusted pre-configured sources for the token issuer, preventing attackers from specifying
-  untrusted sources and keys. For JWTs and other JWS structures, headers such as 'jku',
-  'x5u', and 'jwk' must be validated against an allowlist of trusted sources.
+text: Verify that key material that is used to validate self-contained tokens is
+  from trusted pre-configured sources for the token issuer, preventing attackers
+  from specifying untrusted sources and keys. For JWTs and other JWS structures,
+  headers such as 'jku', 'x5u', and 'jwk' must be validated against an allowlist
+  of trusted sources.
+normative: true
 links:
 - target: UR-0009
   type: implements

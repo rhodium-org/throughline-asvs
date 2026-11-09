@@ -1,10 +1,11 @@
 uid: SR-0033
 type: system_requirement
-status: approved
+status: proposed
 title: Expectations for business logic limits and validations are documented, including
   both per-user and globally across the application
 text: Verify that expectations for business logic limits and validations are documented,
   including both per-user and globally across the application.
+normative: true
 links:
 - target: UR-0002
   type: implements

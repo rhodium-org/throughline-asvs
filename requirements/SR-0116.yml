@@ -1,10 +1,11 @@
 uid: SR-0116
 type: system_requirement
-status: approved
-title: A user's password stays valid until it is discovered to be compromised or the
-  user rotates it
+status: proposed
+title: A user's password stays valid until it is discovered to be compromised or
+  the user rotates it
 text: Verify that a user's password stays valid until it is discovered to be compromised
   or the user rotates it. The application must not require periodic credential rotation.
+normative: true
 links:
 - target: UR-0006
   type: implements

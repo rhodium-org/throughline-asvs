@@ -1,11 +1,12 @@
 uid: SR-0223
 type: system_requirement
-status: approved
+status: proposed
 title: The authorization server ensures that the user consents to each authorization
   request
 text: Verify that the authorization server ensures that the user consents to each
   authorization request. If the identity of the client cannot be assured, the authorization
   server must always explicitly prompt the user for consent.
+normative: true
 links:
 - target: UR-0010
   type: implements

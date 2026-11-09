@@ -1,13 +1,14 @@
 uid: SR-0205
 type: system_requirement
-status: approved
+status: proposed
 title: If the code grant is used, the authorization server mitigates authorization
   code interception attacks by requiring proof key for code exchange (PKCE)
-text: Verify that, if the code grant is used, the authorization server mitigates authorization
-  code interception attacks by requiring proof key for code exchange (PKCE). For authorization
-  requests, the authorization server must require a valid 'code_challenge' value and
-  must not accept a 'code_challenge_method' value of 'plain'. For a token request,
-  it must require validation of the 'code_verifier' parameter.
+text: Verify that, if the code grant is used, the authorization server mitigates
+  authorization code interception attacks by requiring proof key for code exchange
+  (PKCE). For authorization requests, the authorization server must require a valid
+  'code_challenge' value and must not accept a 'code_challenge_method' value of 'plain'.
+  For a token request, it must require validation of the 'code_verifier' parameter.
+normative: true
 links:
 - target: UR-0010
   type: implements

@@ -1,14 +1,15 @@
 uid: SR-0060
 type: system_requirement
-status: approved
+status: proposed
 title: All HTTP responses that initiate a document rendering (such as responses with
   Content-Type text/html), include the Cross‑Origin‑Opener‑Policy header field with
   the same-origin directive or the same-origin-allow-popups directive as required
-text: Verify that all HTTP responses that initiate a document rendering (such as responses
-  with Content-Type text/html), include the Cross‑Origin‑Opener‑Policy header field
-  with the same-origin directive or the same-origin-allow-popups directive as required.
-  This prevents attacks that abuse shared access to Window objects, such as tabnabbing
-  and frame counting.
+text: Verify that all HTTP responses that initiate a document rendering (such as
+  responses with Content-Type text/html), include the Cross‑Origin‑Opener‑Policy
+  header field with the same-origin directive or the same-origin-allow-popups directive
+  as required. This prevents attacks that abuse shared access to Window objects,
+  such as tabnabbing and frame counting.
+normative: true
 links:
 - target: UR-0003
   type: implements

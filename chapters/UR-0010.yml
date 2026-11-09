@@ -1,8 +1,9 @@
 uid: UR-0010
 type: user_requirement
-status: approved
+status: proposed
 title: V10 OAuth and OIDC
 text: Verification requirements for OAuth and OIDC (V10).
+normative: true
 links:
 - target: INT-0001
   type: derives_from

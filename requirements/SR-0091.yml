@@ -1,6 +1,6 @@
 uid: SR-0091
 type: system_requirement
-status: approved
+status: proposed
 title: The documentation defines the permitted file types, expected file extensions,
   and maximum size (including unpacked size) for each upload feature
 text: Verify that the documentation defines the permitted file types, expected file
@@ -8,6 +8,7 @@ text: Verify that the documentation defines the permitted file types, expected f
   Additionally, ensure that the documentation specifies how files are made safe for
   end-users to download and process, such as how the application behaves when a malicious
   file is detected.
+normative: true
 links:
 - target: UR-0005
   type: implements

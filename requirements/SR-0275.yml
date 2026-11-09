@@ -1,10 +1,11 @@
 uid: SR-0275
 type: system_requirement
-status: approved
+status: proposed
 title: Secrets are configured to expire and be rotated based on the application's
   documentation
 text: Verify that secrets are configured to expire and be rotated based on the application's
   documentation.
+normative: true
 links:
 - target: UR-0013
   type: implements

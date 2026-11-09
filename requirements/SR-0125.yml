@@ -1,10 +1,11 @@
 uid: SR-0125
 type: system_requirement
-status: approved
+status: proposed
 title: Users are notified after updates to authentication details, such as credential
   resets or modification of the username or email address
 text: Verify that users are notified after updates to authentication details, such
   as credential resets or modification of the username or email address.
+normative: true
 links:
 - target: UR-0006
   type: implements

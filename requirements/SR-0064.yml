@@ -1,6 +1,6 @@
 uid: SR-0064
 type: system_requirement
-status: approved
+status: proposed
 title: Separate applications are hosted on different hostnames to leverage the restrictions
   provided by same-origin policy, including how documents or scripts loaded by one
   origin can interact with resources from another origin and hostname-based restrictions
@@ -9,6 +9,7 @@ text: Verify that separate applications are hosted on different hostnames to lev
   the restrictions provided by same-origin policy, including how documents or scripts
   loaded by one origin can interact with resources from another origin and hostname-based
   restrictions on cookies.
+normative: true
 links:
 - target: UR-0003
   type: implements

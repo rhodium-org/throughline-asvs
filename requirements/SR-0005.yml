@@ -1,12 +1,13 @@
 uid: SR-0005
 type: system_requirement
-status: approved
+status: proposed
 title: Output encoding or escaping is used when dynamically building JavaScript content
   (including JSON), to avoid changing the message or document structure (to avoid
   JavaScript and JSON injection)
 text: Verify that output encoding or escaping is used when dynamically building JavaScript
   content (including JSON), to avoid changing the message or document structure (to
   avoid JavaScript and JSON injection).
+normative: true
 links:
 - target: UR-0001
   type: implements

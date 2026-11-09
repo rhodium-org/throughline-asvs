@@ -1,14 +1,15 @@
 uid: SR-0034
 type: system_requirement
-status: approved
+status: proposed
 title: Input is validated to enforce business or functional expectations for that
   input
 text: Verify that input is validated to enforce business or functional expectations
   for that input. This should either use positive validation against an allow list
   of values, patterns, and ranges, or be based on comparing the input to an expected
   structure and logical limits according to predefined rules. For L1, this can focus
-  on input which is used to make specific business or security decisions. For L2 and
-  up, this should apply to all input.
+  on input which is used to make specific business or security decisions. For L2
+  and up, this should apply to all input.
+normative: true
 links:
 - target: UR-0002
   type: implements

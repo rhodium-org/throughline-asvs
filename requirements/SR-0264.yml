@@ -1,6 +1,6 @@
 uid: SR-0264
 type: system_requirement
-status: approved
+status: proposed
 title: The application documentation defines resource‑management strategies for every
   external system or service it uses (e.g., databases, file handles, threads, HTTP
   connections)
@@ -11,6 +11,7 @@ text: Verify that the application documentation defines resource‑management st
   delays, and back‑off algorithms. For synchronous HTTP request–response operations
   it should mandate short timeouts and either disable retries or strictly limit retries
   to prevent cascading delays and resource exhaustion.
+normative: true
 links:
 - target: UR-0013
   type: implements

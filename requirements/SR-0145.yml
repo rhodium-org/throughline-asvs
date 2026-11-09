@@ -1,10 +1,11 @@
 uid: SR-0145
 type: system_requirement
-status: approved
+status: proposed
 title: The certificates used to verify cryptographic authentication assertions are
   stored in a way protects them from modification
 text: Verify that the certificates used to verify cryptographic authentication assertions
   are stored in a way protects them from modification.
+normative: true
 links:
 - target: UR-0006
   type: implements

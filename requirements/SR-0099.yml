@@ -1,6 +1,6 @@
 uid: SR-0099
 type: system_requirement
-status: approved
+status: proposed
 title: When the application creates file paths for file operations, instead of user-submitted
   filenames, it uses internally generated or trusted data, or if user-submitted filenames
   or file metadata must be used, strict validation and sanitization must be applied
@@ -9,6 +9,7 @@ text: Verify that when the application creates file paths for file operations, i
   user-submitted filenames or file metadata must be used, strict validation and sanitization
   must be applied. This is to protect against path traversal, local or remote file
   inclusion (LFI, RFI), and server-side request forgery (SSRF) attacks.
+normative: true
 links:
 - target: UR-0005
   type: implements

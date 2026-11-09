@@ -1,8 +1,9 @@
 uid: UR-0001
 type: user_requirement
-status: approved
+status: proposed
 title: V1 Encoding and Sanitization
 text: Verification requirements for Encoding and Sanitization (V1).
+normative: true
 links:
 - target: INT-0001
   type: derives_from

@@ -1,12 +1,13 @@
 uid: SR-0341
 type: system_requirement
-status: approved
+status: proposed
 title: The media server is not susceptible to the "ClientHello" Race Condition vulnerability
-  in Datagram Transport Layer Security (DTLS) by checking if the media server is publicly
-  known to be vulnerable or by performing the race condition test
+  in Datagram Transport Layer Security (DTLS) by checking if the media server is
+  publicly known to be vulnerable or by performing the race condition test
 text: Verify that the media server is not susceptible to the "ClientHello" Race Condition
   vulnerability in Datagram Transport Layer Security (DTLS) by checking if the media
   server is publicly known to be vulnerable or by performing the race condition test.
+normative: true
 links:
 - target: UR-0017
   type: implements

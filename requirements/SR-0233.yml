@@ -1,10 +1,11 @@
 uid: SR-0233
 type: system_requirement
-status: approved
+status: proposed
 title: All cryptographic operations are constant-time, with no 'short-circuit' operations
   in comparisons, calculations, or returns, to avoid leaking information
 text: Verify that all cryptographic operations are constant-time, with no 'short-circuit'
   operations in comparisons, calculations, or returns, to avoid leaking information.
+normative: true
 links:
 - target: UR-0011
   type: implements

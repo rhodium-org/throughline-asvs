@@ -1,12 +1,13 @@
 uid: SR-0211
 type: system_requirement
-status: approved
+status: proposed
 title: For a given client, the authorization server only allows the 'response_mode'
   value that this client needs to use
 text: Verify that for a given client, the authorization server only allows the 'response_mode'
   value that this client needs to use. For example, by having the authorization server
   validate this value against the expected values or by using pushed authorization
   request (PAR) or JWT-secured Authorization Request (JAR).
+normative: true
 links:
 - target: UR-0010
   type: implements

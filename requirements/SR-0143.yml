@@ -1,11 +1,12 @@
 uid: SR-0143
 type: system_requirement
-status: approved
+status: proposed
 title: A code based out-of-band authentication mechanism is protected against brute
   force attacks by using rate limiting
-text: Verify that a code based out-of-band authentication mechanism is protected against
-  brute force attacks by using rate limiting. Consider also using a code with at least
-  64 bits of entropy.
+text: Verify that a code based out-of-band authentication mechanism is protected
+  against brute force attacks by using rate limiting. Consider also using a code
+  with at least 64 bits of entropy.
+normative: true
 links:
 - target: UR-0006
   type: implements

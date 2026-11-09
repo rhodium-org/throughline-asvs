@@ -1,10 +1,11 @@
 uid: SR-0163
 type: system_requirement
-status: approved
+status: proposed
 title: All pages that require authentication have easy and visible access to logout
   functionality
 text: Verify that all pages that require authentication have easy and visible access
   to logout functionality.
+normative: true
 links:
 - target: UR-0007
   type: implements

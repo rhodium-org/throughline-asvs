@@ -1,12 +1,13 @@
 uid: SR-0095
 type: system_requirement
-status: approved
+status: proposed
 title: A file size quota and maximum number of files per user are enforced to ensure
   that a single user cannot fill up the storage with too many files, or excessively
   large files
 text: Verify that a file size quota and maximum number of files per user are enforced
   to ensure that a single user cannot fill up the storage with too many files, or
   excessively large files.
+normative: true
 links:
 - target: UR-0005
   type: implements

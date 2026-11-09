@@ -1,10 +1,11 @@
 uid: SR-0279
 type: system_requirement
-status: approved
+status: proposed
 title: Using the HTTP TRACE method is not supported in production environments, to
   avoid potential information leakage
 text: Verify that using the HTTP TRACE method is not supported in production environments,
   to avoid potential information leakage.
+normative: true
 links:
 - target: UR-0013
   type: implements

@@ -1,10 +1,11 @@
 uid: SR-0086
 type: system_requirement
-status: approved
+status: proposed
 title: GraphQL introspection queries are disabled in the production environment unless
   the GraphQL API is meant to be used by other parties
 text: Verify that GraphQL introspection queries are disabled in the production environment
   unless the GraphQL API is meant to be used by other parties.
+normative: true
 links:
 - target: UR-0004
   type: implements

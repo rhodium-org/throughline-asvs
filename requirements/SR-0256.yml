@@ -1,8 +1,9 @@
 uid: SR-0256
 type: system_requirement
-status: approved
+status: proposed
 title: External facing services use publicly trusted TLS certificates
 text: Verify that external facing services use publicly trusted TLS certificates.
+normative: true
 links:
 - target: UR-0012
   type: implements

@@ -1,10 +1,11 @@
 uid: SR-0124
 type: system_requirement
-status: approved
+status: proposed
 title: Email is not used as either a single-factor or multi-factor authentication
   mechanism
 text: Verify that email is not used as either a single-factor or multi-factor authentication
   mechanism.
+normative: true
 links:
 - target: UR-0006
   type: implements

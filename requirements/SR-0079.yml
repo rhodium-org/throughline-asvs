@@ -1,12 +1,13 @@
 uid: SR-0079
 type: system_requirement
-status: approved
+status: proposed
 title: Per-message digital signatures are used to provide additional assurance on
   top of transport protections for requests or transactions which are highly sensitive
   or which traverse a number of systems
 text: Verify that per-message digital signatures are used to provide additional assurance
   on top of transport protections for requests or transactions which are highly sensitive
   or which traverse a number of systems.
+normative: true
 links:
 - target: UR-0004
   type: implements

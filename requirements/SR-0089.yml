@@ -1,12 +1,13 @@
 uid: SR-0089
 type: system_requirement
-status: approved
+status: proposed
 title: If the application's standard session management cannot be used, dedicated
   tokens are being used for this, which comply with the relevant Session Management
   security requirements
 text: Verify that, if the application's standard session management cannot be used,
   dedicated tokens are being used for this, which comply with the relevant Session
   Management security requirements.
+normative: true
 links:
 - target: UR-0004
   type: implements

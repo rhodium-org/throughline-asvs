@@ -1,6 +1,6 @@
 uid: SR-0214
 type: system_requirement
-status: approved
+status: proposed
 title: For a server-side client (which is not executed on the end-user device), the
   authorization server ensures that the 'authorization_details' parameter value is
   from the client backend and that the user has not tampered with it
@@ -9,6 +9,7 @@ text: Verify that, for a server-side client (which is not executed on the end-us
   value is from the client backend and that the user has not tampered with it. For
   example, by requiring the usage of pushed authorization request (PAR) or JWT-secured
   Authorization Request (JAR).
+normative: true
 links:
 - target: UR-0010
   type: implements

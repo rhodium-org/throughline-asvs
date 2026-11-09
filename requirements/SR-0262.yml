@@ -1,11 +1,12 @@
 uid: SR-0262
 type: system_requirement
-status: approved
+status: proposed
 title: All communication needs for the application are documented
 text: Verify that all communication needs for the application are documented. This
   must include external services which the application relies upon and cases where
   an end user might be able to provide an external location to which the application
   will then connect.
+normative: true
 links:
 - target: UR-0013
   type: implements

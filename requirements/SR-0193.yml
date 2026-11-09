@@ -1,12 +1,13 @@
 uid: SR-0193
 type: system_requirement
-status: approved
-title: If the OAuth client can interact with more than one authorization server, it
-  has a defense against mix-up attacks
+status: proposed
+title: If the OAuth client can interact with more than one authorization server,
+  it has a defense against mix-up attacks
 text: Verify that, if the OAuth client can interact with more than one authorization
-  server, it has a defense against mix-up attacks. For example, it could require that
-  the authorization server return the 'iss' parameter value and validate it in the
-  authorization response and the token response.
+  server, it has a defense against mix-up attacks. For example, it could require
+  that the authorization server return the 'iss' parameter value and validate it
+  in the authorization response and the token response.
+normative: true
 links:
 - target: UR-0010
   type: implements

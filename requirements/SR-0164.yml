@@ -1,10 +1,11 @@
 uid: SR-0164
 type: system_requirement
-status: approved
+status: proposed
 title: Application administrators are able to terminate active sessions for an individual
   user or for all users
 text: Verify that application administrators are able to terminate active sessions
   for an individual user or for all users.
+normative: true
 links:
 - target: UR-0007
   type: implements

@@ -1,10 +1,11 @@
 uid: SR-0166
 type: system_requirement
-status: approved
+status: proposed
 title: Users are able to view and (having authenticated again with at least one factor)
   terminate any or all currently active sessions
-text: Verify that users are able to view and (having authenticated again with at least
-  one factor) terminate any or all currently active sessions.
+text: Verify that users are able to view and (having authenticated again with at
+  least one factor) terminate any or all currently active sessions.
+normative: true
 links:
 - target: UR-0007
   type: implements

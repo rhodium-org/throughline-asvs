@@ -1,12 +1,13 @@
 uid: SR-0316
 type: system_requirement
-status: approved
+status: proposed
 title: Resource allocation policies prevent thread starvation by ensuring fair access
   to resources, such as by leveraging thread pools, allowing lower-priority threads
   to proceed within a reasonable timeframe
 text: Verify that resource allocation policies prevent thread starvation by ensuring
   fair access to resources, such as by leveraging thread pools, allowing lower-priority
   threads to proceed within a reasonable timeframe.
+normative: true
 links:
 - target: UR-0015
   type: implements

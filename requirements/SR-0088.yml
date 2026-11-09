@@ -1,10 +1,11 @@
 uid: SR-0088
 type: system_requirement
-status: approved
+status: proposed
 title: During the initial HTTP WebSocket handshake, the Origin header field is checked
   against a list of origins allowed for the application
 text: Verify that, during the initial HTTP WebSocket handshake, the Origin header
   field is checked against a list of origins allowed for the application.
+normative: true
 links:
 - target: UR-0004
   type: implements

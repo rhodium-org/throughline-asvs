@@ -1,14 +1,15 @@
 uid: SR-0003
 type: system_requirement
-status: approved
+status: proposed
 title: Output encoding for an HTTP response, HTML document, or XML document is relevant
   for the context required, such as encoding the relevant characters for HTML elements,
   HTML attributes, HTML comments, CSS, or HTTP header fields, to avoid changing the
   message or document structure
 text: Verify that output encoding for an HTTP response, HTML document, or XML document
-  is relevant for the context required, such as encoding the relevant characters for
-  HTML elements, HTML attributes, HTML comments, CSS, or HTTP header fields, to avoid
-  changing the message or document structure.
+  is relevant for the context required, such as encoding the relevant characters
+  for HTML elements, HTML attributes, HTML comments, CSS, or HTTP header fields,
+  to avoid changing the message or document structure.
+normative: true
 links:
 - target: UR-0001
   type: implements

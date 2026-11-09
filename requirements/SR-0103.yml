@@ -1,10 +1,11 @@
 uid: SR-0103
 type: system_requirement
-status: approved
+status: proposed
 title: Files obtained from untrusted sources are scanned by antivirus scanners to
   prevent serving of known malicious content
-text: Verify that files obtained from untrusted sources are scanned by antivirus scanners
-  to prevent serving of known malicious content.
+text: Verify that files obtained from untrusted sources are scanned by antivirus
+  scanners to prevent serving of known malicious content.
+normative: true
 links:
 - target: UR-0005
   type: implements

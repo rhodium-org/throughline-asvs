@@ -1,12 +1,13 @@
 uid: SR-0303
 type: system_requirement
-status: approved
+status: proposed
 title: The production environment only includes functionality that is required for
-  the application to function, and does not expose extraneous functionality such as
-  test code, sample snippets, and development functionality
-text: Verify that the production environment only includes functionality that is required
-  for the application to function, and does not expose extraneous functionality such
-  as test code, sample snippets, and development functionality.
+  the application to function, and does not expose extraneous functionality such
+  as test code, sample snippets, and development functionality
+text: Verify that the production environment only includes functionality that is
+  required for the application to function, and does not expose extraneous functionality
+  such as test code, sample snippets, and development functionality.
+normative: true
 links:
 - target: UR-0015
   type: implements

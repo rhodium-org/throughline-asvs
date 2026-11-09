@@ -1,12 +1,13 @@
 uid: SR-0016
 type: system_requirement
-status: approved
+status: proposed
 title: User-supplied Scalable Vector Graphics (SVG) scriptable content is validated
   or sanitized to contain only tags and attributes (such as draw graphics) that are
   safe for the application, e.g., do not contain scripts and foreignObject
 text: Verify that user-supplied Scalable Vector Graphics (SVG) scriptable content
   is validated or sanitized to contain only tags and attributes (such as draw graphics)
   that are safe for the application, e.g., do not contain scripts and foreignObject.
+normative: true
 links:
 - target: UR-0001
   type: implements

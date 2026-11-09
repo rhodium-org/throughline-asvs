@@ -1,10 +1,11 @@
 uid: SR-0065
 type: system_requirement
-status: approved
+status: proposed
 title: Messages received by the postMessage interface are discarded if the origin
   of the message is not trusted, or if the syntax of the message is invalid
 text: Verify that messages received by the postMessage interface are discarded if
   the origin of the message is not trusted, or if the syntax of the message is invalid.
+normative: true
 links:
 - target: UR-0003
   type: implements

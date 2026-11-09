@@ -1,6 +1,6 @@
 uid: SR-0315
 type: system_requirement
-status: approved
+status: proposed
 title: Locks are used consistently to avoid threads getting stuck, whether by waiting
   on each other or retrying endlessly, and that locking logic stays within the code
   responsible for managing the resource to ensure locks cannot be inadvertently or
@@ -9,6 +9,7 @@ text: Verify that locks are used consistently to avoid threads getting stuck, wh
   by waiting on each other or retrying endlessly, and that locking logic stays within
   the code responsible for managing the resource to ensure locks cannot be inadvertently
   or maliciously modified by external classes or code.
+normative: true
 links:
 - target: UR-0015
   type: implements

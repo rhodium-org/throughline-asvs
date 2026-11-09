@@ -1,12 +1,13 @@
 uid: SR-0074
 type: system_requirement
-status: approved
+status: proposed
 title: The application behaves as documented (such as warning the user or blocking
   access) if the browser used to access the application does not support the expected
   security features
 text: Verify that the application behaves as documented (such as warning the user
   or blocking access) if the browser used to access the application does not support
   the expected security features.
+normative: true
 links:
 - target: UR-0003
   type: implements

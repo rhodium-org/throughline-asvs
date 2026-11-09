@@ -1,8 +1,9 @@
 uid: UR-0014
 type: user_requirement
-status: approved
+status: proposed
 title: V14 Data Protection
 text: Verification requirements for Data Protection (V14).
+normative: true
 links:
 - target: INT-0001
   type: derives_from

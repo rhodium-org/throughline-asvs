@@ -1,10 +1,11 @@
 uid: SR-0301
 type: system_requirement
-status: approved
+status: proposed
 title: The application only contains components which have not breached the documented
   update and remediation time frames
 text: Verify that the application only contains components which have not breached
   the documented update and remediation time frames.
+normative: true
 links:
 - target: UR-0015
   type: implements

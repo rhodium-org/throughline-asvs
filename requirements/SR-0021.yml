@@ -1,10 +1,11 @@
 uid: SR-0021
 type: system_requirement
-status: approved
+status: proposed
 title: The application sanitizes content before it is sent to memcache to prevent
   injection attacks
 text: Verify that the application sanitizes content before it is sent to memcache
   to prevent injection attacks.
+normative: true
 links:
 - target: UR-0001
   type: implements

@@ -1,6 +1,6 @@
 uid: SR-0084
 type: system_requirement
-status: approved
+status: proposed
 title: If the application (backend or frontend) builds and sends requests, it uses
   validation, sanitization, or other mechanisms to avoid creating URIs (such as for
   API calls) or HTTP request header fields (such as Authorization or Cookie), which
@@ -8,9 +8,11 @@ title: If the application (backend or frontend) builds and sends requests, it us
 text: Verify that, if the application (backend or frontend) builds and sends requests,
   it uses validation, sanitization, or other mechanisms to avoid creating URIs (such
   as for API calls) or HTTP request header fields (such as Authorization or Cookie),
-  which are too long to be accepted by the receiving component. This could cause a
-  denial of service, such as when sending an overly long request (e.g., a long cookie
-  header field), which results in the server always responding with an error status.
+  which are too long to be accepted by the receiving component. This could cause
+  a denial of service, such as when sending an overly long request (e.g., a long
+  cookie header field), which results in the server always responding with an error
+  status.
+normative: true
 links:
 - target: UR-0004
   type: implements

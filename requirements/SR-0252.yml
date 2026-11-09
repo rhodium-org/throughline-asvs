@@ -1,10 +1,11 @@
 uid: SR-0252
 type: system_requirement
-status: approved
+status: proposed
 title: The application validates that mTLS client certificates are trusted before
   using the certificate identity for authentication or authorization
 text: Verify that the application validates that mTLS client certificates are trusted
   before using the certificate identity for authentication or authorization.
+normative: true
 links:
 - target: UR-0012
   type: implements

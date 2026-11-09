@@ -1,9 +1,10 @@
 uid: SR-0059
 type: system_requirement
-status: approved
+status: proposed
 title: The Content-Security-Policy header field specifies a location to report violations
 text: Verify that the Content-Security-Policy header field specifies a location to
   report violations.
+normative: true
 links:
 - target: UR-0003
   type: implements

@@ -1,10 +1,11 @@
 uid: SR-0207
 type: system_requirement
-status: approved
+status: proposed
 title: Refresh tokens have an absolute expiration, including if sliding refresh token
   expiration is applied
 text: Verify that refresh tokens have an absolute expiration, including if sliding
   refresh token expiration is applied.
+normative: true
 links:
 - target: UR-0010
   type: implements

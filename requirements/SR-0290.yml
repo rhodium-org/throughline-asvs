@@ -1,12 +1,13 @@
 uid: SR-0290
 type: system_requirement
-status: approved
+status: proposed
 title: The application only returns the minimum required sensitive data for the application's
   functionality
 text: Verify that the application only returns the minimum required sensitive data
   for the application's functionality. For example, only returning some of the digits
   of a credit card number and not the full number. If the complete data is required,
   it should be masked in the user interface unless the user specifically views it.
+normative: true
 links:
 - target: UR-0014
   type: implements

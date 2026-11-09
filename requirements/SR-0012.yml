@@ -1,13 +1,14 @@
 uid: SR-0012
 type: system_requirement
-status: approved
+status: proposed
 title: The application is protected against CSV and Formula Injection
 text: Verify that the application is protected against CSV and Formula Injection.
   The application must follow the escaping rules defined in RFC 4180 sections 2.6
   and 2.7 when exporting CSV content. Additionally, when exporting to CSV or other
-  spreadsheet formats (such as XLS, XLSX, or ODF), special characters (including '=',
-  '+', '-', '@', '\t' (tab), and '\0' (null character)) must be escaped with a single
-  quote if they appear as the first character in a field value.
+  spreadsheet formats (such as XLS, XLSX, or ODF), special characters (including
+  '=', '+', '-', '@', '\t' (tab), and '\0' (null character)) must be escaped with
+  a single quote if they appear as the first character in a field value.
+normative: true
 links:
 - target: UR-0001
   type: implements

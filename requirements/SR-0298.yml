@@ -1,6 +1,6 @@
 uid: SR-0298
 type: system_requirement
-status: approved
+status: proposed
 title: The application documentation identifies functionality which is time-consuming
   or resource-demanding
 text: Verify that the application documentation identifies functionality which is
@@ -9,6 +9,7 @@ text: Verify that the application documentation identifies functionality which i
   building a response takes longer than the consumer's timeout. Potential defenses
   may include asynchronous processing, using queues, and limiting parallel processes
   per user and per application.
+normative: true
 links:
 - target: UR-0015
   type: implements

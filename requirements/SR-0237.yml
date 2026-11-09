@@ -1,12 +1,13 @@
 uid: SR-0237
 type: system_requirement
-status: approved
+status: proposed
 title: Encrypted data is protected against unauthorized modification preferably by
   using an approved authenticated encryption method or by combining an approved encryption
   method with an approved MAC algorithm
 text: Verify that encrypted data is protected against unauthorized modification preferably
   by using an approved authenticated encryption method or by combining an approved
   encryption method with an approved MAC algorithm.
+normative: true
 links:
 - target: UR-0011
   type: implements

@@ -1,17 +1,18 @@
 uid: SR-0150
 type: system_requirement
-status: approved
+status: proposed
 title: If an application uses a separate Identity Provider (IdP) and expects specific
   authentication strength, methods, or recentness for specific functions, the application
   verifies this using the information returned by the IdP
-text: Verify that, if an application uses a separate Identity Provider (IdP) and expects
-  specific authentication strength, methods, or recentness for specific functions,
+text: Verify that, if an application uses a separate Identity Provider (IdP) and
+  expects specific authentication strength, methods, or recentness for specific functions,
   the application verifies this using the information returned by the IdP. For example,
   if OIDC is used, this might be achieved by validating ID Token claims such as 'acr',
   'amr', and 'auth_time' (if present). If the IdP does not provide this information,
-  the application must have a documented fallback approach that assumes that the minimum
-  strength authentication mechanism was used (for example, single-factor authentication
-  using username and password).
+  the application must have a documented fallback approach that assumes that the
+  minimum strength authentication mechanism was used (for example, single-factor
+  authentication using username and password).
+normative: true
 links:
 - target: UR-0006
   type: implements

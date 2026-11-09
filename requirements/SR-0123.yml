@@ -1,12 +1,13 @@
 uid: SR-0123
 type: system_requirement
-status: approved
+status: proposed
 title: Users are notified of suspicious authentication attempts (successful or unsuccessful)
 text: Verify that users are notified of suspicious authentication attempts (successful
   or unsuccessful). This may include authentication attempts from an unusual location
-  or client, partially successful authentication (only one of multiple factors), an
-  authentication attempt after a long period of inactivity or a successful authentication
+  or client, partially successful authentication (only one of multiple factors),
+  an authentication attempt after a long period of inactivity or a successful authentication
   after several unsuccessful attempts.
+normative: true
 links:
 - target: UR-0006
   type: implements

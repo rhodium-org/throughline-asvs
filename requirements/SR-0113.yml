@@ -1,10 +1,11 @@
 uid: SR-0113
 type: system_requirement
-status: approved
+status: proposed
 title: '"paste" functionality, browser password helpers, and external password managers
   are permitted'
 text: Verify that "paste" functionality, browser password helpers, and external password
   managers are permitted.
+normative: true
 links:
 - target: UR-0006
   type: implements

@@ -1,6 +1,6 @@
 uid: SR-0218
 type: system_requirement
-status: approved
+status: proposed
 title: The client rejects attempts by a malicious authorization server to impersonate
   another authorization server through authorization server metadata
 text: Verify that the client rejects attempts by a malicious authorization server
@@ -8,6 +8,7 @@ text: Verify that the client rejects attempts by a malicious authorization serve
   The client must reject authorization server metadata if the issuer URL in the authorization
   server metadata does not exactly match the pre-configured issuer URL expected by
   the client.
+normative: true
 links:
 - target: UR-0010
   type: implements

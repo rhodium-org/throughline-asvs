@@ -1,10 +1,12 @@
 uid: SR-0222
 type: system_requirement
-status: approved
+status: proposed
 title: The OpenID Provider mitigates denial of service through forced logout
-text: Verify that the OpenID Provider mitigates denial of service through forced logout.
-  By obtaining explicit confirmation from the end-user or, if present, validating
-  parameters in the logout request (initiated by the relying party), such as the 'id_token_hint'.
+text: Verify that the OpenID Provider mitigates denial of service through forced
+  logout. By obtaining explicit confirmation from the end-user or, if present, validating
+  parameters in the logout request (initiated by the relying party), such as the
+  'id_token_hint'.
+normative: true
 links:
 - target: UR-0010
   type: implements

@@ -1,11 +1,12 @@
 uid: SR-0260
 type: system_requirement
-status: approved
+status: proposed
 title: TLS connections between internal services use trusted certificates
 text: Verify that TLS connections between internal services use trusted certificates.
-  Where internally generated or self-signed certificates are used, the consuming service
-  must be configured to only trust specific internal CAs and specific self-signed
+  Where internally generated or self-signed certificates are used, the consuming
+  service must be configured to only trust specific internal CAs and specific self-signed
   certificates.
+normative: true
 links:
 - target: UR-0012
   type: implements

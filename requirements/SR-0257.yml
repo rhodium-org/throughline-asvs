@@ -1,6 +1,6 @@
 uid: SR-0257
 type: system_requirement
-status: approved
+status: proposed
 title: An encrypted protocol such as TLS is used for all inbound and outbound connections
   to and from the application, including monitoring systems, management tools, remote
   access and SSH, middleware, databases, mainframes, partner systems, or external
@@ -9,6 +9,7 @@ text: Verify that an encrypted protocol such as TLS is used for all inbound and 
   connections to and from the application, including monitoring systems, management
   tools, remote access and SSH, middleware, databases, mainframes, partner systems,
   or external APIs. The server must not fall back to insecure or unencrypted protocols.
+normative: true
 links:
 - target: UR-0012
   type: implements

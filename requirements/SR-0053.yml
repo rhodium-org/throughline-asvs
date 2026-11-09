@@ -1,12 +1,13 @@
 uid: SR-0053
 type: system_requirement
-status: approved
+status: proposed
 title: A Strict-Transport-Security header field is included on all responses to enforce
   an HTTP Strict Transport Security (HSTS) policy
 text: Verify that a Strict-Transport-Security header field is included on all responses
   to enforce an HTTP Strict Transport Security (HSTS) policy. A maximum age of at
   least 1 year must be defined, and for L2 and up, the policy must apply to all subdomains
   as well.
+normative: true
 links:
 - target: UR-0003
   type: implements

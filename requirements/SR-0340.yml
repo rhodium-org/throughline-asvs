@@ -1,11 +1,12 @@
 uid: SR-0340
 type: system_requirement
-status: approved
+status: proposed
 title: The media server is able to continue processing incoming media traffic during
   a flood of Secure Real-time Transport Protocol (SRTP) packets from legitimate users
-text: Verify that the media server is able to continue processing incoming media traffic
-  during a flood of Secure Real-time Transport Protocol (SRTP) packets from legitimate
-  users.
+text: Verify that the media server is able to continue processing incoming media
+  traffic during a flood of Secure Real-time Transport Protocol (SRTP) packets from
+  legitimate users.
+normative: true
 links:
 - target: UR-0017
   type: implements

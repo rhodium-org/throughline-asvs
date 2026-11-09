@@ -1,12 +1,13 @@
 uid: SR-0247
 type: system_requirement
-status: approved
+status: proposed
 title: Approved cryptographic algorithms are used for key exchange (such as Diffie-Hellman)
   with a focus on ensuring that key exchange mechanisms use secure parameters
 text: Verify that approved cryptographic algorithms are used for key exchange (such
   as Diffie-Hellman) with a focus on ensuring that key exchange mechanisms use secure
   parameters. This will prevent attacks on the key establishment process which could
   lead to adversary-in-the-middle attacks or cryptographic breaks.
+normative: true
 links:
 - target: UR-0011
   type: implements

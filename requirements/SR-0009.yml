@@ -1,10 +1,11 @@
 uid: SR-0009
 type: system_requirement
-status: approved
+status: proposed
 title: The application is protected against XPath injection attacks by using query
   parameterization or precompiled queries
 text: Verify that the application is protected against XPath injection attacks by
   using query parameterization or precompiled queries.
+normative: true
 links:
 - target: UR-0001
   type: implements

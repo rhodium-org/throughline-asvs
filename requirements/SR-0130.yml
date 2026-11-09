@@ -1,10 +1,11 @@
 uid: SR-0130
 type: system_requirement
-status: approved
+status: proposed
 title: If a multi-factor authentication factor is lost, evidence of identity proofing
   is performed at the same level as during enrollment
 text: Verify that if a multi-factor authentication factor is lost, evidence of identity
   proofing is performed at the same level as during enrollment.
+normative: true
 links:
 - target: UR-0006
   type: implements

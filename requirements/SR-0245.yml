@@ -1,10 +1,11 @@
 uid: SR-0245
 type: system_requirement
-status: approved
+status: proposed
 title: The random number generation mechanism in use is designed to work securely,
   even under heavy demand
 text: Verify that the random number generation mechanism in use is designed to work
   securely, even under heavy demand.
+normative: true
 links:
 - target: UR-0011
   type: implements

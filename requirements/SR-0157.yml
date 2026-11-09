@@ -1,10 +1,11 @@
 uid: SR-0157
 type: system_requirement
-status: approved
+status: proposed
 title: The application generates a new session token on user authentication, including
   re-authentication, and terminates the current session token
 text: Verify that the application generates a new session token on user authentication,
   including re-authentication, and terminates the current session token.
+normative: true
 links:
 - target: UR-0007
   type: implements

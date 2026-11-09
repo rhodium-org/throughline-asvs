@@ -1,11 +1,12 @@
 uid: SR-0270
 type: system_requirement
-status: approved
+status: proposed
 title: The web or application server is configured with an allowlist of resources
   or systems to which the server can send requests or load data or files from
 text: Verify that the web or application server is configured with an allowlist of
   resources or systems to which the server can send requests or load data or files
   from.
+normative: true
 links:
 - target: UR-0013
   type: implements

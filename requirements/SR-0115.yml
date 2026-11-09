@@ -1,8 +1,9 @@
 uid: SR-0115
 type: system_requirement
-status: approved
+status: proposed
 title: Passwords of at least 64 characters are permitted
 text: Verify that passwords of at least 64 characters are permitted.
+normative: true
 links:
 - target: UR-0006
   type: implements

@@ -1,14 +1,15 @@
 uid: SR-0075
 type: system_requirement
-status: approved
+status: proposed
 title: Every HTTP response with a message body contains a Content-Type header field
   that matches the actual content of the response, including the charset parameter
-  to specify safe character encoding (e.g., UTF-8, ISO-8859-1) according to IANA Media
-  Types, such as "text/", "/+xml" and "/xml"
+  to specify safe character encoding (e.g., UTF-8, ISO-8859-1) according to IANA
+  Media Types, such as "text/", "/+xml" and "/xml"
 text: Verify that every HTTP response with a message body contains a Content-Type
   header field that matches the actual content of the response, including the charset
   parameter to specify safe character encoding (e.g., UTF-8, ISO-8859-1) according
   to IANA Media Types, such as "text/", "/+xml" and "/xml".
+normative: true
 links:
 - target: UR-0004
   type: implements

@@ -1,10 +1,11 @@
 uid: SR-0190
 type: system_requirement
-status: approved
+status: proposed
 title: Tokens are only sent to components that strictly need them
 text: Verify that tokens are only sent to components that strictly need them. For
   example, when using a backend-for-frontend pattern for browser-based JavaScript
   applications, access and refresh tokens shall only be accessible for the backend.
+normative: true
 links:
 - target: UR-0010
   type: implements

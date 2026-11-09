@@ -1,6 +1,6 @@
 uid: SR-0141
 type: system_requirement
-status: approved
+status: proposed
 title: Authentication mechanisms using the Public Switched Telephone Network (PSTN)
   to deliver One-time Passwords (OTPs) via phone or SMS are offered only when the
   phone number has previously been validated, alternate stronger methods (such as
@@ -12,6 +12,7 @@ text: Verify that authentication mechanisms using the Public Switched Telephone 
   as Time based One-time Passwords) are also offered, and the service provides information
   on their security risks to users. For L3 applications, phone and SMS must not be
   available as options.
+normative: true
 links:
 - target: UR-0006
   type: implements

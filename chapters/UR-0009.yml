@@ -1,8 +1,9 @@
 uid: UR-0009
 type: user_requirement
-status: approved
+status: proposed
 title: V9 Self-contained Tokens
 text: Verification requirements for Self-contained Tokens (V9).
+normative: true
 links:
 - target: INT-0001
   type: derives_from

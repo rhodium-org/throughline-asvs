@@ -1,10 +1,11 @@
 uid: SR-0258
 type: system_requirement
-status: approved
+status: proposed
 title: TLS clients validate certificates received before communicating with a TLS
   server
 text: Verify that TLS clients validate certificates received before communicating
   with a TLS server.
+normative: true
 links:
 - target: UR-0012
   type: implements

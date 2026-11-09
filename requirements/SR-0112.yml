@@ -1,10 +1,11 @@
 uid: SR-0112
 type: system_requirement
-status: approved
+status: proposed
 title: Password input fields use type=password to mask the entry
 text: Verify that password input fields use type=password to mask the entry. Applications
-  may allow the user to temporarily view the entire masked password, or the last typed
-  character of the password.
+  may allow the user to temporarily view the entire masked password, or the last
+  typed character of the password.
+normative: true
 links:
 - target: UR-0006
   type: implements

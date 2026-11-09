@@ -1,10 +1,11 @@
 uid: SR-0158
 type: system_requirement
-status: approved
+status: proposed
 title: There is an inactivity timeout such that re-authentication is enforced according
   to risk analysis and documented security decisions
 text: Verify that there is an inactivity timeout such that re-authentication is enforced
   according to risk analysis and documented security decisions.
+normative: true
 links:
 - target: UR-0007
   type: implements

@@ -1,10 +1,11 @@
 uid: SR-0114
 type: system_requirement
-status: approved
-title: The application verifies the user's password exactly as received from the user,
-  without any modifications such as truncation or case transformation
+status: proposed
+title: The application verifies the user's password exactly as received from the
+  user, without any modifications such as truncation or case transformation
 text: Verify that the application verifies the user's password exactly as received
   from the user, without any modifications such as truncation or case transformation.
+normative: true
 links:
 - target: UR-0006
   type: implements

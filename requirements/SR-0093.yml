@@ -1,6 +1,6 @@
 uid: SR-0093
 type: system_requirement
-status: approved
+status: proposed
 title: When the application accepts a file, either on its own or within an archive
   such as a zip file, it checks if the file extension matches an expected file extension
   and validates that the contents correspond to the type represented by the extension
@@ -12,6 +12,7 @@ text: Verify that when the application accepts a file, either on its own or with
   validation. For L1, this can focus just on files which are used to make specific
   business or security decisions. For L2 and up, this must apply to all files being
   accepted.
+normative: true
 links:
 - target: UR-0005
   type: implements

@@ -1,12 +1,13 @@
 uid: SR-0027
 type: system_requirement
-status: approved
+status: proposed
 title: Dynamically allocated memory and resources are released, and that references
   or pointers to freed memory are removed or set to null to prevent dangling pointers
   and use-after-free vulnerabilities
 text: Verify that dynamically allocated memory and resources are released, and that
   references or pointers to freed memory are removed or set to null to prevent dangling
   pointers and use-after-free vulnerabilities.
+normative: true
 links:
 - target: UR-0001
   type: implements

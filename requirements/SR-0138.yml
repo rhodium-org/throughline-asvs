@@ -1,10 +1,11 @@
 uid: SR-0138
 type: system_requirement
-status: approved
+status: proposed
 title: Any authentication factor (including physical devices) can be revoked in case
   of theft or other loss
 text: Verify that any authentication factor (including physical devices) can be revoked
   in case of theft or other loss.
+normative: true
 links:
 - target: UR-0006
   type: implements

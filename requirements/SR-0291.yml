@@ -1,12 +1,13 @@
 uid: SR-0291
 type: system_requirement
-status: approved
+status: proposed
 title: Sensitive information is subject to data retention classification, ensuring
   that outdated or unnecessary data is deleted automatically, on a defined schedule,
   or as the situation requires
 text: Verify that sensitive information is subject to data retention classification,
   ensuring that outdated or unnecessary data is deleted automatically, on a defined
   schedule, or as the situation requires.
+normative: true
 links:
 - target: UR-0014
   type: implements

@@ -1,9 +1,9 @@
 uid: SR-0191
 type: system_requirement
-status: approved
-title: The client only accepts values from the authorization server (such as the authorization
-  code or ID Token) if these values result from an authorization flow that was initiated
-  by the same user agent session and transaction
+status: proposed
+title: The client only accepts values from the authorization server (such as the
+  authorization code or ID Token) if these values result from an authorization flow
+  that was initiated by the same user agent session and transaction
 text: Verify that the client only accepts values from the authorization server (such
   as the authorization code or ID Token) if these values result from an authorization
   flow that was initiated by the same user agent session and transaction. This requires
@@ -11,6 +11,7 @@ text: Verify that the client only accepts values from the authorization server (
   'state' or OIDC 'nonce', are not guessable, are specific to the transaction, and
   are securely bound to both the client and the user agent session in which the transaction
   was started.
+normative: true
 links:
 - target: UR-0010
   type: implements

@@ -1,11 +1,12 @@
 uid: SR-0323
 type: system_requirement
-status: approved
+status: proposed
 title: All authentication operations are logged, including successful and unsuccessful
   attempts
-text: Verify that all authentication operations are logged, including successful and
-  unsuccessful attempts. Additional metadata, such as the type of authentication or
-  factors used, should also be collected.
+text: Verify that all authentication operations are logged, including successful
+  and unsuccessful attempts. Additional metadata, such as the type of authentication
+  or factors used, should also be collected.
+normative: true
 links:
 - target: UR-0016
   type: implements

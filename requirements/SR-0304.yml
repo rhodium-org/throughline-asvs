@@ -1,12 +1,13 @@
 uid: SR-0304
 type: system_requirement
-status: approved
+status: proposed
 title: Third-party components and all of their transitive dependencies are included
   from the expected repository, whether internally owned or an external source, and
   that there is no risk of a dependency confusion attack
 text: Verify that third-party components and all of their transitive dependencies
   are included from the expected repository, whether internally owned or an external
   source, and that there is no risk of a dependency confusion attack.
+normative: true
 links:
 - target: UR-0015
   type: implements

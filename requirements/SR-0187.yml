@@ -1,12 +1,13 @@
 uid: SR-0187
 type: system_requirement
-status: approved
+status: proposed
 title: The service receiving a token validates the token to be the correct type and
   is meant for the intended purpose before accepting the token's contents
 text: Verify that the service receiving a token validates the token to be the correct
   type and is meant for the intended purpose before accepting the token's contents.
   For example, only access tokens can be accepted for authorization decisions and
   only ID Tokens can be used for proving user authentication.
+normative: true
 links:
 - target: UR-0009
   type: implements

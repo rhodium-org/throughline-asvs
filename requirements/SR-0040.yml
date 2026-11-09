@@ -1,12 +1,13 @@
 uid: SR-0040
 type: system_requirement
-status: approved
+status: proposed
 title: Business logic level locking mechanisms are used to ensure that limited quantity
-  resources (such as theater seats or delivery slots) cannot be double-booked by manipulating
-  the application's logic
+  resources (such as theater seats or delivery slots) cannot be double-booked by
+  manipulating the application's logic
 text: Verify that business logic level locking mechanisms are used to ensure that
-  limited quantity resources (such as theater seats or delivery slots) cannot be double-booked
-  by manipulating the application's logic.
+  limited quantity resources (such as theater seats or delivery slots) cannot be
+  double-booked by manipulating the application's logic.
+normative: true
 links:
 - target: UR-0002
   type: implements

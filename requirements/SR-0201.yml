@@ -1,13 +1,14 @@
 uid: SR-0201
 type: system_requirement
-status: approved
+status: proposed
 title: If the authorization server returns the authorization code in the authorization
   response, it can be used only once for a token request
-text: Verify that, if the authorization server returns the authorization code in the
-  authorization response, it can be used only once for a token request. For the second
-  valid request with an authorization code that has already been used to issue an
-  access token, the authorization server must reject a token request and revoke any
-  issued tokens related to the authorization code.
+text: Verify that, if the authorization server returns the authorization code in
+  the authorization response, it can be used only once for a token request. For the
+  second valid request with an authorization code that has already been used to issue
+  an access token, the authorization server must reject a token request and revoke
+  any issued tokens related to the authorization code.
+normative: true
 links:
 - target: UR-0010
   type: implements

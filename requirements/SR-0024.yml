@@ -1,10 +1,12 @@
 uid: SR-0024
 type: system_requirement
-status: approved
+status: proposed
 title: Regular expressions are free from elements causing exponential backtracking,
   and ensure untrusted input is sanitized to mitigate ReDoS or Runaway Regex attacks
-text: Verify that regular expressions are free from elements causing exponential backtracking,
-  and ensure untrusted input is sanitized to mitigate ReDoS or Runaway Regex attacks.
+text: Verify that regular expressions are free from elements causing exponential
+  backtracking, and ensure untrusted input is sanitized to mitigate ReDoS or Runaway
+  Regex attacks.
+normative: true
 links:
 - target: UR-0001
   type: implements

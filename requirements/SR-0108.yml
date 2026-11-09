@@ -1,8 +1,9 @@
 uid: SR-0108
 type: system_requirement
-status: approved
+status: proposed
 title: Users can change their password
 text: Verify that users can change their password.
+normative: true
 links:
 - target: UR-0006
   type: implements

@@ -1,6 +1,6 @@
 uid: SR-0044
 type: system_requirement
-status: approved
+status: proposed
 title: Application documentation states the expected security features that browsers
   using the application must support (such as HTTPS, HTTP Strict Transport Security
   (HSTS), Content Security Policy (CSP), and other relevant HTTP security mechanisms)
@@ -9,6 +9,7 @@ text: Verify that application documentation states the expected security feature
   Security (HSTS), Content Security Policy (CSP), and other relevant HTTP security
   mechanisms). It must also define how the application must behave when some of these
   features are not available (such as warning the user or blocking access).
+normative: true
 links:
 - target: UR-0003
   type: implements

@@ -1,10 +1,11 @@
 uid: SR-0277
 type: system_requirement
-status: approved
-title: Debug modes are disabled for all components in production environments to prevent
-  exposure of debugging features and information leakage
+status: proposed
+title: Debug modes are disabled for all components in production environments to
+  prevent exposure of debugging features and information leakage
 text: Verify that debug modes are disabled for all components in production environments
   to prevent exposure of debugging features and information leakage.
+normative: true
 links:
 - target: UR-0013
   type: implements

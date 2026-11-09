@@ -1,12 +1,13 @@
 uid: SR-0110
 type: system_requirement
-status: approved
+status: proposed
 title: Passwords submitted during account registration or password change are checked
   against an available set of, at least, the top 3000 passwords which match the application's
   password policy, e.g. minimum length
 text: Verify that passwords submitted during account registration or password change
   are checked against an available set of, at least, the top 3000 passwords which
   match the application's password policy, e.g. minimum length.
+normative: true
 links:
 - target: UR-0006
   type: implements

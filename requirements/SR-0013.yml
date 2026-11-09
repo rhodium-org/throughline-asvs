@@ -1,10 +1,11 @@
 uid: SR-0013
 type: system_requirement
-status: approved
+status: proposed
 title: All untrusted HTML input from WYSIWYG editors or similar is sanitized using
   a well-known and secure HTML sanitization library or framework feature
 text: Verify that all untrusted HTML input from WYSIWYG editors or similar is sanitized
   using a well-known and secure HTML sanitization library or framework feature.
+normative: true
 links:
 - target: UR-0001
   type: implements

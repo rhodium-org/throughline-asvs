@@ -1,12 +1,13 @@
 uid: SR-0105
 type: system_requirement
-status: approved
+status: proposed
 title: A list of context-specific words is documented in order to prevent their use
   in passwords
 text: Verify that a list of context-specific words is documented in order to prevent
   their use in passwords. The list could include permutations of organization names,
   product names, system identifiers, project codenames, department or role names,
   and similar.
+normative: true
 links:
 - target: UR-0006
   type: implements

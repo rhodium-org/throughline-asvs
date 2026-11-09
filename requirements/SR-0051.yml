@@ -1,6 +1,6 @@
 uid: SR-0051
 type: system_requirement
-status: approved
+status: proposed
 title: If the value of a cookie is not meant to be accessible to client-side scripts
   (such as a session token), the cookie must have the 'HttpOnly' attribute set and
   the same value (e. g. session token) must only be transferred to the client via
@@ -9,6 +9,7 @@ text: Verify that if the value of a cookie is not meant to be accessible to clie
   scripts (such as a session token), the cookie must have the 'HttpOnly' attribute
   set and the same value (e. g. session token) must only be transferred to the client
   via the 'Set-Cookie' header field.
+normative: true
 links:
 - target: UR-0003
   type: implements

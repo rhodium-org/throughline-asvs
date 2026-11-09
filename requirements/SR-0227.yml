@@ -1,12 +1,13 @@
 uid: SR-0227
 type: system_requirement
-status: approved
+status: proposed
 title: A cryptographic inventory is performed, maintained, regularly updated, and
   includes all cryptographic keys, algorithms, and certificates used by the application
 text: Verify that a cryptographic inventory is performed, maintained, regularly updated,
   and includes all cryptographic keys, algorithms, and certificates used by the application.
-  It must also document where keys can and cannot be used in the system, and the types
-  of data that can and cannot be protected using the keys.
+  It must also document where keys can and cannot be used in the system, and the
+  types of data that can and cannot be protected using the keys.
+normative: true
 links:
 - target: UR-0011
   type: implements

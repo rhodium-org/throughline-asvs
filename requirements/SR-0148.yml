@@ -1,12 +1,13 @@
 uid: SR-0148
 type: system_requirement
-status: approved
+status: proposed
 title: The presence and integrity of digital signatures on authentication assertions
   (for example on JWTs or SAML assertions) are always validated, rejecting any assertions
   that are unsigned or have invalid signatures
 text: Verify that the presence and integrity of digital signatures on authentication
   assertions (for example on JWTs or SAML assertions) are always validated, rejecting
   any assertions that are unsigned or have invalid signatures.
+normative: true
 links:
 - target: UR-0006
   type: implements

@@ -1,10 +1,11 @@
 uid: SR-0235
 type: system_requirement
-status: approved
+status: proposed
 title: Insecure block modes (e.g., ECB) and weak padding schemes (e.g., PKCS#1 v1.5)
   are not used
 text: Verify that insecure block modes (e.g., ECB) and weak padding schemes (e.g.,
   PKCS#1 v1.5) are not used.
+normative: true
 links:
 - target: UR-0011
   type: implements

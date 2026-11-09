@@ -1,10 +1,11 @@
 uid: SR-0118
 type: system_requirement
-status: approved
+status: proposed
 title: Passwords submitted during account registration or password changes are checked
   against a set of breached passwords
 text: Verify that passwords submitted during account registration or password changes
   are checked against a set of breached passwords.
+normative: true
 links:
 - target: UR-0006
   type: implements

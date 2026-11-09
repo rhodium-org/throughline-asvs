@@ -1,10 +1,11 @@
 uid: SR-0300
 type: system_requirement
-status: approved
+status: proposed
 title: Application documentation highlights parts of the application where "dangerous
   functionality" is being used
 text: Verify that application documentation highlights parts of the application where
   "dangerous functionality" is being used.
+normative: true
 links:
 - target: UR-0015
   type: implements

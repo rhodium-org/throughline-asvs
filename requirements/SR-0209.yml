@@ -1,12 +1,13 @@
 uid: SR-0209
 type: system_requirement
-status: approved
+status: proposed
 title: Confidential client is authenticated for client-to-authorized server backchannel
   requests such as token requests, pushed authorization requests (PAR), and token
   revocation requests
 text: Verify that confidential client is authenticated for client-to-authorized server
   backchannel requests such as token requests, pushed authorization requests (PAR),
   and token revocation requests.
+normative: true
 links:
 - target: UR-0010
   type: implements

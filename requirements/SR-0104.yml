@@ -1,6 +1,6 @@
 uid: SR-0104
 type: system_requirement
-status: approved
+status: proposed
 title: Application documentation defines how controls such as rate limiting, anti-automation,
   and adaptive response, are used to defend against attacks such as credential stuffing
   and password brute force
@@ -8,6 +8,7 @@ text: Verify that application documentation defines how controls such as rate li
   anti-automation, and adaptive response, are used to defend against attacks such
   as credential stuffing and password brute force. The documentation must make clear
   how these controls are configured and prevent malicious account lockout.
+normative: true
 links:
 - target: UR-0006
   type: implements

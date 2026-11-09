@@ -1,14 +1,15 @@
 uid: SR-0160
 type: system_requirement
-status: approved
-title: When session termination is triggered (such as logout or expiration), the application
-  disallows any further use of the session
+status: proposed
+title: When session termination is triggered (such as logout or expiration), the
+  application disallows any further use of the session
 text: Verify that when session termination is triggered (such as logout or expiration),
-  the application disallows any further use of the session. For reference tokens or
-  stateful sessions, this means invalidating the session data at the application backend.
-  Applications using self-contained tokens will need a solution such as maintaining
-  a list of terminated tokens, disallowing tokens produced before a per-user date
-  and time or rotating a per-user signing key.
+  the application disallows any further use of the session. For reference tokens
+  or stateful sessions, this means invalidating the session data at the application
+  backend. Applications using self-contained tokens will need a solution such as
+  maintaining a list of terminated tokens, disallowing tokens produced before a per-user
+  date and time or rotating a per-user signing key.
+normative: true
 links:
 - target: UR-0007
   type: implements

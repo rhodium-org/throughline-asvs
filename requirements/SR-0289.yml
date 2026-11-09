@@ -1,13 +1,14 @@
 uid: SR-0289
 type: system_requirement
-status: approved
+status: proposed
 title: Caching mechanisms are configured to only cache responses which have the expected
   content type for that resource and do not contain sensitive, dynamic content
 text: Verify that caching mechanisms are configured to only cache responses which
-  have the expected content type for that resource and do not contain sensitive, dynamic
-  content. The web server should return a 404 or 302 response when a non-existent
+  have the expected content type for that resource and do not contain sensitive,
+  dynamic content. The web server should return a 404 or 302 response when a non-existent
   file is accessed rather than returning a different, valid file. This should prevent
   Web Cache Deception attacks.
+normative: true
 links:
 - target: UR-0014
   type: implements

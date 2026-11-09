@@ -1,12 +1,13 @@
 uid: SR-0156
 type: system_requirement
-status: approved
+status: proposed
 title: If reference tokens are used to represent user sessions, they are unique and
   generated using a cryptographically secure pseudo-random number generator (CSPRNG)
   and possess at least 128 bits of entropy
 text: Verify that if reference tokens are used to represent user sessions, they are
   unique and generated using a cryptographically secure pseudo-random number generator
   (CSPRNG) and possess at least 128 bits of entropy.
+normative: true
 links:
 - target: UR-0007
   type: implements

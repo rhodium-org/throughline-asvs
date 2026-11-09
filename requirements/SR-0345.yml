@@ -1,14 +1,15 @@
 uid: SR-0345
 type: system_requirement
-status: approved
+status: proposed
 title: The signaling server is able to continue processing legitimate signaling messages
   when encountering malformed signaling message that could cause a denial of service
   condition
-text: Verify that the signaling server is able to continue processing legitimate signaling
-  messages when encountering malformed signaling message that could cause a denial
-  of service condition. This could include implementing input validation, safely handling
-  integer overflows, preventing buffer overflows, and employing other robust error-handling
-  techniques.
+text: Verify that the signaling server is able to continue processing legitimate
+  signaling messages when encountering malformed signaling message that could cause
+  a denial of service condition. This could include implementing input validation,
+  safely handling integer overflows, preventing buffer overflows, and employing other
+  robust error-handling techniques.
+normative: true
 links:
 - target: UR-0017
   type: implements

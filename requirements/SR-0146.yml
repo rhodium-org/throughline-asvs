@@ -1,10 +1,11 @@
 uid: SR-0146
 type: system_requirement
-status: approved
+status: proposed
 title: The challenge nonce is at least 64 bits in length, and statistically unique
   or unique over the lifetime of the cryptographic device
 text: Verify that the challenge nonce is at least 64 bits in length, and statistically
   unique or unique over the lifetime of the cryptographic device.
+normative: true
 links:
 - target: UR-0006
   type: implements

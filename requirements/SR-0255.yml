@@ -1,10 +1,12 @@
 uid: SR-0255
 type: system_requirement
-status: approved
+status: proposed
 title: TLS is used for all connectivity between a client and external facing, HTTP-based
   services, and does not fall back to insecure or unencrypted communications
-text: Verify that TLS is used for all connectivity between a client and external facing,
-  HTTP-based services, and does not fall back to insecure or unencrypted communications.
+text: Verify that TLS is used for all connectivity between a client and external
+  facing, HTTP-based services, and does not fall back to insecure or unencrypted
+  communications.
+normative: true
 links:
 - target: UR-0012
   type: implements

@@ -1,12 +1,13 @@
 uid: SR-0152
 type: system_requirement
-status: approved
+status: proposed
 title: The documentation defines how many concurrent (parallel) sessions are allowed
-  for one account as well as the intended behaviors and actions to be taken when the
-  maximum number of active sessions is reached
+  for one account as well as the intended behaviors and actions to be taken when
+  the maximum number of active sessions is reached
 text: Verify that the documentation defines how many concurrent (parallel) sessions
   are allowed for one account as well as the intended behaviors and actions to be
   taken when the maximum number of active sessions is reached.
+normative: true
 links:
 - target: UR-0007
   type: implements

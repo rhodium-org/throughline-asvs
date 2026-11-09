@@ -1,6 +1,6 @@
 uid: SR-0063
 type: system_requirement
-status: approved
+status: proposed
 title: HTTP requests to sensitive functionality use appropriate HTTP methods such
   as POST, PUT, PATCH, or DELETE, and not methods defined by the HTTP specification
   as "safe" such as HEAD, OPTIONS, or GET
@@ -10,6 +10,7 @@ text: Verify that HTTP requests to sensitive functionality use appropriate HTTP 
   Sec-Fetch-* request header fields can be used to ensure that the request did not
   originate from an inappropriate cross-origin call, a navigation request, or a resource
   load (such as an image source) where this is not expected.
+normative: true
 links:
 - target: UR-0003
   type: implements

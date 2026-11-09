@@ -1,12 +1,13 @@
 uid: SR-0131
 type: system_requirement
-status: approved
+status: proposed
 title: Renewal instructions for authentication mechanisms which expire are sent with
-  enough time to be carried out before the old authentication mechanism expires, configuring
-  automated reminders if necessary
+  enough time to be carried out before the old authentication mechanism expires,
+  configuring automated reminders if necessary
 text: Verify that renewal instructions for authentication mechanisms which expire
   are sent with enough time to be carried out before the old authentication mechanism
   expires, configuring automated reminders if necessary.
+normative: true
 links:
 - target: UR-0006
   type: implements

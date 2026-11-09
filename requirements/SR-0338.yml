@@ -1,6 +1,6 @@
 uid: SR-0338
 type: system_requirement
-status: approved
+status: proposed
 title: Secure Real-time Transport Protocol (SRTP) authentication is checked at the
   media server to prevent Real-time Transport Protocol (RTP) injection attacks from
   leading to either a Denial of Service condition or audio or video media insertion
@@ -9,6 +9,7 @@ text: Verify that Secure Real-time Transport Protocol (SRTP) authentication is c
   at the media server to prevent Real-time Transport Protocol (RTP) injection attacks
   from leading to either a Denial of Service condition or audio or video media insertion
   into media streams.
+normative: true
 links:
 - target: UR-0017
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0202
 type: system_requirement
-status: approved
+status: proposed
 title: The authorization code is short-lived
 text: Verify that the authorization code is short-lived. The maximum lifetime can
   be up to 10 minutes for L1 and L2 applications and up to 1 minute for L3 applications.
+normative: true
 links:
 - target: UR-0010
   type: implements

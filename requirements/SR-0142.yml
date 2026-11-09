@@ -1,12 +1,13 @@
 uid: SR-0142
 type: system_requirement
-status: approved
+status: proposed
 title: Out-of-band authentication requests, codes, or tokens are bound to the original
   authentication request for which they were generated and are not usable for a previous
   or subsequent one
 text: Verify that out-of-band authentication requests, codes, or tokens are bound
   to the original authentication request for which they were generated and are not
   usable for a previous or subsequent one.
+normative: true
 links:
 - target: UR-0006
   type: implements

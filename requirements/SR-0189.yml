@@ -1,15 +1,16 @@
 uid: SR-0189
 type: system_requirement
-status: approved
+status: proposed
 title: If a token issuer uses the same private key for issuing tokens to different
   audiences, the issued tokens contain an audience restriction that uniquely identifies
   the intended audiences
 text: Verify that, if a token issuer uses the same private key for issuing tokens
-  to different audiences, the issued tokens contain an audience restriction that uniquely
-  identifies the intended audiences. This will prevent a token from being reused with
-  an unintended audience. If the audience identifier is dynamically provisioned, the
-  token issuer must validate these audiences in order to make sure that they do not
-  result in audience impersonation.
+  to different audiences, the issued tokens contain an audience restriction that
+  uniquely identifies the intended audiences. This will prevent a token from being
+  reused with an unintended audience. If the audience identifier is dynamically provisioned,
+  the token issuer must validate these audiences in order to make sure that they
+  do not result in audience impersonation.
+normative: true
 links:
 - target: UR-0009
   type: implements

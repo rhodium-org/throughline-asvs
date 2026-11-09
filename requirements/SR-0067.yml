@@ -1,11 +1,12 @@
 uid: SR-0067
 type: system_requirement
-status: approved
+status: proposed
 title: Data requiring authorization is not included in script resource responses,
   like JavaScript files, to prevent Cross-Site Script Inclusion (XSSI) attacks
 text: Verify that data requiring authorization is not included in script resource
   responses, like JavaScript files, to prevent Cross-Site Script Inclusion (XSSI)
   attacks.
+normative: true
 links:
 - target: UR-0003
   type: implements

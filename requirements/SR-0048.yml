@@ -1,11 +1,12 @@
 uid: SR-0048
 type: system_requirement
-status: approved
+status: proposed
 title: Cookies have the 'Secure' attribute set, and if the '\__Host-' prefix is not
   used for the cookie name, the '__Secure-' prefix must be used for the cookie name
-text: Verify that cookies have the 'Secure' attribute set, and if the '\__Host-' prefix
-  is not used for the cookie name, the '__Secure-' prefix must be used for the cookie
-  name.
+text: Verify that cookies have the 'Secure' attribute set, and if the '\__Host-'
+  prefix is not used for the cookie name, the '__Secure-' prefix must be used for
+  the cookie name.
+normative: true
 links:
 - target: UR-0003
   type: implements

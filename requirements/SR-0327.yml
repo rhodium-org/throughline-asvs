@@ -1,9 +1,10 @@
 uid: SR-0327
 type: system_requirement
-status: approved
+status: proposed
 title: All logging components appropriately encode data to prevent log injection
 text: Verify that all logging components appropriately encode data to prevent log
   injection.
+normative: true
 links:
 - target: UR-0016
   type: implements

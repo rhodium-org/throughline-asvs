@@ -1,6 +1,6 @@
 uid: SR-0220
 type: system_requirement
-status: approved
+status: proposed
 title: When using OIDC back-channel logout, the relying party mitigates denial of
   service through forced logout and cross-JWT confusion in the logout flow
 text: Verify that, when using OIDC back-channel logout, the relying party mitigates
@@ -9,6 +9,7 @@ text: Verify that, when using OIDC back-channel logout, the relying party mitiga
   'logout+jwt', contains the 'event' claim with the correct member name, and does
   not contain a 'nonce' claim. Note that it is also recommended to have a short expiration
   (e.g., 2 minutes).
+normative: true
 links:
 - target: UR-0010
   type: implements

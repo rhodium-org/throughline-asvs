@@ -1,10 +1,11 @@
 uid: SR-0128
 type: system_requirement
-status: approved
+status: proposed
 title: Password hints or knowledge-based authentication (so-called "secret questions")
   are not present
 text: Verify that password hints or knowledge-based authentication (so-called "secret
   questions") are not present.
+normative: true
 links:
 - target: UR-0006
   type: implements

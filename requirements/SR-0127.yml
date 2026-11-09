@@ -1,6 +1,6 @@
 uid: SR-0127
 type: system_requirement
-status: approved
+status: proposed
 title: System generated initial passwords or activation codes are securely randomly
   generated, follow the existing password policy, and expire after a short period
   of time or after they are initially used
@@ -8,6 +8,7 @@ text: Verify that system generated initial passwords or activation codes are sec
   randomly generated, follow the existing password policy, and expire after a short
   period of time or after they are initially used. These initial secrets must not
   be permitted to become the long term password.
+normative: true
 links:
 - target: UR-0006
   type: implements

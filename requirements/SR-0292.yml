@@ -1,10 +1,11 @@
 uid: SR-0292
 type: system_requirement
-status: approved
+status: proposed
 title: Sensitive information is removed from the metadata of user-submitted files
   unless storage is consented to by the user
 text: Verify that sensitive information is removed from the metadata of user-submitted
   files unless storage is consented to by the user.
+normative: true
 links:
 - target: UR-0014
   type: implements

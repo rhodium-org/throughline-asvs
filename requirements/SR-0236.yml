@@ -1,8 +1,9 @@
 uid: SR-0236
 type: system_requirement
-status: approved
+status: proposed
 title: Only approved ciphers and modes such as AES with GCM are used
 text: Verify that only approved ciphers and modes such as AES with GCM are used.
+normative: true
 links:
 - target: UR-0011
   type: implements

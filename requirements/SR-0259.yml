@@ -1,12 +1,13 @@
 uid: SR-0259
 type: system_requirement
-status: approved
+status: proposed
 title: TLS or another appropriate transport encryption mechanism used for all connectivity
   between internal, HTTP-based services within the application, and does not fall
   back to insecure or unencrypted communications
-text: Verify that TLS or another appropriate transport encryption mechanism used for
-  all connectivity between internal, HTTP-based services within the application, and
-  does not fall back to insecure or unencrypted communications.
+text: Verify that TLS or another appropriate transport encryption mechanism used
+  for all connectivity between internal, HTTP-based services within the application,
+  and does not fall back to insecure or unencrypted communications.
+normative: true
 links:
 - target: UR-0012
   type: implements

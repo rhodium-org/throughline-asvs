@@ -1,12 +1,13 @@
 uid: SR-0322
 type: system_requirement
-status: approved
+status: proposed
 title: When logging sensitive data, the application enforces logging based on the
   data's protection level
 text: Verify that when logging sensitive data, the application enforces logging based
   on the data's protection level. For example, it may not be allowed to log certain
   data, such as credentials or payment details. Other data, such as session tokens,
   may only be logged by being hashed or masked, either in full or partially.
+normative: true
 links:
 - target: UR-0016
   type: implements

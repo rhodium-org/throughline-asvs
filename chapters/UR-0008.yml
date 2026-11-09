@@ -1,8 +1,9 @@
 uid: UR-0008
 type: user_requirement
-status: approved
+status: proposed
 title: V8 Authorization
 text: Verification requirements for Authorization (V8).
+normative: true
 links:
 - target: INT-0001
   type: derives_from

@@ -1,14 +1,15 @@
 uid: SR-0288
 type: system_requirement
-status: approved
+status: proposed
 title: Controls around sensitive data related to encryption, integrity verification,
-  retention, how the data is to be logged, access controls around sensitive data in
-  logs, privacy and privacy-enhancing technologies, are implemented as defined in
-  the documentation for the specific data's protection level
+  retention, how the data is to be logged, access controls around sensitive data
+  in logs, privacy and privacy-enhancing technologies, are implemented as defined
+  in the documentation for the specific data's protection level
 text: Verify that controls around sensitive data related to encryption, integrity
   verification, retention, how the data is to be logged, access controls around sensitive
   data in logs, privacy and privacy-enhancing technologies, are implemented as defined
   in the documentation for the specific data's protection level.
+normative: true
 links:
 - target: UR-0014
   type: implements

@@ -1,6 +1,6 @@
 uid: SR-0261
 type: system_requirement
-status: approved
+status: proposed
 title: Services communicating internally within a system (intra-service communications)
   use strong authentication to ensure that each endpoint is verified
 text: Verify that services communicating internally within a system (intra-service
@@ -9,6 +9,7 @@ text: Verify that services communicating internally within a system (intra-servi
   to ensure identity, using public-key infrastructure and mechanisms that are resistant
   to replay attacks. For microservice architectures, consider using a service mesh
   to simplify certificate management and enhance security.
+normative: true
 links:
 - target: UR-0012
   type: implements

@@ -1,8 +1,9 @@
 uid: SR-0273
 type: system_requirement
-status: approved
+status: proposed
 title: Access to secret assets adheres to the principle of least privilege
 text: Verify that access to secret assets adheres to the principle of least privilege.
+normative: true
 links:
 - target: UR-0013
   type: implements

@@ -1,8 +1,9 @@
 uid: UR-0005
 type: user_requirement
-status: approved
+status: proposed
 title: V5 File Handling
 text: Verification requirements for File Handling (V5).
+normative: true
 links:
 - target: INT-0001
   type: derives_from

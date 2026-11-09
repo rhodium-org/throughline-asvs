@@ -1,6 +1,6 @@
 uid: SR-0121
 type: system_requirement
-status: approved
+status: proposed
 title: Either a multi-factor authentication mechanism or a combination of single-factor
   authentication mechanisms, must be used in order to access the application
 text: Verify that either a multi-factor authentication mechanism or a combination
@@ -11,6 +11,7 @@ text: Verify that either a multi-factor authentication mechanism or a combinatio
   action (such as a button press on a FIDO hardware key or a mobile phone). Relaxing
   any of the considerations in this requirement requires a fully documented rationale
   and a comprehensive set of mitigating controls.
+normative: true
 links:
 - target: UR-0006
   type: implements

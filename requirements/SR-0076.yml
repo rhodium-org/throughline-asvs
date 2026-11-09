@@ -1,6 +1,6 @@
 uid: SR-0076
 type: system_requirement
-status: approved
+status: proposed
 title: Only user-facing endpoints (intended for manual web-browser access) automatically
   redirect from HTTP to HTTPS, while other services or endpoints do not implement
   transparent redirects
@@ -9,6 +9,7 @@ text: Verify that only user-facing endpoints (intended for manual web-browser ac
   not implement transparent redirects. This is to avoid a situation where a client
   is erroneously sending unencrypted HTTP requests, but since the requests are being
   automatically redirected to HTTPS, the leakage of sensitive data goes undiscovered.
+normative: true
 links:
 - target: UR-0004
   type: implements

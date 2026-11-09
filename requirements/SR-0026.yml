@@ -1,9 +1,10 @@
 uid: SR-0026
 type: system_requirement
-status: approved
+status: proposed
 title: Sign, range, and input validation techniques are used to prevent integer overflows
 text: Verify that sign, range, and input validation techniques are used to prevent
   integer overflows.
+normative: true
 links:
 - target: UR-0001
   type: implements

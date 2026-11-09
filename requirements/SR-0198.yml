@@ -1,12 +1,13 @@
 uid: SR-0198
 type: system_requirement
-status: approved
+status: proposed
 title: If the resource server requires specific authentication strength, methods,
   or recentness, it verifies that the presented access token satisfies these constraints
 text: Verify that, if the resource server requires specific authentication strength,
   methods, or recentness, it verifies that the presented access token satisfies these
   constraints. For example, if present, using the OIDC 'acr', 'amr' and 'auth_time'
   claims respectively.
+normative: true
 links:
 - target: UR-0010
   type: implements

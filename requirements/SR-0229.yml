@@ -1,10 +1,11 @@
 uid: SR-0229
 type: system_requirement
-status: approved
+status: proposed
 title: A cryptographic inventory is maintained
 text: Verify that a cryptographic inventory is maintained. This must include a documented
   plan that outlines the migration path to new cryptographic standards, such as post-quantum
   cryptography, in order to react to future threats.
+normative: true
 links:
 - target: UR-0011
   type: implements

@@ -1,11 +1,12 @@
 uid: SR-0216
 type: system_requirement
-status: approved
+status: proposed
 title: The client (as the relying party) mitigates ID Token replay attacks
 text: Verify that the client (as the relying party) mitigates ID Token replay attacks.
   For example, by ensuring that the 'nonce' claim in the ID Token matches the 'nonce'
   value sent in the authentication request to the OpenID Provider (in OAuth2 refereed
   to as the authorization request sent to the authorization server).
+normative: true
 links:
 - target: UR-0010
   type: implements

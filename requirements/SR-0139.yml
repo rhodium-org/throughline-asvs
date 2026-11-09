@@ -1,10 +1,11 @@
 uid: SR-0139
 type: system_requirement
-status: approved
+status: proposed
 title: Biometric authentication mechanisms are only used as secondary factors together
   with either something you have or something you know
-text: Verify that biometric authentication mechanisms are only used as secondary factors
-  together with either something you have or something you know.
+text: Verify that biometric authentication mechanisms are only used as secondary
+  factors together with either something you have or something you know.
+normative: true
 links:
 - target: UR-0006
   type: implements

@@ -1,12 +1,13 @@
 uid: SR-0070
 type: system_requirement
-status: approved
+status: proposed
 title: The application only uses client-side technologies which are still supported
   and considered secure
 text: Verify that the application only uses client-side technologies which are still
   supported and considered secure. Examples of technologies which do not meet this
   requirement include NSAPI plugins, Flash, Shockwave, ActiveX, Silverlight, NACL,
   or client-side Java applets.
+normative: true
 links:
 - target: UR-0003
   type: implements

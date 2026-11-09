@@ -1,12 +1,13 @@
 uid: SR-0219
 type: system_requirement
-status: approved
+status: proposed
 title: The client validates that the ID Token is intended to be used for that client
   (audience) by checking that the 'aud' claim from the token is equal to the 'client_id'
   value for the client
 text: Verify that the client validates that the ID Token is intended to be used for
   that client (audience) by checking that the 'aud' claim from the token is equal
   to the 'client_id' value for the client.
+normative: true
 links:
 - target: UR-0010
   type: implements

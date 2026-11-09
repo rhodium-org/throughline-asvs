@@ -1,12 +1,13 @@
 uid: SR-0296
 type: system_requirement
-status: approved
+status: proposed
 title: Application documentation defines risk based remediation time frames for 3rd
   party component versions with vulnerabilities and for updating libraries in general,
   to minimize the risk from these components
 text: Verify that application documentation defines risk based remediation time frames
   for 3rd party component versions with vulnerabilities and for updating libraries
   in general, to minimize the risk from these components.
+normative: true
 links:
 - target: UR-0015
   type: implements

@@ -1,10 +1,11 @@
 uid: SR-0022
 type: system_requirement
-status: approved
-title: Format strings which might resolve in an unexpected or malicious way when used
-  are sanitized before being processed
+status: proposed
+title: Format strings which might resolve in an unexpected or malicious way when
+  used are sanitized before being processed
 text: Verify that format strings which might resolve in an unexpected or malicious
   way when used are sanitized before being processed.
+normative: true
 links:
 - target: UR-0001
   type: implements
